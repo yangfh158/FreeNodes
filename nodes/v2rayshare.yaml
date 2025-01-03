@@ -77,20 +77,18 @@ external-controller: 0.0.0.0:9090
 log-level: info
 mixed-port: 7890
 proxies:
-- alterId: 0
+- alterId: 64
   cipher: auto
   name: 🇺🇸_US_美国_1
   network: ws
-  port: 80
-  server: lt2-vmess.sshmax.xyz
+  port: 30000
+  server: 45.58.153.25
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
-  uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
   ws-opts:
-    headers:
-      host: lt2-vmess.sshmax.xyz
-    path: /vmess
+    path: /path/1702961716738
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_2
@@ -108,72 +106,121 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_3
-  network: tcp
-  port: 55579
-  server: 172.233.188.217
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 610f7b76-a4e2-4b5a-c458-96e69cbffb5e
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
   network: ws
-  port: 2095
-  server: frsadubiaa.76898102.xyz
+  port: 80
+  server: sbl2.shabijichang.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 78fd41e5-346a-3bf4-b942-be0fad711979
+  uuid: c458695d-6908-45c3-9512-e0c46418454c
   ws-opts:
     headers:
-      host: frsadubias.76898102.xyz
-    path: /funsdfrh
-- name: 🇷🇺_RU_俄罗斯联邦_1
-  network: tcp
-  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
-  port: 14866
-  server: els_trojanone.yunjisuan.cf
-  skip-cert-verify: true
-  sni: els_trojanone.yunjisuan.cf
-  type: trojan
-  udp: true
+      host: sbl2.shabijichang.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_4
-  network: ws
-  port: 2092
-  server: 68.183.159.199
+  network: tcp
+  port: 57848
+  server: 144.202.84.47
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
+  uuid: e48643e7-0462-4055-f796-6ca6aa9f946d
+- name: 🇫🇷_FR_法国_1
+  network: tcp
+  password: b77dd600-971b-11ee-956c-1239d0255272
+  port: 443
+  server: fr1.test3.net
+  skip-cert-verify: true
+  sni: fr1.test3.net
+  type: trojan
+  udp: true
+- name: 🇬🇧_GB_英国
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.171.11.254
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- name: 🇩🇪_DE_德国_1
+  network: tcp
+  password: 7a57c3cd-2300-4867-9da2-9f8504b81af5
+  port: 443
+  server: 213.202.216.14
+  skip-cert-verify: true
+  sni: downloadde.xn--mes358acgm99l.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_5
+  network: ws
+  port: 2052
+  server: whatismyipaddress.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
   ws-opts:
     headers:
-      host: 68.183.159.199
-    path: /telegram:@hkaa0
-- alterId: 64
+      host: mgtow_cdn.yunjisuan.cf
+    path: /
+- name: 🇫🇷_FR_法国_2
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 15.188.38.220
+  skip-cert-verify: true
+  sni: trj.rollingnext.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
   cipher: auto
-  name: 🇨🇦_CA_加拿大_1
-  network: ws
-  port: 443
-  server: 142.171.202.130
+  name: 🇺🇦_UA_乌克兰
+  network: tcp
+  port: 8443
+  server: 193.238.153.14
   skip-cert-verify: true
   tls: true
   type: vmess
+  uuid: 159693e0-5146-482d-9e46-8c4f2fc865b1
+- alterId: 64
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇩🇪_DE_德国
+  network: tcp
+  port: 52707
+  server: 183.237.20.148
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_6
+  network: tcp
+  port: 14432
+  server: 104.237.128.72
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 2087
+  server: 104.21.69.44
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8fada9c0-c348-4465-aade-ff0311454178
   ws-opts:
     headers:
-      host: www.87981532.xyz
-    path: /path/1702650992491
-- name: 🇺🇸_US_美国_5
-  network: tcp
-  password: 5f610684-118f-46cf-aa34-9951475b75ad
-  port: 443
-  server: 172.234.99.161
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+      host: pAnel159.moOkomeILz.homes
+    path: /@FreeVPNHomes@FreeVPNHomes
 - alterId: 0
   cipher: auto
   name: 🇨🇳_CN_中国->🇮🇳_IN_印度
@@ -188,263 +235,37 @@ proxies:
     headers:
       host: d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
     path: /
-- name: 🇩🇪_DE_德国_1
-  network: tcp
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 1935
-  server: 78.47.217.216
-  skip-cert-verify: true
-  sni: www.casperco.online
-  type: trojan
-  udp: true
-- name: 🇬🇧_GB_英国
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 35.179.78.100
-  skip-cert-verify: true
-  sni: trj.rollingnext.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 🇨🇳_CN_中国
+  name: 🇸🇪_SE_瑞典
   network: ws
-  port: 47551
-  server: 159.75.178.50
+  port: 2082
+  server: www.shopify.com
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 2500a228-8c00-4934-81e0-22281c015a33
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_6
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
   ws-opts:
     headers:
-      host: cold-dawn-9246.fly.dev
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+      host: els_cdnone.yunjisuan.cf
+    path: /
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_7
   network: ws
   port: 80
-  server: 158.101.7.8
+  server: lt2-vmess.sshmax.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
+  uuid: ea2928cb-f9cc-4747-ab60-d23abe3ba1e6
   ws-opts:
-    path: /
-- name: 🇩🇪_DE_德国_2
-  network: tcp
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 993
-  server: www.casperco.online
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+    headers:
+      host: lt2-vmess.sshmax.xyz
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国_8
-  network: ws
-  port: 8880
-  server: 21.namesilo123.top
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
-  ws-opts:
-    headers:
-      host: uspp.sanfen002.top
-    path: /
-- name: 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
-  network: tcp
-  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
-  port: 17728
-  server: gbs.pptv-tv.store
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇷🇺_RU_俄罗斯联邦_2
-  network: tcp
-  password: 9e77b491-73d4-4ea3-985b-cfe3ae583580
-  port: 80
-  server: 89.221.224.93
-  skip-cert-verify: true
-  sni: is1-t.sshmax.xyz
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪_DE_德国_3
-  network: ws
-  port: 8880
-  server: 217.160.45.31
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_9
-  network: ws
-  port: 2092
-  server: Telegram-Channel.hkaa0_shop.66688888.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
-  ws-opts:
-    headers:
-      host: Telegram-Channel.hkaa0_shop.66688888.xyz
-    path: /telegram:@hkaa0
-- name: 🇷🇺_RU_俄罗斯联邦_3
-  network: tcp
-  password: 28c79056-ccfd-4cc1-93d4-c337cc782e65
-  port: 80
-  server: 89.221.224.94
-  skip-cert-verify: true
-  sni: is2-t.sshmax.xyz
-  type: trojan
-  udp: true
-- name: 🇩🇪_DE_德国_4
-  network: tcp
-  password: 74811f39-8f69-4334-9e0f-a8a25d7413c1
-  port: 993
-  server: 78.47.217.216
-  skip-cert-verify: true
-  sni: www.casperco.online
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_10
-  network: tcp
-  port: 50104
-  server: 38.180.33.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国_11
-  network: ws
-  port: 30000
-  server: 45.58.153.24
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702392255355
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_12
-  network: ws
-  port: 8443
-  server: tes2.shrektm.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 02c4e4af-07ce-444d-b501-f75cd482cc11
-  ws-opts:
-    path: /@ATOVPN
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_13
-  network: ws
-  port: 80
-  server: yhnsb3.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: yhnsb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_14
-  network: ws
-  port: 80
-  server: sbl2.shabijichang.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      host: sbl2.shabijichang.com
-    path: /
-- name: 🇨🇦_CA_加拿大_2
-  network: tcp
-  password: d71655f5-d095-4365-8796-4f52772c0cc6
-  port: 443
-  server: 138.197.152.9
-  skip-cert-verify: true
-  sni: dl.kgvn.garenanow.com
-  type: trojan
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 🇺🇸_US_美国_15
-  network: ws
-  port: 30000
-  server: 45.58.153.25
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
-  ws-opts:
-    path: /path/1702961716738
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_16
-  network: ws
-  port: 37121
-  server: 132.145.132.227
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇮🇷_IR_伊朗
-  network: tcp
-  port: 3350
-  server: 91.107.172.128
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 2bf900ac-909a-4610-dc18-86a3a136b286
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_RU_俄罗斯联邦_4
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_17
   network: ws
   port: 80
   server: 104.21.75.246
@@ -458,14 +279,128 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_18
+  name: 🇺🇸_US_美国_9
   network: tcp
-  port: 14432
-  server: 104.237.128.72
+  port: 15551
+  server: 168.235.72.221
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+  uuid: 69510633-6acb-4291-a98e-0cdcc9bd5c51
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸_US_美国_10
+  network: ws
+  port: 30000
+  server: 45.58.153.24
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a
+  ws-opts:
+    headers:
+      host: www.77935707.xyz
+    path: /path/1702392255355
+- name: 🇫🇷_FR_法国_3
+  network: tcp
+  password: VZlHU01v6p
+  port: 37024
+  server: 152.228.242.128
+  skip-cert-verify: true
+  sni: box.mtpmio.sbs
+  type: trojan
+  udp: true
+- alterId: 64
+  cipher: auto
+  name: 🇳🇱_NL_荷兰
+  network: ws
+  port: 30000
+  server: 46.182.107.15
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    path: /path/1702215223320
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_11
+  network: ws
+  port: 2082
+  server: www.udemy.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  ws-opts:
+    headers:
+      host: els_cdnone.yunjisuan.cf
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇩🇪_DE_德国_2
+  network: ws
+  port: 8880
+  server: 217.160.45.31
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  ws-opts:
+    path: /
+- name: 🇷🇺_RU_俄罗斯联邦
+  network: tcp
+  password: bf3d038a-93a2-4e24-886c-6bc64e3c3a90
+  port: 14866
+  server: els_trojanone.yunjisuan.cf
+  skip-cert-verify: true
+  sni: els_trojanone.yunjisuan.cf
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_12
+  network: ws
+  port: 37121
+  server: 132.145.132.227
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  ws-opts:
+    path: /
+- name: 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
+  network: tcp
+  password: 299a6171-b4ce-403a-8157-c3dad55ef3a2
+  port: 17728
+  server: gbs.pptv-tv.store
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_13
+  network: tcp
+  port: 50104
+  server: 38.180.33.136
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 790f6802-7535-4109-de6d-15f676d5e3f7
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_14
+  network: ws
+  port: 80
+  server: singapore.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: b1e30339-a603-47d1-b31c-1d0ceb59952e
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -474,37 +409,31 @@ proxy-groups:
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇷🇺_RU_俄罗斯联邦_1
   - 🇺🇸_US_美国_4
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国->🇮🇳_IN_印度
-  - 🇩🇪_DE_德国_1
+  - 🇫🇷_FR_法国_1
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇫🇷_FR_法国_2
+  - 🇺🇦_UA_乌克兰
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度
+  - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_8
-  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_9
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_10
+  - 🇫🇷_FR_法国_3
+  - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_11
+  - 🇩🇪_DE_德国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_12
+  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
   - 🇺🇸_US_美国_13
   - 🇺🇸_US_美国_14
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_15
-  - 🇺🇸_US_美国_16
-  - 🇮🇷_IR_伊朗
-  - 🇷🇺_RU_俄罗斯联邦_4
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国_18
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -512,37 +441,31 @@ proxy-groups:
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇷🇺_RU_俄罗斯联邦_1
   - 🇺🇸_US_美国_4
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国->🇮🇳_IN_印度
-  - 🇩🇪_DE_德国_1
+  - 🇫🇷_FR_法国_1
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇫🇷_FR_法国_2
+  - 🇺🇦_UA_乌克兰
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度
+  - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_8
-  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_9
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_10
+  - 🇫🇷_FR_法国_3
+  - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_11
+  - 🇩🇪_DE_德国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_12
+  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
   - 🇺🇸_US_美国_13
   - 🇺🇸_US_美国_14
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_15
-  - 🇺🇸_US_美国_16
-  - 🇮🇷_IR_伊朗
-  - 🇷🇺_RU_俄罗斯联邦_4
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国_18
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -554,37 +477,31 @@ proxy-groups:
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇷🇺_RU_俄罗斯联邦_1
   - 🇺🇸_US_美国_4
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国->🇮🇳_IN_印度
-  - 🇩🇪_DE_德国_1
+  - 🇫🇷_FR_法国_1
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇫🇷_FR_法国_2
+  - 🇺🇦_UA_乌克兰
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度
+  - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_8
-  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_9
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_10
+  - 🇫🇷_FR_法国_3
+  - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_11
+  - 🇩🇪_DE_德国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_12
+  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
   - 🇺🇸_US_美国_13
   - 🇺🇸_US_美国_14
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_15
-  - 🇺🇸_US_美国_16
-  - 🇮🇷_IR_伊朗
-  - 🇷🇺_RU_俄罗斯联邦_4
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国_18
   type: select
 - name: 📲 电报信息
   proxies:
@@ -593,37 +510,31 @@ proxy-groups:
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇷🇺_RU_俄罗斯联邦_1
   - 🇺🇸_US_美国_4
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国->🇮🇳_IN_印度
-  - 🇩🇪_DE_德国_1
+  - 🇫🇷_FR_法国_1
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇫🇷_FR_法国_2
+  - 🇺🇦_UA_乌克兰
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度
+  - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_8
-  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_9
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_10
+  - 🇫🇷_FR_法国_3
+  - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_11
+  - 🇩🇪_DE_德国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_12
+  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
   - 🇺🇸_US_美国_13
   - 🇺🇸_US_美国_14
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_15
-  - 🇺🇸_US_美国_16
-  - 🇮🇷_IR_伊朗
-  - 🇷🇺_RU_俄罗斯联邦_4
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国_18
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -632,37 +543,31 @@ proxy-groups:
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇷🇺_RU_俄罗斯联邦_1
   - 🇺🇸_US_美国_4
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国->🇮🇳_IN_印度
-  - 🇩🇪_DE_德国_1
+  - 🇫🇷_FR_法国_1
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇫🇷_FR_法国_2
+  - 🇺🇦_UA_乌克兰
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度
+  - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_8
-  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_9
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_10
+  - 🇫🇷_FR_法国_3
+  - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_11
+  - 🇩🇪_DE_德国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_12
+  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
   - 🇺🇸_US_美国_13
   - 🇺🇸_US_美国_14
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_15
-  - 🇺🇸_US_美国_16
-  - 🇮🇷_IR_伊朗
-  - 🇷🇺_RU_俄罗斯联邦_4
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国_18
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -671,37 +576,31 @@ proxy-groups:
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇷🇺_RU_俄罗斯联邦_1
   - 🇺🇸_US_美国_4
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国->🇮🇳_IN_印度
-  - 🇩🇪_DE_德国_1
+  - 🇫🇷_FR_法国_1
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇫🇷_FR_法国_2
+  - 🇺🇦_UA_乌克兰
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度
+  - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_8
-  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_9
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_10
+  - 🇫🇷_FR_法国_3
+  - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_11
+  - 🇩🇪_DE_德国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_12
+  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
   - 🇺🇸_US_美国_13
   - 🇺🇸_US_美国_14
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_15
-  - 🇺🇸_US_美国_16
-  - 🇮🇷_IR_伊朗
-  - 🇷🇺_RU_俄罗斯联邦_4
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国_18
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -727,37 +626,31 @@ proxy-groups:
   - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇷🇺_RU_俄罗斯联邦_1
   - 🇺🇸_US_美国_4
-  - 🇨🇦_CA_加拿大_1
-  - 🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国->🇮🇳_IN_印度
-  - 🇩🇪_DE_德国_1
+  - 🇫🇷_FR_法国_1
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇫🇷_FR_法国_2
+  - 🇺🇦_UA_乌克兰
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇳_IN_印度
+  - 🇸🇪_SE_瑞典
   - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_8
-  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
-  - 🇷🇺_RU_俄罗斯联邦_2
-  - 🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_9
-  - 🇷🇺_RU_俄罗斯联邦_3
-  - 🇩🇪_DE_德国_4
   - 🇺🇸_US_美国_10
+  - 🇫🇷_FR_法国_3
+  - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_11
+  - 🇩🇪_DE_德国_2
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇺🇸_US_美国_12
+  - 🇨🇳_CN_中国->🇬🇮_GI_直布罗陀
   - 🇺🇸_US_美国_13
   - 🇺🇸_US_美国_14
-  - 🇨🇦_CA_加拿大_2
-  - 🇺🇸_US_美国_15
-  - 🇺🇸_US_美国_16
-  - 🇮🇷_IR_伊朗
-  - 🇷🇺_RU_俄罗斯联邦_4
-  - 🇺🇸_US_美国_17
-  - 🇺🇸_US_美国_18
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
