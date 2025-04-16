@@ -25,7 +25,7 @@
   },
   "clashmeta": {
     "start_url": "https://clash-meta.github.io/",
-    "up_date": "2025-04-12",
+    "up_date": "2025-04-16",
     "selector": "a[class='xcblog-blog-url']",
     "pattern": "https://clash-meta.github.io/uploads/[^<>\\r\\n]+"
   },
