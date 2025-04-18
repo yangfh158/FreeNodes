@@ -1,4 +1,4 @@
-2025-04-18 03:02:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-04-18 08:28:36 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -13,146 +13,153 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-04-18 03:02:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-04-18 08:28:36 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-04-18 03:02:41 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-04-18 08:28:36 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-04-18 03:02:41 [scrapy.core.engine] INFO: Spider opened
-2025-04-18 03:02:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:02:42 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-04-18 03:02:42 [simple] INFO: clashmeta start
-2025-04-18 03:02:42 [simple] INFO: ndnode start
-2025-04-18 03:02:42 [simple] INFO: nodev2ray start
-2025-04-18 03:02:42 [simple] INFO: nodefree start
-2025-04-18 03:02:42 [simple] INFO: v2rayshare start
-2025-04-18 03:02:42 [simple] INFO: wenode start
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-16-clash-meta-github.htm on 2025-04-16
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-16-clash-meta-github.htm on 2025-04-16
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-15-latest-clash-meta-node.htm on 2025-04-15
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-15-latest-clash-meta-node.htm on 2025-04-15
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-14-clash-meta-windows.htm on 2025-04-14
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-14-clash-meta-windows.htm on 2025-04-14
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-13-clash-meta-node-github.htm on 2025-04-13
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-13-clash-meta-node-github.htm on 2025-04-13
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-12-free-high-speed-nodes.htm on 2025-04-12
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-12-free-high-speed-nodes.htm on 2025-04-12
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-11-clash-meta-node-share.htm on 2025-04-11
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-11-clash-meta-node-share.htm on 2025-04-11
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-10-clash-meta-windows.htm on 2025-04-10
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-10-clash-meta-windows.htm on 2025-04-10
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-9-clash-meta-node.htm on 2025-04-09
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-9-clash-meta-node.htm on 2025-04-09
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-8-node-share-links.htm on 2025-04-08
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-8-node-share-links.htm on 2025-04-08
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-7-free-clash-meta-node.htm on 2025-04-07
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-7-free-clash-meta-node.htm on 2025-04-07
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-6-clash-meta-windows.htm on 2025-04-06
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-6-clash-meta-windows.htm on 2025-04-06
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-5-free-clash-meta-node.htm on 2025-04-05
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-5-free-clash-meta-node.htm on 2025-04-05
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-4-free-node-subscribe.htm on 2025-04-04
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-4-free-node-subscribe.htm on 2025-04-04
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-3-free-subscribe-node.htm on 2025-04-03
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-3-free-subscribe-node.htm on 2025-04-03
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-2-today-clash-meta-node.htm on 2025-04-02
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-2-today-clash-meta-node.htm on 2025-04-02
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-1-node-share-links.htm on 2025-04-01
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-4-1-node-share-links.htm on 2025-04-01
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-3-31-today-clash-meta-node.htm on 2025-03-31
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-3-31-today-clash-meta-node.htm on 2025-03-31
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-3-30-today-clash-meta-node.htm on 2025-03-30
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-3-30-today-clash-meta-node.htm on 2025-03-30
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-3-29-free-subscribe-node.htm on 2025-03-29
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-3-29-free-subscribe-node.htm on 2025-03-29
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-3-28-free-clash-meta-node.htm on 2025-03-28
-2025-04-18 03:02:42 [simple] INFO: clashmeta found /free-nodes/2025-3-28-free-clash-meta-node.htm on 2025-03-28
-2025-04-18 03:02:42 [simple] INFO: clashmeta is up to date, exiting
-2025-04-18 03:02:42 [simple] INFO: clashmeta is up to date, exiting
-2025-04-18 03:02:42 [simple] INFO: clashmeta is up to date, exiting
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2572.html on 2025-04-17
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2573.html on 2025-04-16
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2574.html on 2025-04-15
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2575.html on 2025-04-14
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2576.html on 2025-04-13
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2577.html on 2025-04-12
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2578.html on 2025-04-11
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2579.html on 2025-04-10
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2580.html on 2025-04-09
-2025-04-18 03:02:42 [simple] INFO: wenode found https://wenode.cc/a/2581.html on 2025-04-08
-2025-04-18 03:02:42 [simple] INFO: wenode is up to date, exiting
-2025-04-18 03:02:42 [simple] INFO: wenode is up to date, exiting
-2025-04-18 03:02:42 [simple] INFO: wenode is up to date, exiting
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-18-free-shadowrocket-node.htm on 2025-04-18
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-17-free-subscribe-node.htm on 2025-04-17
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-16-free-subscribe-node.htm on 2025-04-16
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-15-node-share-links.htm on 2025-04-15
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-14-free-ssr-subscribe.htm on 2025-04-14
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-13-free-shadowrocket-node.htm on 2025-04-13
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-12-v2ray-node-daily-updates.htm on 2025-04-12
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-11-free-ssr-node.htm on 2025-04-11
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-10-v2ray-windows.htm on 2025-04-10
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-9-clash-v2ray-ss-ssr.htm on 2025-04-09
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-8-v2ray-windows.htm on 2025-04-08
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-7-clash-v2ray-ss-ssr.htm on 2025-04-07
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-6-free-node-subscribe.htm on 2025-04-06
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-5-v2ray-node.htm on 2025-04-05
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-4-free-v2ray-subscribe.htm on 2025-04-04
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-3-clash-v2ray-ss-ssr.htm on 2025-04-03
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-2-free-high-speed-nodes.htm on 2025-04-02
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-4-1-free-subscribe-node.htm on 2025-04-01
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-3-30-free-clash-subscribe.htm on 2025-03-30
-2025-04-18 03:02:42 [simple] INFO: nodev2ray found /free-node/2025-3-29-node-share-links.htm on 2025-03-29
-2025-04-18 03:02:42 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-4-18-free-shadowrocket-node.htm
-2025-04-18 03:02:42 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-4-17-free-subscribe-node.htm
-2025-04-18 03:02:42 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-4-16-free-subscribe-node.htm
-2025-04-18 03:02:43 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/7b1f11ea86e85f2d29ff86111bb28244.webp" /, skipping
-2025-04-18 03:02:43 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/fd42cd580e85a568595ae47d1acc6566.webp" /, skipping
-2025-04-18 03:02:43 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/ee3710069d59bcc654d9eb43d6e9b4c2.webp" /, skipping
-2025-04-18 03:02:44 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-04-18 03:02:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
-{'downloader/request_bytes': 7471,
- 'downloader/request_count': 23,
- 'downloader/request_method_count/GET': 23,
- 'downloader/response_bytes': 102582,
- 'downloader/response_count': 23,
- 'downloader/response_status_count/200': 16,
+2025-04-18 08:28:36 [scrapy.core.engine] INFO: Spider opened
+2025-04-18 08:28:36 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:28:36 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-04-18 08:28:36 [simple] INFO: clashmeta start
+2025-04-18 08:28:36 [simple] INFO: ndnode start
+2025-04-18 08:28:36 [simple] INFO: nodev2ray start
+2025-04-18 08:28:36 [simple] INFO: nodefree start
+2025-04-18 08:28:36 [simple] INFO: v2rayshare start
+2025-04-18 08:28:36 [simple] INFO: wenode start
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-16-clash-meta-github.htm on 2025-04-16
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-16-clash-meta-github.htm on 2025-04-16
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-15-latest-clash-meta-node.htm on 2025-04-15
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-15-latest-clash-meta-node.htm on 2025-04-15
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-14-clash-meta-windows.htm on 2025-04-14
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-14-clash-meta-windows.htm on 2025-04-14
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-13-clash-meta-node-github.htm on 2025-04-13
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-13-clash-meta-node-github.htm on 2025-04-13
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-12-free-high-speed-nodes.htm on 2025-04-12
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-12-free-high-speed-nodes.htm on 2025-04-12
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-11-clash-meta-node-share.htm on 2025-04-11
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-11-clash-meta-node-share.htm on 2025-04-11
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-10-clash-meta-windows.htm on 2025-04-10
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-10-clash-meta-windows.htm on 2025-04-10
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-9-clash-meta-node.htm on 2025-04-09
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-9-clash-meta-node.htm on 2025-04-09
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-8-node-share-links.htm on 2025-04-08
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-8-node-share-links.htm on 2025-04-08
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-7-free-clash-meta-node.htm on 2025-04-07
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-7-free-clash-meta-node.htm on 2025-04-07
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-6-clash-meta-windows.htm on 2025-04-06
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-6-clash-meta-windows.htm on 2025-04-06
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-5-free-clash-meta-node.htm on 2025-04-05
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-5-free-clash-meta-node.htm on 2025-04-05
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-4-free-node-subscribe.htm on 2025-04-04
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-4-free-node-subscribe.htm on 2025-04-04
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-3-free-subscribe-node.htm on 2025-04-03
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-3-free-subscribe-node.htm on 2025-04-03
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-2-today-clash-meta-node.htm on 2025-04-02
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-2-today-clash-meta-node.htm on 2025-04-02
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-1-node-share-links.htm on 2025-04-01
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-4-1-node-share-links.htm on 2025-04-01
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-3-31-today-clash-meta-node.htm on 2025-03-31
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-3-31-today-clash-meta-node.htm on 2025-03-31
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-3-30-today-clash-meta-node.htm on 2025-03-30
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-3-30-today-clash-meta-node.htm on 2025-03-30
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-3-29-free-subscribe-node.htm on 2025-03-29
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-3-29-free-subscribe-node.htm on 2025-03-29
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-3-28-free-clash-meta-node.htm on 2025-03-28
+2025-04-18 08:28:36 [simple] INFO: clashmeta found /free-nodes/2025-3-28-free-clash-meta-node.htm on 2025-03-28
+2025-04-18 08:28:36 [simple] INFO: clashmeta is up to date, exiting
+2025-04-18 08:28:36 [simple] INFO: clashmeta is up to date, exiting
+2025-04-18 08:28:36 [simple] INFO: clashmeta is up to date, exiting
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2571.html on 2025-04-18
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2572.html on 2025-04-17
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2573.html on 2025-04-16
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2574.html on 2025-04-15
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2575.html on 2025-04-14
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2576.html on 2025-04-13
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2577.html on 2025-04-12
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2578.html on 2025-04-11
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2579.html on 2025-04-10
+2025-04-18 08:28:36 [simple] INFO: wenode found https://wenode.cc/a/2580.html on 2025-04-09
+2025-04-18 08:28:36 [simple] INFO: wenode needs update, accessing https://wenode.cc/a/2571.html
+2025-04-18 08:28:36 [simple] INFO: wenode is up to date, exiting
+2025-04-18 08:28:36 [simple] INFO: wenode is up to date, exiting
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-18-free-shadowrocket-node.htm on 2025-04-18
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-17-free-subscribe-node.htm on 2025-04-17
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-16-free-subscribe-node.htm on 2025-04-16
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-15-node-share-links.htm on 2025-04-15
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-14-free-ssr-subscribe.htm on 2025-04-14
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-13-free-shadowrocket-node.htm on 2025-04-13
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-12-v2ray-node-daily-updates.htm on 2025-04-12
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-11-free-ssr-node.htm on 2025-04-11
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-10-v2ray-windows.htm on 2025-04-10
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-9-clash-v2ray-ss-ssr.htm on 2025-04-09
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-8-v2ray-windows.htm on 2025-04-08
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-7-clash-v2ray-ss-ssr.htm on 2025-04-07
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-6-free-node-subscribe.htm on 2025-04-06
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-5-v2ray-node.htm on 2025-04-05
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-4-free-v2ray-subscribe.htm on 2025-04-04
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-3-clash-v2ray-ss-ssr.htm on 2025-04-03
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-2-free-high-speed-nodes.htm on 2025-04-02
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-4-1-free-subscribe-node.htm on 2025-04-01
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-3-30-free-clash-subscribe.htm on 2025-03-30
+2025-04-18 08:28:37 [simple] INFO: nodev2ray found /free-node/2025-3-29-node-share-links.htm on 2025-03-29
+2025-04-18 08:28:37 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-4-18-free-shadowrocket-node.htm
+2025-04-18 08:28:37 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-4-17-free-subscribe-node.htm
+2025-04-18 08:28:37 [simple] INFO: nodev2ray needs update, accessing https://nodev2ray.com/free-node/2025-4-16-free-subscribe-node.htm
+2025-04-18 08:28:37 [simple] INFO: wenode found https://wenode.githubrowcontent.com/2025/04/20250418.txt
+2025-04-18 08:28:37 [simple] INFO: wenode found https://wenode.githubrowcontent.com/2025/04/20250418.yaml
+2025-04-18 08:28:37 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/7b1f11ea86e85f2d29ff86111bb28244.webp" /, skipping
+2025-04-18 08:28:37 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/ee3710069d59bcc654d9eb43d6e9b4c2.webp" /, skipping
+2025-04-18 08:28:37 [simple] WARNING: nodev2ray could not parse https://nodev2ray.com/uploads/20240708/fd42cd580e85a568595ae47d1acc6566.webp" /, skipping
+2025-04-18 08:28:38 [simple] INFO: Pipeline processing wenode.txt
+2025-04-18 08:28:38 [simple] INFO: Pipeline processed wenode.txt
+2025-04-18 08:28:39 [simple] INFO: Pipeline processing wenode.yaml
+2025-04-18 08:28:39 [simple] INFO: Pipeline processed wenode.yaml
+2025-04-18 08:28:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-04-18 08:28:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 9048,
+ 'downloader/request_count': 27,
+ 'downloader/request_method_count/GET': 27,
+ 'downloader/response_bytes': 310613,
+ 'downloader/response_count': 27,
+ 'downloader/response_status_count/200': 19,
  'downloader/response_status_count/301': 6,
- 'downloader/response_status_count/404': 1,
- 'elapsed_time_seconds': 2.169181,
+ 'downloader/response_status_count/404': 2,
+ 'elapsed_time_seconds': 3.060142,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 4, 18, 3, 2, 44, 239832, tzinfo=datetime.timezone.utc),
- 'httpcompression/response_bytes': 415838,
- 'httpcompression/response_count': 15,
+ 'finish_time': datetime.datetime(2025, 4, 18, 8, 28, 39, 317074, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 447132,
+ 'httpcompression/response_count': 18,
+ 'item_scraped_count': 2,
  'items_per_minute': None,
- 'log_count/INFO': 95,
+ 'log_count/INFO': 101,
  'log_count/WARNING': 3,
- 'memusage/max': 462991360,
- 'memusage/startup': 462991360,
- 'request_depth_max': 1,
- 'response_received_count': 17,
+ 'memusage/max': 462860288,
+ 'memusage/startup': 462860288,
+ 'request_depth_max': 2,
+ 'response_received_count': 21,
  'responses_per_minute': None,
- 'robotstxt/request_count': 8,
- 'robotstxt/response_count': 8,
+ 'robotstxt/request_count': 9,
+ 'robotstxt/response_count': 9,
  'robotstxt/response_status_count/200': 7,
- 'robotstxt/response_status_count/404': 1,
- 'scheduler/dequeued': 11,
- 'scheduler/dequeued/memory': 11,
- 'scheduler/enqueued': 11,
- 'scheduler/enqueued/memory': 11,
- 'start_time': datetime.datetime(2025, 4, 18, 3, 2, 42, 70651, tzinfo=datetime.timezone.utc)}
-2025-04-18 03:02:44 [scrapy.core.engine] INFO: Spider closed (finished)
-2025-04-18 03:02:57 [scrapy.addons] INFO: Enabled addons:
+ 'robotstxt/response_status_count/404': 2,
+ 'scheduler/dequeued': 14,
+ 'scheduler/dequeued/memory': 14,
+ 'scheduler/enqueued': 14,
+ 'scheduler/enqueued/memory': 14,
+ 'start_time': datetime.datetime(2025, 4, 18, 8, 28, 36, 256932, tzinfo=datetime.timezone.utc)}
+2025-04-18 08:28:39 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-04-18 08:28:58 [scrapy.addons] INFO: Enabled addons:
 []
-2025-04-18 03:02:57 [scrapy.extensions.telnet] INFO: Telnet Password: 40e1ee8437fc3dd7
-2025-04-18 03:02:57 [scrapy.middleware] INFO: Enabled extensions:
+2025-04-18 08:28:58 [scrapy.extensions.telnet] INFO: Telnet Password: 61214e68cb976939
+2025-04-18 08:28:58 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2025-04-18 03:02:57 [scrapy.crawler] INFO: Overridden settings:
+2025-04-18 08:28:58 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'NodeScrapy',
  'FEED_EXPORT_ENCODING': 'utf-8',
  'LOG_FILE': 'scrapy.log',
@@ -162,7 +169,7 @@
  'ROBOTSTXT_OBEY': True,
  'SPIDER_MODULES': ['NodeScrapy.spiders'],
  'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
-2025-04-18 03:02:57 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2025-04-18 08:28:58 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
  'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
@@ -177,38 +184,38 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2025-04-18 03:02:57 [scrapy.middleware] INFO: Enabled spider middlewares:
+2025-04-18 08:28:58 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2025-04-18 03:02:57 [scrapy.middleware] INFO: Enabled item pipelines:
+2025-04-18 08:28:58 [scrapy.middleware] INFO: Enabled item pipelines:
 ['NodeScrapy.pipelines.Pipeline']
-2025-04-18 03:02:57 [scrapy.core.engine] INFO: Spider opened
-2025-04-18 03:02:57 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:02:57 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2025-04-18 03:02:57 [decrypt] INFO: yudou66 start
-2025-04-18 03:02:57 [decrypt] INFO: blues start
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254184kchatgpt4k8kclashv2ray.html on 2025-04-18
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254174kchatgpt4k8kclashv2ray.html on 2025-04-17
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254164kchatgpt4k8kclashv2ray.html on 2025-04-16
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/httpslingh.html on 2025-04-15
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254144kchatgpt4k8kclashv2ray.html on 2025-04-14
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254134kchatgpt4k8kclashv2ray.html on 2025-04-13
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254124kchatgpt4k8kclashv2ray.html on 2025-04-12
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254114kchatgpt4k8kclashv2ray.html on 2025-04-11
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254104kchatgpt4k8kclashv2ray.html on 2025-04-10
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/httpswww.html on 2025-04-09
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/httpslingh.html on 2025-04-15
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254144kchatgpt4k8kclashv2ray.html on 2025-04-14
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254124kchatgpt4k8kclashv2ray.html on 2025-04-12
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254164kchatgpt4k8kclashv2ray.html on 2025-04-16
-2025-04-18 03:02:57 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254174kchatgpt4k8kclashv2ray.html on 2025-04-17
-2025-04-18 03:02:57 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/04/20254184kchatgpt4k8kclashv2ray.html
-2025-04-18 03:02:57 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/04/20254174kchatgpt4k8kclashv2ray.html
-2025-04-18 03:02:57 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/04/20254164kchatgpt4k8kclashv2ray.html
-2025-04-18 03:02:58 [decrypt] INFO: blues found yt_url: https://youtu.be/a688X6AjCig
-2025-04-18 03:02:58 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/04/20254174kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/?m=1)
+2025-04-18 08:28:58 [scrapy.core.engine] INFO: Spider opened
+2025-04-18 08:28:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:28:58 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-04-18 08:28:58 [decrypt] INFO: yudou66 start
+2025-04-18 08:28:58 [decrypt] INFO: blues start
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254184kchatgpt4k8kclashv2ray.html on 2025-04-18
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254174kchatgpt4k8kclashv2ray.html on 2025-04-17
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254164kchatgpt4k8kclashv2ray.html on 2025-04-16
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/httpslingh.html on 2025-04-15
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254144kchatgpt4k8kclashv2ray.html on 2025-04-14
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254134kchatgpt4k8kclashv2ray.html on 2025-04-13
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254124kchatgpt4k8kclashv2ray.html on 2025-04-12
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254114kchatgpt4k8kclashv2ray.html on 2025-04-11
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254104kchatgpt4k8kclashv2ray.html on 2025-04-10
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/httpswww.html on 2025-04-09
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/httpslingh.html on 2025-04-15
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254144kchatgpt4k8kclashv2ray.html on 2025-04-14
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254124kchatgpt4k8kclashv2ray.html on 2025-04-12
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254164kchatgpt4k8kclashv2ray.html on 2025-04-16
+2025-04-18 08:28:59 [decrypt] INFO: blues found https://blues2022.blogspot.com/2025/04/20254174kchatgpt4k8kclashv2ray.html on 2025-04-17
+2025-04-18 08:28:59 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/04/20254184kchatgpt4k8kclashv2ray.html
+2025-04-18 08:28:59 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/04/20254174kchatgpt4k8kclashv2ray.html
+2025-04-18 08:28:59 [decrypt] INFO: blues needs update, accessing https://blues2022.blogspot.com/2025/04/20254164kchatgpt4k8kclashv2ray.html
+2025-04-18 08:28:59 [decrypt] INFO: blues found yt_url: https://youtu.be/pUHD31Jt5zM
+2025-04-18 08:29:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/04/20254184kchatgpt4k8kclashv2ray.html> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -261,8 +268,8 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2025-04-18 03:02:58 [decrypt] INFO: blues found yt_url: https://youtu.be/pUHD31Jt5zM
-2025-04-18 03:02:59 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/04/20254184kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2025-04-18 08:29:00 [decrypt] INFO: blues found yt_url: https://youtu.be/XJBdYE_IXf8
+2025-04-18 08:29:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/04/20254164kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -315,8 +322,8 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2025-04-18 03:02:59 [decrypt] INFO: blues found yt_url: https://youtu.be/XJBdYE_IXf8
-2025-04-18 03:03:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/04/20254164kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
+2025-04-18 08:29:00 [decrypt] INFO: blues found yt_url: https://youtu.be/a688X6AjCig
+2025-04-18 08:29:01 [scrapy.core.scraper] ERROR: Spider error processing <GET https://blues2022.blogspot.com/2025/04/20254174kchatgpt4k8kclashv2ray.html?m=1> (referer: https://blues2022.blogspot.com/?m=1)
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/scrapy/utils/defer.py", line 327, in iter_errback
     yield next(it)
@@ -369,14 +376,14 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/pytubefix/innertube.py", line 521, in _default_oauth_verifier
     input('Press enter when you have completed this step.')
 EOFError: EOF when reading a line
-2025-04-18 03:03:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:04:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:05:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:06:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:07:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:08:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:09:41 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.yudou66.com/robots.txt> (failed 3 times): TCP connection timed out: 110: Connection timed out.
-2025-04-18 03:09:41 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://www.yudou66.com/robots.txt>: TCP connection timed out: 110: Connection timed out.
+2025-04-18 08:29:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 5 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:30:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:31:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:32:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:33:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:34:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:35:44 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.yudou66.com/robots.txt> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+2025-04-18 08:35:44 [scrapy.downloadermiddlewares.robotstxt] ERROR: Error downloading <GET https://www.yudou66.com/robots.txt>: TCP connection timed out: 110: Connection timed out.
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
     result = context.run(
@@ -388,15 +395,15 @@ Traceback (most recent call last):
     return (yield download_func(request, spider))
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
-2025-04-18 03:09:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:10:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:11:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:12:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:13:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:14:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:15:57 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2025-04-18 03:16:26 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.yudou66.com> (failed 3 times): TCP connection timed out: 110: Connection timed out.
-2025-04-18 03:16:26 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.yudou66.com>
+2025-04-18 08:35:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:36:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:37:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:38:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:39:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:40:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:41:58 [scrapy.extensions.logstats] INFO: Crawled 5 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-04-18 08:42:30 [scrapy.downloadermiddlewares.retry] ERROR: Gave up retrying <GET https://www.yudou66.com> (failed 3 times): TCP connection timed out: 110: Connection timed out.
+2025-04-18 08:42:30 [scrapy.core.scraper] ERROR: Error downloading <GET https://www.yudou66.com>
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.12/x64/lib/python3.11/site-packages/twisted/internet/defer.py", line 2013, in _inlineCallbacks
     result = context.run(
@@ -408,27 +415,27 @@ Traceback (most recent call last):
     return (yield download_func(request, spider))
             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connection timed out.
-2025-04-18 03:16:26 [scrapy.core.engine] INFO: Closing spider (finished)
-2025-04-18 03:16:26 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2025-04-18 08:42:30 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-04-18 08:42:30 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/exception_count': 6,
  'downloader/exception_type_count/twisted.internet.error.TCPTimedOutError': 6,
- 'downloader/request_bytes': 5319,
+ 'downloader/request_bytes': 5184,
  'downloader/request_count': 15,
  'downloader/request_method_count/GET': 15,
- 'downloader/response_bytes': 168438,
+ 'downloader/response_bytes': 168114,
  'downloader/response_count': 9,
  'downloader/response_status_count/200': 5,
  'downloader/response_status_count/302': 4,
- 'elapsed_time_seconds': 809.342594,
+ 'elapsed_time_seconds': 811.667825,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2025, 4, 18, 3, 16, 26, 802078, tzinfo=datetime.timezone.utc),
+ 'finish_time': datetime.datetime(2025, 4, 18, 8, 42, 30, 487768, tzinfo=datetime.timezone.utc),
  'httpcompression/response_bytes': 963166,
  'httpcompression/response_count': 5,
  'items_per_minute': None,
  'log_count/ERROR': 7,
  'log_count/INFO': 46,
- 'memusage/max': 488452096,
- 'memusage/startup': 460869632,
+ 'memusage/max': 480276480,
+ 'memusage/startup': 460697600,
  'request_depth_max': 1,
  'response_received_count': 5,
  'responses_per_minute': None,
@@ -444,5 +451,5 @@ twisted.internet.error.TCPTimedOutError: TCP connection timed out: 110: Connecti
  'scheduler/enqueued': 10,
  'scheduler/enqueued/memory': 10,
  'spider_exceptions/EOFError': 3,
- 'start_time': datetime.datetime(2025, 4, 18, 3, 2, 57, 459484, tzinfo=datetime.timezone.utc)}
-2025-04-18 03:16:26 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2025, 4, 18, 8, 28, 58, 819943, tzinfo=datetime.timezone.utc)}
+2025-04-18 08:42:30 [scrapy.core.engine] INFO: Spider closed (finished)
