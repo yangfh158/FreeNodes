@@ -4,7 +4,7 @@
     "up_date": "2025-08-26",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://yy.yudou66.top/[^<>\\r\\n]+",
-    "password": "6666",
+    "password": "5500",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -52,7 +52,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-08-26",
+    "up_date": "2025-08-27",
     "selector": "a[class='text-reset']",
     "pattern": "https?://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
