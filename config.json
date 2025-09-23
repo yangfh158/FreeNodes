@@ -4,7 +4,7 @@
     "up_date": "2025-09-22",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://yy.yudou66.top/[^<>\\r\\n]+",
-    "password": "1199",
+    "password": "0011",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -40,7 +40,7 @@
   },
   "ndnode": {
     "start_url": "https://www.naidounode.com/freenode/",
-    "up_date": "2025-09-22",
+    "up_date": "2025-09-23",
     "selector": "a[class='text-reset']",
     "pattern": "https?://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
   },
