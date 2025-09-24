@@ -1,19 +1,19 @@
 {
   "yudou66": {
     "start_url": "https://www.yudou123.top/",
-    "up_date": "2025-09-22",
+    "up_date": "2025-09-23",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://yy.yudou66.top/[^<>\\r\\n]+",
-    "password": "2255",
+    "password": "6688",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
   "blues": {
     "start_url": "https://blues2022.blogspot.com",
-    "up_date": "2025-09-23",
+    "up_date": "2025-09-24",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://ylks.tt2000.sbs/[^<>\\r\\n]+",
-    "password": "2299",
+    "password": "3355",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
