@@ -1,10 +1,10 @@
 {
   "yudou66": {
     "start_url": "https://www.yudou123.top/",
-    "up_date": "2025-09-23",
+    "up_date": "2025-09-24",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://yy.yudou66.top/[^<>\\r\\n]+",
-    "password": "0077",
+    "password": "6677",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -34,7 +34,7 @@
   },
   "clashmeta": {
     "start_url": "https://clash-meta.github.io/free-nodes/",
-    "up_date": "2025-09-24",
+    "up_date": "2025-09-25",
     "selector": "a[class='xcblog-blog-url']",
     "pattern": "https?://clash-meta.github.io/uploads/[^<>\\r\\n]+"
   },
