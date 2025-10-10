@@ -4,241 +4,171 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 新加坡
-  port: 443
-  server: 92.112.22.117
-  skip-cert-verify: true
-  type: vless
-  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
-- flow: xtls-rprx-vision
-  name: 法国
-  network: tcp
-  port: 34510
-  server: 212.129.5.242
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1760348a-b1be-4d31-99b1-fa6598ccce84
-- flow: xtls-rprx-vision
-  name: 法國_1
-  network: tcp
-  port: 443
-  server: 178.20.215.2
-  servername: speed.cloudflare.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
-- flow: xtls-rprx-vision
-  name: 德國_1
-  network: tcp
-  port: 44443
-  server: hybrid.arvancloud.online
-  servername: www.speedtest.net
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-- name: 美國_1
+- name: 🇺🇸US_28|⬇️3.5MB/s_1
   network: ws
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
   port: 443
-  server: 172.67.131.76
-  servername: EEeE3.222767.xYz
+  server: 104.21.14.54
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: 6666YHjU.777159.xYz
+  type: trojan
   udp: true
-  uuid: afc9d688-520a-46fa-a98d-4511d1198cdd
+  ws-opts:
+    path: /dilyfCPEmLvYr5hYXD
+- name: SG_speednode_0050
+  network: ws
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
+  skip-cert-verify: true
+  sni: hsdgbuys.pages.dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      host: EEeE3.222767.xYz
-    path: /Bla4bwO5lnIT6TyxDFklcPSbclvX
-- flow: xtls-rprx-vision
-  name: 香港
-  network: tcp
-  port: 28888
-  server: hk01.youyacloud.me
-  servername: www.tvb.com
+      host: hsdgbuys.pages.dev
+    path: /
+- name: 🇺🇸US_28|⬇️3.5MB/s_2
+  network: ws
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  port: 443
+  server: 104.21.14.54
   skip-cert-verify: true
-  tls: false
-  type: vless
+  sni: 6666YHjU.777159.xYz
+  type: trojan
   udp: true
-  uuid: 8da7bd17-70ab-472d-a925-cc827857dc35
+  ws-opts:
+    path: /dilyfCPEmLvYr5hYXD
+- name: ❓Other_7|⬇️4.4MB/s
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 5.182.84.22
+  skip-cert-verify: true
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: 美国_1
-  network: grpc
-  port: 8880
-  server: 638950280342845493.esfahan-drc-tusaas.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 美国_2
   network: ws
-  port: 443
-  server: 170.9.18.160
-  servername: ks.lepc.vip
+  password: wb6368
+  port: 2087
+  server: 92.243.75.49
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: hsdgbuys.pages.dev
+  type: trojan
   udp: true
-  uuid: 951e35bf-fe55-410f-9ed3-815765188996
   ws-opts:
     headers:
-      host: ks.lepc.vip
-    path: /hybrid-dedicated-servers
-- name: 美国_3
-  network: ws
-  port: 443
-  server: 172.67.131.76
-  servername: EEeE3.222767.xYz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: afc9d688-520a-46fa-a98d-4511d1198cdd
-  ws-opts:
-    headers:
-      host: EEeE3.222767.xYz
-    path: /Bla4bwO5lnIT6TyxDFklcPSbclvX
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 英国
-  network: grpc
-  port: 25365
-  server: 51.89.230.180
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72c17850-c1a8-4915-a437-45de2645a6e1
-- name: 美国_4
-  network: ws
-  port: 31000
-  server: 46.62.206.155
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad71a16-f67c-410b-968e-187fd5b49f94
-  ws-opts:
+      host: hsdgbuys.pages.dev
     path: /
-- name: 美国_5
-  network: ws
-  port: 32000
-  server: 46.62.206.155
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc3d2ca2-0f38-48dc-8938-688b78c403f2
-  ws-opts:
-    path: /
-- name: 美國_2
-  port: 8443
-  server: 104.17.148.22
-  skip-cert-verify: true
-  type: vless
-  uuid: 655a6041-0ab8-4a92-ad79-f0dba34f5ace
 - flow: xtls-rprx-vision
-  name: 德國_2
+  name: 🇰🇿KZ_1|⬇️4.1MB/s_1
   network: tcp
   port: 443
-  server: 178.20.215.2
-  servername: speed.cloudflare.com
+  server: 91.147.92.153
+  servername: hls-svod.itunes.apple.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
-- name: 俄羅斯_1
-  network: ws
-  port: 32000
-  server: 46.62.206.155
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: fc3d2ca2-0f38-48dc-8938-688b78c403f2
-  ws-opts:
-    path: /
-- name: 俄羅斯_2
-  network: ws
-  port: 31000
-  server: 46.62.206.155
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7ad71a16-f67c-410b-968e-187fd5b49f94
-  ws-opts:
-    path: /
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 英國_1
-  network: grpc
-  port: 25365
-  server: 51.89.230.180
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72c17850-c1a8-4915-a437-45de2645a6e1
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 英國_2
-  network: grpc
-  port: 25365
-  server: 51.89.230.180
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 72c17850-c1a8-4915-a437-45de2645a6e1
-- flow: xtls-rprx-vision
-  name: 法國_2
-  network: tcp
-  port: 34510
-  server: 212.129.5.242
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1760348a-b1be-4d31-99b1-fa6598ccce84
-- name: 伊朗
-  network: grpc
-  port: 8880
-  server: 638950280342845493.esfahan-drc-tusaas.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 俄羅斯_3
-  port: 443
-  server: 92.112.22.117
-  skip-cert-verify: true
-  type: vless
-  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
-- name: 🇳🇱NL_3|⬇️1.2MB/s
+  uuid: c80bbc09-837d-495f-bebc-3e8ac5dede41
+- name: 🇯🇵JP_1|⬇️2.3MB/s_1
   network: tcp
   port: 8080
-  server: 194.87.31.155
+  server: 147.45.49.17
   servername: yandex.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 🇫🇮FI_2|⬇️2.1MB/s
+- flow: xtls-rprx-vision
+  name: 🇫🇮FI_4|⬇️2.6MB/s
+  network: tcp
+  port: 443
+  server: fin01-vlr01.tcp-reset-club.net
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c80bbc09-837d-495f-bebc-3e8ac5dede41
+- flow: xtls-rprx-vision
+  name: 🇵🇱PL_1|⬇️2.8MB/s_1
+  network: tcp
+  port: 443
+  server: univovh.iskra-connect.xyz
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
+- flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|⬇️1.5MB/s_1
+  network: tcp
+  port: 443
+  server: bridge.iskra-connect.xyz
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
+- flow: xtls-rprx-vision
+  name: 🇨🇦CA_1|⬇️2.9MB/s
+  network: tcp
+  port: 26113
+  server: 150.230.28.100
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+- flow: xtls-rprx-vision
+  name: 法国_1
+  network: tcp
+  port: 34510
+  server: 212.129.5.242
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1760348a-b1be-4d31-99b1-fa6598ccce84
+- name: 美国_2
+  network: grpc
+  port: 8880
+  server: 638952778316592562.hamedan-drc-tusaas.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 美国_3
+  network: grpc
+  port: 8880
+  server: 638950280342842022.esfahan-drc-tusaas.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- flow: xtls-rprx-vision
+  name: 法国_2
+  network: tcp
+  port: 443
+  server: 178.20.215.2
+  servername: speed.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+- name: 芬兰_1
   network: tcp
   port: 8080
   server: 84.22.150.195
@@ -250,7 +180,7 @@ proxies:
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - grpc-opts:
     grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 🇬🇧GB_1|⬇️4.3MB/s
+  name: 英国
   network: grpc
   port: 47765
   server: 141.227.174.234
@@ -260,60 +190,27 @@ proxies:
   type: vless
   udp: true
   uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 🇮🇪IE_1|⬇️4.0MB/s
-  network: grpc
-  port: 59995
-  server: 141.227.162.18
-  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
-- name: 🇳🇱NL_6|⬇️1.8MB/s
-  network: tcp
-  port: 443
-  server: 213.176.94.129
-  servername: www.amazon.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 81e9e522-2efd-4709-996d-74e46f4edaf8
-- name: 🇫🇮FI_2|⬇️3.1MB/s
-  network: tcp
-  port: 17422
-  server: 5.181.20.219
-  servername: yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: fe837fd0-840d-4cee-9334-0dc6c2b15c1c
-- flow: xtls-rprx-vision
-  name: 🇹🇷TR_2|⬇️3.7MB/s
-  network: tcp
-  port: 443
-  server: 62.133.63.138
-  servername: tr.eu-ffast.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8377aac9-f3b3-42df-a5ea-9254f37e7b34
-- name: 🇺🇸US_6|⬇️2.7MB/s
+- name: 西班牙
   network: tcp
   port: 8080
-  server: 77.110.114.1
+  server: 5.44.42.60
   servername: yandex.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 🇩🇪DE_7|⬇️5.4MB/s
+- name: 葡萄牙
+  network: tcp
+  port: 8080
+  server: 31.129.22.117
+  servername: yandex.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 美国_4
   network: ws
   port: 80
   server: mstr.fastly80.hosting-ip.com
@@ -327,28 +224,156 @@ proxies:
     headers:
       host: Gn8656.io
     path: /admin
-- name: 🇨🇭CH_1|⬇️1.7MB/s
+- name: 芬兰_2
+  network: tcp
+  port: 17422
+  server: 5.181.20.219
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fe837fd0-840d-4cee-9334-0dc6c2b15c1c
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 爱尔兰
+  network: grpc
+  port: 59995
+  server: 141.227.162.18
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
+- name: US_speednode_0038
+  network: ws
+  port: 80
+  server: mstr.fastly80.hosting-ip.com
+  servername: Gn8656.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 857b7905-8b11-4987-994d-09bcbf7979df
+  ws-opts:
+    headers:
+      host: Gn8656.io
+    path: /admin
+- name: US_speednode_0073
+  network: ws
+  port: 80
+  server: mstr.fastly80.hosting-ip.com
+  servername: Gn8656.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 857b7905-8b11-4987-994d-09bcbf7979df
+  ws-opts:
+    headers:
+      host: Gn8656.io
+    path: /admin
+- flow: xtls-rprx-vision
+  name: 德國_1
+  network: tcp
+  port: 44443
+  server: hybrid.arvancloud.online
+  servername: www.speedtest.net
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+- name: 🇩🇪DE_7|⬇️5.4MB/s_1
+  network: ws
+  port: 80
+  server: mstr.fastly80.hosting-ip.com
+  servername: Gn8656.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 857b7905-8b11-4987-994d-09bcbf7979df
+  ws-opts:
+    headers:
+      host: Gn8656.io
+    path: /admin
+- name: 🇩🇪DE_7|⬇️5.4MB/s_2
+  network: ws
+  port: 80
+  server: mstr.fastly80.hosting-ip.com
+  servername: Gn8656.io
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 857b7905-8b11-4987-994d-09bcbf7979df
+  ws-opts:
+    headers:
+      host: Gn8656.io
+    path: /admin
+- name: 🇫🇮FI_2|⬇️3.1MB/s_1
+  network: tcp
+  port: 17422
+  server: 5.181.20.219
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fe837fd0-840d-4cee-9334-0dc6c2b15c1c
+- name: 🇫🇮FI_2|⬇️3.1MB/s_2
+  network: tcp
+  port: 17422
+  server: 5.181.20.219
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fe837fd0-840d-4cee-9334-0dc6c2b15c1c
+- name: 🇵🇹PT_1|⬇️1.7MB/s_1
   network: tcp
   port: 8080
-  server: 45.95.232.10
+  server: 31.129.22.117
   servername: yandex.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- flow: xtls-rprx-vision
-  name: 🇹🇷TR_1|⬇️3.8MB/s
+- name: 🇵🇹PT_1|⬇️2.4MB/s_1
   network: tcp
-  port: 443
-  server: 62.133.63.138
-  servername: tr.eu-ffast.com
+  port: 8080
+  server: 31.129.22.117
+  servername: yandex.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 8377aac9-f3b3-42df-a5ea-9254f37e7b34
-- name: 🇪🇸ES_1|⬇️2.3MB/s
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 🇫🇮FI_5|⬇️4.2MB/s
+  network: tcp
+  port: 17422
+  server: 5.181.20.219
+  servername: yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: fe837fd0-840d-4cee-9334-0dc6c2b15c1c
+- name: 🇯🇵JP_1|⬇️2.3MB/s_2
+  network: tcp
+  port: 8080
+  server: 147.45.49.17
+  servername: yandex.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 🇪🇸ES_1|⬇️2.3MB/s_1
   network: tcp
   port: 8080
   server: 5.44.42.60
@@ -358,7 +383,17 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 🇵🇹PT_1|⬇️2.4MB/s
+- name: 🇪🇸ES_1|⬇️2.9MB/s
+  network: tcp
+  port: 8080
+  server: 5.44.42.60
+  servername: yandex.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- name: 🇵🇹PT_1|⬇️2.4MB/s_2
   network: tcp
   port: 8080
   server: 31.129.22.117
@@ -368,7 +403,7 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 🇵🇹PT_1|⬇️1.7MB/s
+- name: 🇵🇹PT_1|⬇️1.7MB/s_2
   network: tcp
   port: 8080
   server: 31.129.22.117
@@ -378,17 +413,195 @@ proxies:
   type: vless
   udp: true
   uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
-- name: 🇮🇷_IR_伊朗
-  network: ws
-  port: 32000
-  server: 46.62.206.155
+- name: 🇪🇸ES_1|⬇️2.3MB/s_2
+  network: tcp
+  port: 8080
+  server: 5.44.42.60
+  servername: yandex.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- flow: xtls-rprx-vision
+  name: 法國_1
+  network: tcp
+  port: 443
+  server: 178.20.215.2
+  servername: speed.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+- name: 🇫🇮FI_2|⬇️2.1MB/s_1
+  network: tcp
+  port: 8080
+  server: 84.22.150.195
+  servername: yandex.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- flow: xtls-rprx-vision
+  name: 🇰🇿KZ_1|⬇️4.1MB/s_2
+  network: tcp
+  port: 443
+  server: 91.147.92.153
+  servername: hls-svod.itunes.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: c80bbc09-837d-495f-bebc-3e8ac5dede41
+- flow: xtls-rprx-vision
+  name: 🇵🇱PL_1|⬇️2.3MB/s
+  network: tcp
+  port: 443
+  server: univovh.iskra-connect.xyz
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇮🇪IE_1|⬇️4.0MB/s_1
+  network: grpc
+  port: 59995
+  server: 141.227.162.18
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fc3d2ca2-0f38-48dc-8938-688b78c403f2
-  ws-opts:
-    path: /
+  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
+- flow: xtls-rprx-vision
+  name: 德國_2
+  network: tcp
+  port: 443
+  server: 178.20.215.2
+  servername: speed.cloudflare.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 192ea2c7-d7d0-6676-2929-b04a072b387d
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇬🇧GB_1|⬇️5.4MB/s
+  network: grpc
+  port: 47765
+  server: 141.227.174.234
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇬🇧GB_1|⬇️4.3MB/s_1
+  network: grpc
+  port: 47765
+  server: 141.227.174.234
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇮🇪IE_1|⬇️4.0MB/s_2
+  network: grpc
+  port: 59995
+  server: 141.227.162.18
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇬🇧GB_1|⬇️4.3MB/s_2
+  network: grpc
+  port: 47765
+  server: 141.227.174.234
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5dd4bf42-5df0-49ff-bd5b-3a4fb6f7f1db
+- flow: xtls-rprx-vision
+  name: 🇵🇱PL_1|⬇️2.8MB/s_2
+  network: tcp
+  port: 443
+  server: univovh.iskra-connect.xyz
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇫🇮FI_2|⬇️5.5MB/s
+  network: grpc
+  port: 21232
+  server: 141.227.170.178
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
+- name: 🇫🇮FI_2|⬇️2.1MB/s_2
+  network: tcp
+  port: 8080
+  server: 84.22.150.195
+  servername: yandex.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
+- flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|⬇️1.5MB/s_2
+  network: tcp
+  port: 443
+  server: bridge.iskra-connect.xyz
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: ed97e008-2b8d-4415-94c7-3da4919d361a
+- flow: xtls-rprx-vision
+  name: 法国_3
+  network: tcp
+  port: 34510
+  server: 212.129.5.242
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1760348a-b1be-4d31-99b1-fa6598ccce84
+- name: 🇫🇮FI_1|⬇️5.6MB/s
+  network: tcp
+  port: 8080
+  server: 84.22.150.195
+  servername: yandex.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1abaa2b6-ab8c-4525-8c91-b73bc2ab2b37
 - flow: xtls-rprx-vision
   name: VLESS节点1
   network: tcp
@@ -400,216 +613,299 @@ proxies:
   type: vless
   udp: true
   uuid: 1760348a-b1be-4d31-99b1-fa6598ccce84
-- name: 台湾_1
+- flow: xtls-rprx-vision
+  name: 法國_2
+  network: tcp
+  port: 34510
+  server: 212.129.5.242
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1760348a-b1be-4d31-99b1-fa6598ccce84
+- name: 新加坡_1
+  port: 443
+  server: 92.112.22.117
+  skip-cert-verify: true
+  type: vless
+  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
+- name: 俄羅斯
+  port: 443
+  server: 92.112.22.117
+  skip-cert-verify: true
+  type: vless
+  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 美国_5
   network: grpc
-  password: 8a1ab0df6abea549
-  port: 443
-  server: 125.227.86.45
+  port: 21232
+  server: 141.227.170.178
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
   skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
+  tls: true
+  type: vless
   udp: true
-- name: 台湾_2
+  uuid: 5e0eddef-95cd-4109-9807-0f32062939f3
+- flow: xtls-rprx-vision
+  name: 法国_4
+  network: tcp
+  port: 34510
+  server: 212.129.5.242
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1760348a-b1be-4d31-99b1-fa6598ccce84
+- name: 新加坡_2
+  port: 443
+  server: 92.112.22.117
+  skip-cert-verify: true
+  type: vless
+  uuid: 6337837a-2b47-4e0d-a695-75c5a4a8ad51
+- name: 🇩🇪DE_7|⬇️5.8MB/s
+  network: ws
+  port: 2082
+  server: www.speedtest.net
+  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: b27ead24-5cfa-4dd4-daca-cfd1daa26f90
+  ws-opts:
+    headers:
+      host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
+- flow: xtls-rprx-vision
+  name: 🇵🇱PL_2|⬇️4.2MB/s
+  network: tcp
+  port: 443
+  server: 147.45.155.144
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
+- flow: xtls-rprx-vision
+  name: 🇵🇱PL_1|⬇️2.8MB/s_3
+  network: tcp
+  port: 443
+  server: univovh.iskra-connect.xyz
+  servername: deepl.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 2e532561-7a61-4fdf-a534-706682c2e209
+- grpc-opts:
+    grpc-service-name: grpc-jd
+  name: 🇺🇸US_21|⬇️3.0MB/s
   network: grpc
-  password: 8a1ab0df6abea549
+  port: 8443
+  server: us.pixvpn.app
+  servername: jd.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇮🇪IE_1|⬇️5.3MB/s
+  network: grpc
+  port: 59995
+  server: 141.227.162.18
+  servername: ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7467739e-fe86-43a4-93ae-1669886e80d5
+- flow: xtls-rprx-vision
+  name: 🇨🇦CA_1|⬇️2.6MB/s
+  network: tcp
+  port: 59303
+  server: 40.233.81.116
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
+- grpc-opts:
+    grpc-service-name: grpc-jd
+  name: 🇦🇹AT_1|⬇️6.7MB/s
+  network: grpc
+  port: 8443
+  server: at.pixvpn.app
+  servername: jd.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8c9a7ef4-b692-41ee-90ca-669b04990ac5
+- flow: xtls-rprx-vision
+  name: 🇭🇰HK_3|⬇️1.7MB/s
+  network: tcp
   port: 443
-  server: 125.227.86.46
+  server: 143.14.189.181
+  servername: icloud.com
   skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
+  tls: false
+  type: vless
   udp: true
-- name: youneed.win_1
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 141.94.68.216
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nodes.830901.xyz
-    path: /?ed=2560
-- name: youneed.win_2
-  network: ws
-  password: iwangjie
-  port: 443
-  server: 138.124.118.34
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nodes.830901.xyz
-    path: /proxyip=proxyip.fxxk.dedyn.io
-- name: youneed.win_3
-  network: ws
-  password: iwangjie
-  port: 443
-  server: 83.147.254.185
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nodes.830901.xyz
-    path: /?ed=2560
-- name: youneed.win_4
-  network: ws
-  password: iwangjie
-  port: 2443
-  server: 62.60.156.205
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nodes.830901.xyz
-    path: /?ed=2560
-- name: youneed.win_5
-  network: ws
-  password: iwangjie
-  port: 15805
-  server: 158.101.11.204
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nodes.830901.xyz
-    path: /?ed=2560
-- name: 美国_6
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 194.76.173.98
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nodes.830901.xyz
-    path: /?ed=2560
-- name: 美国_7
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
-  skip-cert-verify: true
-  sni: nodes.830901.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nodes.830901.xyz
-    path: /?ed=2560
+  uuid: 52aae58a-1d54-45a4-9d05-c36d16a6dd12
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 新加坡
-  - 法国
-  - 法國_1
-  - 德國_1
-  - 美國_1
-  - 香港
+  - 🇺🇸US_28|⬇️3.5MB/s_1
+  - SG_speednode_0050
+  - 🇺🇸US_28|⬇️3.5MB/s_2
+  - ❓Other_7|⬇️4.4MB/s
   - 美国_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_1
+  - 🇯🇵JP_1|⬇️2.3MB/s_1
+  - 🇫🇮FI_4|⬇️2.6MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_1
+  - 🇫🇷FR_1|⬇️1.5MB/s_1
+  - 🇨🇦CA_1|⬇️2.9MB/s
+  - 法国_1
   - 美国_2
   - 美国_3
+  - 法国_2
+  - 芬兰_1
   - 英国
+  - 西班牙
+  - 葡萄牙
   - 美国_4
-  - 美国_5
-  - 美國_2
+  - 芬兰_2
+  - 爱尔兰
+  - US_speednode_0038
+  - US_speednode_0073
+  - 德國_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_2
+  - 🇫🇮FI_2|⬇️3.1MB/s_1
+  - 🇫🇮FI_2|⬇️3.1MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_1
+  - 🇵🇹PT_1|⬇️2.4MB/s_1
+  - 🇫🇮FI_5|⬇️4.2MB/s
+  - 🇯🇵JP_1|⬇️2.3MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_1
+  - 🇪🇸ES_1|⬇️2.9MB/s
+  - 🇵🇹PT_1|⬇️2.4MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_2
+  - 法國_1
+  - 🇫🇮FI_2|⬇️2.1MB/s_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_2
+  - 🇵🇱PL_1|⬇️2.3MB/s
+  - 🇮🇪IE_1|⬇️4.0MB/s_1
   - 德國_2
-  - 俄羅斯_1
-  - 俄羅斯_2
-  - 英國_1
-  - 英國_2
-  - 法國_2
-  - 伊朗
-  - 俄羅斯_3
-  - 🇳🇱NL_3|⬇️1.2MB/s
-  - 🇫🇮FI_2|⬇️2.1MB/s
-  - 🇬🇧GB_1|⬇️4.3MB/s
-  - 🇮🇪IE_1|⬇️4.0MB/s
-  - 🇳🇱NL_6|⬇️1.8MB/s
-  - 🇫🇮FI_2|⬇️3.1MB/s
-  - 🇹🇷TR_2|⬇️3.7MB/s
-  - 🇺🇸US_6|⬇️2.7MB/s
-  - 🇩🇪DE_7|⬇️5.4MB/s
-  - 🇨🇭CH_1|⬇️1.7MB/s
-  - 🇹🇷TR_1|⬇️3.8MB/s
-  - 🇪🇸ES_1|⬇️2.3MB/s
-  - 🇵🇹PT_1|⬇️2.4MB/s
-  - 🇵🇹PT_1|⬇️1.7MB/s
-  - 🇮🇷_IR_伊朗
+  - 🇬🇧GB_1|⬇️5.4MB/s
+  - 🇬🇧GB_1|⬇️4.3MB/s_1
+  - 🇮🇪IE_1|⬇️4.0MB/s_2
+  - 🇬🇧GB_1|⬇️4.3MB/s_2
+  - 🇵🇱PL_1|⬇️2.8MB/s_2
+  - 🇫🇮FI_2|⬇️5.5MB/s
+  - 🇫🇮FI_2|⬇️2.1MB/s_2
+  - 🇫🇷FR_1|⬇️1.5MB/s_2
+  - 法国_3
+  - 🇫🇮FI_1|⬇️5.6MB/s
   - VLESS节点1
-  - 台湾_1
-  - 台湾_2
-  - youneed.win_1
-  - youneed.win_2
-  - youneed.win_3
-  - youneed.win_4
-  - youneed.win_5
-  - 美国_6
-  - 美国_7
+  - 法國_2
+  - 新加坡_1
+  - 俄羅斯
+  - 美国_5
+  - 法国_4
+  - 新加坡_2
+  - 🇩🇪DE_7|⬇️5.8MB/s
+  - 🇵🇱PL_2|⬇️4.2MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_3
+  - 🇺🇸US_21|⬇️3.0MB/s
+  - 🇮🇪IE_1|⬇️5.3MB/s
+  - 🇨🇦CA_1|⬇️2.6MB/s
+  - 🇦🇹AT_1|⬇️6.7MB/s
+  - 🇭🇰HK_3|⬇️1.7MB/s
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 新加坡
-  - 法国
-  - 法國_1
-  - 德國_1
-  - 美國_1
-  - 香港
+  - 🇺🇸US_28|⬇️3.5MB/s_1
+  - SG_speednode_0050
+  - 🇺🇸US_28|⬇️3.5MB/s_2
+  - ❓Other_7|⬇️4.4MB/s
   - 美国_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_1
+  - 🇯🇵JP_1|⬇️2.3MB/s_1
+  - 🇫🇮FI_4|⬇️2.6MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_1
+  - 🇫🇷FR_1|⬇️1.5MB/s_1
+  - 🇨🇦CA_1|⬇️2.9MB/s
+  - 法国_1
   - 美国_2
   - 美国_3
+  - 法国_2
+  - 芬兰_1
   - 英国
+  - 西班牙
+  - 葡萄牙
   - 美国_4
-  - 美国_5
-  - 美國_2
+  - 芬兰_2
+  - 爱尔兰
+  - US_speednode_0038
+  - US_speednode_0073
+  - 德國_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_2
+  - 🇫🇮FI_2|⬇️3.1MB/s_1
+  - 🇫🇮FI_2|⬇️3.1MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_1
+  - 🇵🇹PT_1|⬇️2.4MB/s_1
+  - 🇫🇮FI_5|⬇️4.2MB/s
+  - 🇯🇵JP_1|⬇️2.3MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_1
+  - 🇪🇸ES_1|⬇️2.9MB/s
+  - 🇵🇹PT_1|⬇️2.4MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_2
+  - 法國_1
+  - 🇫🇮FI_2|⬇️2.1MB/s_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_2
+  - 🇵🇱PL_1|⬇️2.3MB/s
+  - 🇮🇪IE_1|⬇️4.0MB/s_1
   - 德國_2
-  - 俄羅斯_1
-  - 俄羅斯_2
-  - 英國_1
-  - 英國_2
-  - 法國_2
-  - 伊朗
-  - 俄羅斯_3
-  - 🇳🇱NL_3|⬇️1.2MB/s
-  - 🇫🇮FI_2|⬇️2.1MB/s
-  - 🇬🇧GB_1|⬇️4.3MB/s
-  - 🇮🇪IE_1|⬇️4.0MB/s
-  - 🇳🇱NL_6|⬇️1.8MB/s
-  - 🇫🇮FI_2|⬇️3.1MB/s
-  - 🇹🇷TR_2|⬇️3.7MB/s
-  - 🇺🇸US_6|⬇️2.7MB/s
-  - 🇩🇪DE_7|⬇️5.4MB/s
-  - 🇨🇭CH_1|⬇️1.7MB/s
-  - 🇹🇷TR_1|⬇️3.8MB/s
-  - 🇪🇸ES_1|⬇️2.3MB/s
-  - 🇵🇹PT_1|⬇️2.4MB/s
-  - 🇵🇹PT_1|⬇️1.7MB/s
-  - 🇮🇷_IR_伊朗
+  - 🇬🇧GB_1|⬇️5.4MB/s
+  - 🇬🇧GB_1|⬇️4.3MB/s_1
+  - 🇮🇪IE_1|⬇️4.0MB/s_2
+  - 🇬🇧GB_1|⬇️4.3MB/s_2
+  - 🇵🇱PL_1|⬇️2.8MB/s_2
+  - 🇫🇮FI_2|⬇️5.5MB/s
+  - 🇫🇮FI_2|⬇️2.1MB/s_2
+  - 🇫🇷FR_1|⬇️1.5MB/s_2
+  - 法国_3
+  - 🇫🇮FI_1|⬇️5.6MB/s
   - VLESS节点1
-  - 台湾_1
-  - 台湾_2
-  - youneed.win_1
-  - youneed.win_2
-  - youneed.win_3
-  - youneed.win_4
-  - youneed.win_5
-  - 美国_6
-  - 美国_7
+  - 法國_2
+  - 新加坡_1
+  - 俄羅斯
+  - 美国_5
+  - 法国_4
+  - 新加坡_2
+  - 🇩🇪DE_7|⬇️5.8MB/s
+  - 🇵🇱PL_2|⬇️4.2MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_3
+  - 🇺🇸US_21|⬇️3.0MB/s
+  - 🇮🇪IE_1|⬇️5.3MB/s
+  - 🇨🇦CA_1|⬇️2.6MB/s
+  - 🇦🇹AT_1|⬇️6.7MB/s
+  - 🇭🇰HK_3|⬇️1.7MB/s
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -618,205 +914,297 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 新加坡
-  - 法国
-  - 法國_1
-  - 德國_1
-  - 美國_1
-  - 香港
+  - 🇺🇸US_28|⬇️3.5MB/s_1
+  - SG_speednode_0050
+  - 🇺🇸US_28|⬇️3.5MB/s_2
+  - ❓Other_7|⬇️4.4MB/s
   - 美国_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_1
+  - 🇯🇵JP_1|⬇️2.3MB/s_1
+  - 🇫🇮FI_4|⬇️2.6MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_1
+  - 🇫🇷FR_1|⬇️1.5MB/s_1
+  - 🇨🇦CA_1|⬇️2.9MB/s
+  - 法国_1
   - 美国_2
   - 美国_3
+  - 法国_2
+  - 芬兰_1
   - 英国
+  - 西班牙
+  - 葡萄牙
   - 美国_4
-  - 美国_5
-  - 美國_2
+  - 芬兰_2
+  - 爱尔兰
+  - US_speednode_0038
+  - US_speednode_0073
+  - 德國_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_2
+  - 🇫🇮FI_2|⬇️3.1MB/s_1
+  - 🇫🇮FI_2|⬇️3.1MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_1
+  - 🇵🇹PT_1|⬇️2.4MB/s_1
+  - 🇫🇮FI_5|⬇️4.2MB/s
+  - 🇯🇵JP_1|⬇️2.3MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_1
+  - 🇪🇸ES_1|⬇️2.9MB/s
+  - 🇵🇹PT_1|⬇️2.4MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_2
+  - 法國_1
+  - 🇫🇮FI_2|⬇️2.1MB/s_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_2
+  - 🇵🇱PL_1|⬇️2.3MB/s
+  - 🇮🇪IE_1|⬇️4.0MB/s_1
   - 德國_2
-  - 俄羅斯_1
-  - 俄羅斯_2
-  - 英國_1
-  - 英國_2
-  - 法國_2
-  - 伊朗
-  - 俄羅斯_3
-  - 🇳🇱NL_3|⬇️1.2MB/s
-  - 🇫🇮FI_2|⬇️2.1MB/s
-  - 🇬🇧GB_1|⬇️4.3MB/s
-  - 🇮🇪IE_1|⬇️4.0MB/s
-  - 🇳🇱NL_6|⬇️1.8MB/s
-  - 🇫🇮FI_2|⬇️3.1MB/s
-  - 🇹🇷TR_2|⬇️3.7MB/s
-  - 🇺🇸US_6|⬇️2.7MB/s
-  - 🇩🇪DE_7|⬇️5.4MB/s
-  - 🇨🇭CH_1|⬇️1.7MB/s
-  - 🇹🇷TR_1|⬇️3.8MB/s
-  - 🇪🇸ES_1|⬇️2.3MB/s
-  - 🇵🇹PT_1|⬇️2.4MB/s
-  - 🇵🇹PT_1|⬇️1.7MB/s
-  - 🇮🇷_IR_伊朗
+  - 🇬🇧GB_1|⬇️5.4MB/s
+  - 🇬🇧GB_1|⬇️4.3MB/s_1
+  - 🇮🇪IE_1|⬇️4.0MB/s_2
+  - 🇬🇧GB_1|⬇️4.3MB/s_2
+  - 🇵🇱PL_1|⬇️2.8MB/s_2
+  - 🇫🇮FI_2|⬇️5.5MB/s
+  - 🇫🇮FI_2|⬇️2.1MB/s_2
+  - 🇫🇷FR_1|⬇️1.5MB/s_2
+  - 法国_3
+  - 🇫🇮FI_1|⬇️5.6MB/s
   - VLESS节点1
-  - 台湾_1
-  - 台湾_2
-  - youneed.win_1
-  - youneed.win_2
-  - youneed.win_3
-  - youneed.win_4
-  - youneed.win_5
-  - 美国_6
-  - 美国_7
+  - 法國_2
+  - 新加坡_1
+  - 俄羅斯
+  - 美国_5
+  - 法国_4
+  - 新加坡_2
+  - 🇩🇪DE_7|⬇️5.8MB/s
+  - 🇵🇱PL_2|⬇️4.2MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_3
+  - 🇺🇸US_21|⬇️3.0MB/s
+  - 🇮🇪IE_1|⬇️5.3MB/s
+  - 🇨🇦CA_1|⬇️2.6MB/s
+  - 🇦🇹AT_1|⬇️6.7MB/s
+  - 🇭🇰HK_3|⬇️1.7MB/s
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 新加坡
-  - 法国
-  - 法國_1
-  - 德國_1
-  - 美國_1
-  - 香港
+  - 🇺🇸US_28|⬇️3.5MB/s_1
+  - SG_speednode_0050
+  - 🇺🇸US_28|⬇️3.5MB/s_2
+  - ❓Other_7|⬇️4.4MB/s
   - 美国_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_1
+  - 🇯🇵JP_1|⬇️2.3MB/s_1
+  - 🇫🇮FI_4|⬇️2.6MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_1
+  - 🇫🇷FR_1|⬇️1.5MB/s_1
+  - 🇨🇦CA_1|⬇️2.9MB/s
+  - 法国_1
   - 美国_2
   - 美国_3
+  - 法国_2
+  - 芬兰_1
   - 英国
+  - 西班牙
+  - 葡萄牙
   - 美国_4
-  - 美国_5
-  - 美國_2
+  - 芬兰_2
+  - 爱尔兰
+  - US_speednode_0038
+  - US_speednode_0073
+  - 德國_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_2
+  - 🇫🇮FI_2|⬇️3.1MB/s_1
+  - 🇫🇮FI_2|⬇️3.1MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_1
+  - 🇵🇹PT_1|⬇️2.4MB/s_1
+  - 🇫🇮FI_5|⬇️4.2MB/s
+  - 🇯🇵JP_1|⬇️2.3MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_1
+  - 🇪🇸ES_1|⬇️2.9MB/s
+  - 🇵🇹PT_1|⬇️2.4MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_2
+  - 法國_1
+  - 🇫🇮FI_2|⬇️2.1MB/s_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_2
+  - 🇵🇱PL_1|⬇️2.3MB/s
+  - 🇮🇪IE_1|⬇️4.0MB/s_1
   - 德國_2
-  - 俄羅斯_1
-  - 俄羅斯_2
-  - 英國_1
-  - 英國_2
-  - 法國_2
-  - 伊朗
-  - 俄羅斯_3
-  - 🇳🇱NL_3|⬇️1.2MB/s
-  - 🇫🇮FI_2|⬇️2.1MB/s
-  - 🇬🇧GB_1|⬇️4.3MB/s
-  - 🇮🇪IE_1|⬇️4.0MB/s
-  - 🇳🇱NL_6|⬇️1.8MB/s
-  - 🇫🇮FI_2|⬇️3.1MB/s
-  - 🇹🇷TR_2|⬇️3.7MB/s
-  - 🇺🇸US_6|⬇️2.7MB/s
-  - 🇩🇪DE_7|⬇️5.4MB/s
-  - 🇨🇭CH_1|⬇️1.7MB/s
-  - 🇹🇷TR_1|⬇️3.8MB/s
-  - 🇪🇸ES_1|⬇️2.3MB/s
-  - 🇵🇹PT_1|⬇️2.4MB/s
-  - 🇵🇹PT_1|⬇️1.7MB/s
-  - 🇮🇷_IR_伊朗
+  - 🇬🇧GB_1|⬇️5.4MB/s
+  - 🇬🇧GB_1|⬇️4.3MB/s_1
+  - 🇮🇪IE_1|⬇️4.0MB/s_2
+  - 🇬🇧GB_1|⬇️4.3MB/s_2
+  - 🇵🇱PL_1|⬇️2.8MB/s_2
+  - 🇫🇮FI_2|⬇️5.5MB/s
+  - 🇫🇮FI_2|⬇️2.1MB/s_2
+  - 🇫🇷FR_1|⬇️1.5MB/s_2
+  - 法国_3
+  - 🇫🇮FI_1|⬇️5.6MB/s
   - VLESS节点1
-  - 台湾_1
-  - 台湾_2
-  - youneed.win_1
-  - youneed.win_2
-  - youneed.win_3
-  - youneed.win_4
-  - youneed.win_5
-  - 美国_6
-  - 美国_7
+  - 法國_2
+  - 新加坡_1
+  - 俄羅斯
+  - 美国_5
+  - 法国_4
+  - 新加坡_2
+  - 🇩🇪DE_7|⬇️5.8MB/s
+  - 🇵🇱PL_2|⬇️4.2MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_3
+  - 🇺🇸US_21|⬇️3.0MB/s
+  - 🇮🇪IE_1|⬇️5.3MB/s
+  - 🇨🇦CA_1|⬇️2.6MB/s
+  - 🇦🇹AT_1|⬇️6.7MB/s
+  - 🇭🇰HK_3|⬇️1.7MB/s
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 新加坡
-  - 法国
-  - 法國_1
-  - 德國_1
-  - 美國_1
-  - 香港
+  - 🇺🇸US_28|⬇️3.5MB/s_1
+  - SG_speednode_0050
+  - 🇺🇸US_28|⬇️3.5MB/s_2
+  - ❓Other_7|⬇️4.4MB/s
   - 美国_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_1
+  - 🇯🇵JP_1|⬇️2.3MB/s_1
+  - 🇫🇮FI_4|⬇️2.6MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_1
+  - 🇫🇷FR_1|⬇️1.5MB/s_1
+  - 🇨🇦CA_1|⬇️2.9MB/s
+  - 法国_1
   - 美国_2
   - 美国_3
+  - 法国_2
+  - 芬兰_1
   - 英国
+  - 西班牙
+  - 葡萄牙
   - 美国_4
-  - 美国_5
-  - 美國_2
+  - 芬兰_2
+  - 爱尔兰
+  - US_speednode_0038
+  - US_speednode_0073
+  - 德國_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_2
+  - 🇫🇮FI_2|⬇️3.1MB/s_1
+  - 🇫🇮FI_2|⬇️3.1MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_1
+  - 🇵🇹PT_1|⬇️2.4MB/s_1
+  - 🇫🇮FI_5|⬇️4.2MB/s
+  - 🇯🇵JP_1|⬇️2.3MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_1
+  - 🇪🇸ES_1|⬇️2.9MB/s
+  - 🇵🇹PT_1|⬇️2.4MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_2
+  - 法國_1
+  - 🇫🇮FI_2|⬇️2.1MB/s_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_2
+  - 🇵🇱PL_1|⬇️2.3MB/s
+  - 🇮🇪IE_1|⬇️4.0MB/s_1
   - 德國_2
-  - 俄羅斯_1
-  - 俄羅斯_2
-  - 英國_1
-  - 英國_2
-  - 法國_2
-  - 伊朗
-  - 俄羅斯_3
-  - 🇳🇱NL_3|⬇️1.2MB/s
-  - 🇫🇮FI_2|⬇️2.1MB/s
-  - 🇬🇧GB_1|⬇️4.3MB/s
-  - 🇮🇪IE_1|⬇️4.0MB/s
-  - 🇳🇱NL_6|⬇️1.8MB/s
-  - 🇫🇮FI_2|⬇️3.1MB/s
-  - 🇹🇷TR_2|⬇️3.7MB/s
-  - 🇺🇸US_6|⬇️2.7MB/s
-  - 🇩🇪DE_7|⬇️5.4MB/s
-  - 🇨🇭CH_1|⬇️1.7MB/s
-  - 🇹🇷TR_1|⬇️3.8MB/s
-  - 🇪🇸ES_1|⬇️2.3MB/s
-  - 🇵🇹PT_1|⬇️2.4MB/s
-  - 🇵🇹PT_1|⬇️1.7MB/s
-  - 🇮🇷_IR_伊朗
+  - 🇬🇧GB_1|⬇️5.4MB/s
+  - 🇬🇧GB_1|⬇️4.3MB/s_1
+  - 🇮🇪IE_1|⬇️4.0MB/s_2
+  - 🇬🇧GB_1|⬇️4.3MB/s_2
+  - 🇵🇱PL_1|⬇️2.8MB/s_2
+  - 🇫🇮FI_2|⬇️5.5MB/s
+  - 🇫🇮FI_2|⬇️2.1MB/s_2
+  - 🇫🇷FR_1|⬇️1.5MB/s_2
+  - 法国_3
+  - 🇫🇮FI_1|⬇️5.6MB/s
   - VLESS节点1
-  - 台湾_1
-  - 台湾_2
-  - youneed.win_1
-  - youneed.win_2
-  - youneed.win_3
-  - youneed.win_4
-  - youneed.win_5
-  - 美国_6
-  - 美国_7
+  - 法國_2
+  - 新加坡_1
+  - 俄羅斯
+  - 美国_5
+  - 法国_4
+  - 新加坡_2
+  - 🇩🇪DE_7|⬇️5.8MB/s
+  - 🇵🇱PL_2|⬇️4.2MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_3
+  - 🇺🇸US_21|⬇️3.0MB/s
+  - 🇮🇪IE_1|⬇️5.3MB/s
+  - 🇨🇦CA_1|⬇️2.6MB/s
+  - 🇦🇹AT_1|⬇️6.7MB/s
+  - 🇭🇰HK_3|⬇️1.7MB/s
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 新加坡
-  - 法国
-  - 法國_1
-  - 德國_1
-  - 美國_1
-  - 香港
+  - 🇺🇸US_28|⬇️3.5MB/s_1
+  - SG_speednode_0050
+  - 🇺🇸US_28|⬇️3.5MB/s_2
+  - ❓Other_7|⬇️4.4MB/s
   - 美国_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_1
+  - 🇯🇵JP_1|⬇️2.3MB/s_1
+  - 🇫🇮FI_4|⬇️2.6MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_1
+  - 🇫🇷FR_1|⬇️1.5MB/s_1
+  - 🇨🇦CA_1|⬇️2.9MB/s
+  - 法国_1
   - 美国_2
   - 美国_3
+  - 法国_2
+  - 芬兰_1
   - 英国
+  - 西班牙
+  - 葡萄牙
   - 美国_4
-  - 美国_5
-  - 美國_2
+  - 芬兰_2
+  - 爱尔兰
+  - US_speednode_0038
+  - US_speednode_0073
+  - 德國_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_2
+  - 🇫🇮FI_2|⬇️3.1MB/s_1
+  - 🇫🇮FI_2|⬇️3.1MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_1
+  - 🇵🇹PT_1|⬇️2.4MB/s_1
+  - 🇫🇮FI_5|⬇️4.2MB/s
+  - 🇯🇵JP_1|⬇️2.3MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_1
+  - 🇪🇸ES_1|⬇️2.9MB/s
+  - 🇵🇹PT_1|⬇️2.4MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_2
+  - 法國_1
+  - 🇫🇮FI_2|⬇️2.1MB/s_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_2
+  - 🇵🇱PL_1|⬇️2.3MB/s
+  - 🇮🇪IE_1|⬇️4.0MB/s_1
   - 德國_2
-  - 俄羅斯_1
-  - 俄羅斯_2
-  - 英國_1
-  - 英國_2
-  - 法國_2
-  - 伊朗
-  - 俄羅斯_3
-  - 🇳🇱NL_3|⬇️1.2MB/s
-  - 🇫🇮FI_2|⬇️2.1MB/s
-  - 🇬🇧GB_1|⬇️4.3MB/s
-  - 🇮🇪IE_1|⬇️4.0MB/s
-  - 🇳🇱NL_6|⬇️1.8MB/s
-  - 🇫🇮FI_2|⬇️3.1MB/s
-  - 🇹🇷TR_2|⬇️3.7MB/s
-  - 🇺🇸US_6|⬇️2.7MB/s
-  - 🇩🇪DE_7|⬇️5.4MB/s
-  - 🇨🇭CH_1|⬇️1.7MB/s
-  - 🇹🇷TR_1|⬇️3.8MB/s
-  - 🇪🇸ES_1|⬇️2.3MB/s
-  - 🇵🇹PT_1|⬇️2.4MB/s
-  - 🇵🇹PT_1|⬇️1.7MB/s
-  - 🇮🇷_IR_伊朗
+  - 🇬🇧GB_1|⬇️5.4MB/s
+  - 🇬🇧GB_1|⬇️4.3MB/s_1
+  - 🇮🇪IE_1|⬇️4.0MB/s_2
+  - 🇬🇧GB_1|⬇️4.3MB/s_2
+  - 🇵🇱PL_1|⬇️2.8MB/s_2
+  - 🇫🇮FI_2|⬇️5.5MB/s
+  - 🇫🇮FI_2|⬇️2.1MB/s_2
+  - 🇫🇷FR_1|⬇️1.5MB/s_2
+  - 法国_3
+  - 🇫🇮FI_1|⬇️5.6MB/s
   - VLESS节点1
-  - 台湾_1
-  - 台湾_2
-  - youneed.win_1
-  - youneed.win_2
-  - youneed.win_3
-  - youneed.win_4
-  - youneed.win_5
-  - 美国_6
-  - 美国_7
+  - 法國_2
+  - 新加坡_1
+  - 俄羅斯
+  - 美国_5
+  - 法国_4
+  - 新加坡_2
+  - 🇩🇪DE_7|⬇️5.8MB/s
+  - 🇵🇱PL_2|⬇️4.2MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_3
+  - 🇺🇸US_21|⬇️3.0MB/s
+  - 🇮🇪IE_1|⬇️5.3MB/s
+  - 🇨🇦CA_1|⬇️2.6MB/s
+  - 🇦🇹AT_1|⬇️6.7MB/s
+  - 🇭🇰HK_3|⬇️1.7MB/s
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -839,52 +1227,75 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 新加坡
-  - 法国
-  - 法國_1
-  - 德國_1
-  - 美國_1
-  - 香港
+  - 🇺🇸US_28|⬇️3.5MB/s_1
+  - SG_speednode_0050
+  - 🇺🇸US_28|⬇️3.5MB/s_2
+  - ❓Other_7|⬇️4.4MB/s
   - 美国_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_1
+  - 🇯🇵JP_1|⬇️2.3MB/s_1
+  - 🇫🇮FI_4|⬇️2.6MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_1
+  - 🇫🇷FR_1|⬇️1.5MB/s_1
+  - 🇨🇦CA_1|⬇️2.9MB/s
+  - 法国_1
   - 美国_2
   - 美国_3
+  - 法国_2
+  - 芬兰_1
   - 英国
+  - 西班牙
+  - 葡萄牙
   - 美国_4
-  - 美国_5
-  - 美國_2
+  - 芬兰_2
+  - 爱尔兰
+  - US_speednode_0038
+  - US_speednode_0073
+  - 德國_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_1
+  - 🇩🇪DE_7|⬇️5.4MB/s_2
+  - 🇫🇮FI_2|⬇️3.1MB/s_1
+  - 🇫🇮FI_2|⬇️3.1MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_1
+  - 🇵🇹PT_1|⬇️2.4MB/s_1
+  - 🇫🇮FI_5|⬇️4.2MB/s
+  - 🇯🇵JP_1|⬇️2.3MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_1
+  - 🇪🇸ES_1|⬇️2.9MB/s
+  - 🇵🇹PT_1|⬇️2.4MB/s_2
+  - 🇵🇹PT_1|⬇️1.7MB/s_2
+  - 🇪🇸ES_1|⬇️2.3MB/s_2
+  - 法國_1
+  - 🇫🇮FI_2|⬇️2.1MB/s_1
+  - 🇰🇿KZ_1|⬇️4.1MB/s_2
+  - 🇵🇱PL_1|⬇️2.3MB/s
+  - 🇮🇪IE_1|⬇️4.0MB/s_1
   - 德國_2
-  - 俄羅斯_1
-  - 俄羅斯_2
-  - 英國_1
-  - 英國_2
-  - 法國_2
-  - 伊朗
-  - 俄羅斯_3
-  - 🇳🇱NL_3|⬇️1.2MB/s
-  - 🇫🇮FI_2|⬇️2.1MB/s
-  - 🇬🇧GB_1|⬇️4.3MB/s
-  - 🇮🇪IE_1|⬇️4.0MB/s
-  - 🇳🇱NL_6|⬇️1.8MB/s
-  - 🇫🇮FI_2|⬇️3.1MB/s
-  - 🇹🇷TR_2|⬇️3.7MB/s
-  - 🇺🇸US_6|⬇️2.7MB/s
-  - 🇩🇪DE_7|⬇️5.4MB/s
-  - 🇨🇭CH_1|⬇️1.7MB/s
-  - 🇹🇷TR_1|⬇️3.8MB/s
-  - 🇪🇸ES_1|⬇️2.3MB/s
-  - 🇵🇹PT_1|⬇️2.4MB/s
-  - 🇵🇹PT_1|⬇️1.7MB/s
-  - 🇮🇷_IR_伊朗
+  - 🇬🇧GB_1|⬇️5.4MB/s
+  - 🇬🇧GB_1|⬇️4.3MB/s_1
+  - 🇮🇪IE_1|⬇️4.0MB/s_2
+  - 🇬🇧GB_1|⬇️4.3MB/s_2
+  - 🇵🇱PL_1|⬇️2.8MB/s_2
+  - 🇫🇮FI_2|⬇️5.5MB/s
+  - 🇫🇮FI_2|⬇️2.1MB/s_2
+  - 🇫🇷FR_1|⬇️1.5MB/s_2
+  - 法国_3
+  - 🇫🇮FI_1|⬇️5.6MB/s
   - VLESS节点1
-  - 台湾_1
-  - 台湾_2
-  - youneed.win_1
-  - youneed.win_2
-  - youneed.win_3
-  - youneed.win_4
-  - youneed.win_5
-  - 美国_6
-  - 美国_7
+  - 法國_2
+  - 新加坡_1
+  - 俄羅斯
+  - 美国_5
+  - 法国_4
+  - 新加坡_2
+  - 🇩🇪DE_7|⬇️5.8MB/s
+  - 🇵🇱PL_2|⬇️4.2MB/s
+  - 🇵🇱PL_1|⬇️2.8MB/s_3
+  - 🇺🇸US_21|⬇️3.0MB/s
+  - 🇮🇪IE_1|⬇️5.3MB/s
+  - 🇨🇦CA_1|⬇️2.6MB/s
+  - 🇦🇹AT_1|⬇️6.7MB/s
+  - 🇭🇰HK_3|⬇️1.7MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
