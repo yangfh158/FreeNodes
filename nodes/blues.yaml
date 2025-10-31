@@ -4,64 +4,10 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 意大利_1
-  network: grpc
-  port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 意大利_2
-  network: grpc
-  port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 俄罗斯_1
-  network: grpc
-  port: 8880
-  server: 95.164.6.65
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 意大利_3
-  network: grpc
-  port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: US_1
-  network: grpc
-  port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: 美国_1
   network: grpc
   port: 8880
   server: 638969264971590621.abadan-blkaft-aaaw.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: US_2
-  network: grpc
-  port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
   skip-cert-verify: true
   tls: true
   type: vless
@@ -79,7 +25,7 @@ proxies:
 - name: 美国_3
   network: grpc
   port: 8880
-  server: 95.164.6.65
+  server: 95.164.6.26
   skip-cert-verify: true
   tls: true
   type: vless
@@ -88,7 +34,7 @@ proxies:
 - name: 美国_4
   network: grpc
   port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
+  server: 638969264971590621.abadan-blkaft-aaaw.info
   skip-cert-verify: true
   tls: true
   type: vless
@@ -97,16 +43,7 @@ proxies:
 - name: 美国_5
   network: grpc
   port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 意大利_4
-  network: grpc
-  port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
+  server: 638969264971590621.abadan-blkaft-aaaw.info
   skip-cert-verify: true
   tls: true
   type: vless
@@ -130,6 +67,15 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 美国_8
+  network: grpc
+  port: 8880
+  server: 638969264971590621.abadan-blkaft-aaaw.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - flow: xtls-rprx-vision
   name: 希腊_1
   network: tcp
@@ -142,21 +88,21 @@ proxies:
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - flow: xtls-rprx-vision
-  name: 希腊_2
+  name: 美国_9
   network: tcp
-  port: 443
-  server: 185.39.207.121
-  servername: vk.cc
+  port: 8443
+  server: ytr.fasssst.ru
+  servername: ytr.fasssst.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+  uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
 - flow: xtls-rprx-vision
-  name: 俄罗斯_2
+  name: 希腊_2
   network: tcp
   port: 443
-  server: 109.172.54.49
+  server: 185.39.207.121
   servername: vk.cc
   skip-cert-verify: true
   tls: false
@@ -175,10 +121,32 @@ proxies:
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - flow: xtls-rprx-vision
+  name: 俄罗斯_1
+  network: tcp
+  port: 8443
+  server: ytr.fasssst.ru
+  servername: ytr.fasssst.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
+- flow: xtls-rprx-vision
+  name: 俄罗斯_2
+  network: tcp
+  port: 8443
+  server: ytr.fasssst.ru
+  servername: ytr.fasssst.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
+- flow: xtls-rprx-vision
   name: 俄罗斯_3
   network: tcp
   port: 443
-  server: 109.172.54.49
+  server: 81.19.140.131
   servername: vk.cc
   skip-cert-verify: true
   tls: false
@@ -186,27 +154,16 @@ proxies:
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - flow: xtls-rprx-vision
-  name: 美国_8
-  network: tcp
-  port: 8443
-  server: ytr.fasssst.ru
-  servername: ytr.fasssst.ru
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
-- flow: xtls-rprx-vision
   name: 俄罗斯_4
   network: tcp
-  port: 8443
-  server: ytr.fasssst.ru
-  servername: ytr.fasssst.ru
+  port: 443
+  server: 212.18.104.19
+  servername: nspk.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - flow: xtls-rprx-vision
   name: 俄罗斯_5
   network: tcp
@@ -233,6 +190,17 @@ proxies:
   name: 俄罗斯_7
   network: tcp
   port: 443
+  server: 81.19.140.131
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 俄罗斯_8
+  network: tcp
+  port: 443
   server: 212.18.104.19
   servername: nspk.ru
   skip-cert-verify: true
@@ -241,7 +209,7 @@ proxies:
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - flow: xtls-rprx-vision
-  name: 俄罗斯_8
+  name: 美国_10
   network: tcp
   port: 443
   server: 81.19.140.131
@@ -252,7 +220,7 @@ proxies:
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - flow: xtls-rprx-vision
-  name: 美国_9
+  name: 美国_11
   network: tcp
   port: 443
   server: 212.18.104.19
@@ -267,7 +235,7 @@ proxies:
   network: tcp
   port: 443
   server: 212.18.104.19
-  servername: nspk.ru
+  servername: vk.cc
   skip-cert-verify: true
   tls: false
   type: vless
@@ -285,7 +253,7 @@ proxies:
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - flow: xtls-rprx-vision
-  name: 美国_10
+  name: 美国_12
   network: tcp
   port: 8443
   server: ytr.fasssst.ru
@@ -295,49 +263,46 @@ proxies:
   type: vless
   udp: true
   uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
+- name: 俄罗斯_11
+  network: grpc
+  port: 8880
+  server: 638970136771547794.athens-blkaft-aaay.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - flow: xtls-rprx-vision
-  name: 俄罗斯_11
+  name: 俄罗斯_12
   network: tcp
   port: 443
-  server: 81.19.140.131
+  server: 109.172.54.49
   servername: vk.cc
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- name: 美国_11
-  network: grpc
-  port: 8880
-  server: 638970136771547794.athens-blkaft-aaay.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 美国_12
-  network: grpc
-  port: 8880
-  server: 638970136771547794.athens-blkaft-aaay.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - name: 美国_13
-  network: ws
-  port: 2053
-  server: 104.16.53.11
-  servername: frAgeU2.cpI2HIdd.eu.ORG
+  network: grpc
+  port: 8880
+  server: 638970136771547794.athens-blkaft-aaay.info
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
-  ws-opts:
-    headers:
-      host: frAgeU2.cpI2HIdd.eu.ORG
-    path: /
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- flow: xtls-rprx-vision
+  name: 俄罗斯_13
+  network: tcp
+  port: 443
+  server: 109.172.54.49
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - name: 美国_14
   network: grpc
   port: 8880
@@ -347,8 +312,68 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 美国_15
+  network: grpc
+  port: 8880
+  server: 638970136771547794.athens-blkaft-aaay.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 俄罗斯_14
+  network: grpc
+  port: 8880
+  server: 89.221.224.239
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 美国_16
+  network: grpc
+  port: 8880
+  server: 638970136771547794.athens-blkaft-aaay.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - flow: xtls-rprx-vision
-  name: 美国_15
+  name: 俄罗斯_15
+  network: tcp
+  port: 443
+  server: 212.18.104.19
+  servername: nspk.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 俄罗斯_16
+  network: tcp
+  port: 443
+  server: 212.18.104.19
+  servername: nspk.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 俄罗斯_17
+  network: tcp
+  port: 443
+  server: 212.18.104.19
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 俄罗斯_18
   network: tcp
   port: 443
   server: 81.19.140.131
@@ -358,28 +383,81 @@ proxies:
   type: vless
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- name: 美国_16
+- name: 俄罗斯_19
   network: grpc
   port: 8880
-  server: 638966574572431911.rome-blkaft-aaau.info
+  server: 89.221.224.239
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- flow: xtls-rprx-vision
+  name: 俄罗斯_20
+  network: tcp
+  port: 443
+  server: 109.172.54.49
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- name: 俄罗斯_21
+  network: grpc
+  port: 8880
+  server: 638970136771547794.athens-blkaft-aaay.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- flow: xtls-rprx-vision
+  name: 俄罗斯_22
+  network: tcp
+  port: 443
+  server: 212.18.104.19
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - name: 美国_17
   network: grpc
   port: 8880
-  server: 638969264971590621.abadan-blkaft-aaaw.info
+  server: 638970136771547794.athens-blkaft-aaay.info
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- flow: xtls-rprx-vision
+  name: 俄罗斯_23
+  network: tcp
+  port: 443
+  server: 212.18.104.19
+  servername: nspk.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- flow: xtls-rprx-vision
+  name: 俄罗斯_24
+  network: tcp
+  port: 443
+  server: 109.172.54.49
+  servername: vk.cc
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
 - name: 美国_18
   network: grpc
   port: 8880
-  server: 95.164.6.65
+  server: 638969264971590621.abadan-blkaft-aaaw.info
   skip-cert-verify: true
   tls: true
   type: vless
@@ -395,7 +473,7 @@ proxies:
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - flow: xtls-rprx-vision
-  name: 俄罗斯_12
+  name: 俄罗斯_25
   network: tcp
   port: 8443
   server: ytr.fasssst.ru
@@ -405,47 +483,40 @@ proxies:
   type: vless
   udp: true
   uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
-- name: 美国_20
-  network: grpc
-  port: 8880
-  server: 638970136771547794.athens-blkaft-aaay.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
 - flow: xtls-rprx-vision
-  name: 俄罗斯_13
+  name: 俄罗斯_26
   network: tcp
-  port: 443
-  server: 212.18.104.19
-  servername: nspk.ru
+  port: 8443
+  server: ytr.fasssst.ru
+  servername: ytr.fasssst.ru
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
-  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+  uuid: 762ddd62-0ea8-4a98-bc21-b25fb1c10c3f
 - flow: xtls-rprx-vision
-  name: 俄罗斯_14
+  name: 希腊_4
   network: tcp
   port: 443
-  server: 212.18.104.19
+  server: 185.39.207.121
   servername: vk.cc
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- name: 美国_21
-  network: grpc
-  port: 8880
-  server: 638969264971590621.abadan-blkaft-aaaw.info
+- flow: xtls-rprx-vision
+  name: 俄罗斯_27
+  network: tcp
+  port: 443
+  server: 81.19.140.131
+  servername: vk.cc
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vless
   udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 美国_22
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- name: 俄罗斯_28
   network: grpc
   port: 8880
   server: 95.164.6.26
@@ -454,16 +525,7 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 美国_23
-  network: grpc
-  port: 8880
-  server: 95.164.6.65
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 美国_24
+- name: 美国_20
   network: grpc
   port: 8880
   server: 638966574572431911.rome-blkaft-aaau.info
@@ -472,53 +534,48 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 美国_25
-  network: tcp
-  port: 36987
-  server: 216.133.148.215
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 0f4f3a75-ae36-4992-8cb5-6638f45afcb2
-- name: 美国_26
-  network: ws
-  port: 2053
-  server: 104.16.53.11
-  servername: frAgeU2.cpI2HIdd.eu.ORG
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
-  ws-opts:
-    headers:
-      host: frAgeU2.cpI2HIdd.eu.ORG
-    path: /
-- name: 美国_27
-  network: ws
-  port: 443
-  server: www.visaeurope.ch
-  servername: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ce8b479d-ade1-414d-9eec-f53a80393b7d
-  ws-opts:
-    headers:
-      host: rAyAn-cOnFiG-de-1.pArSa.dPdNs.oRg
-    path: /ws
-- name: 俄罗斯_15
+- name: 美国_21
   network: grpc
   port: 8880
-  server: 638970136771547794.athens-blkaft-aaay.info
+  server: 95.164.6.26
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: 俄罗斯_16
+- name: 美国_22
+  network: grpc
+  port: 8880
+  server: 95.164.6.65
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 美国_23
+  network: grpc
+  port: 8880
+  server: 638969264971590621.abadan-blkaft-aaaw.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 美国_24
+  network: ws
+  port: 443
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: gb-42123.shenzogmbh.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ec3a039-ea63-4bf9-a848-a65c9bfa66f5
+  ws-opts:
+    headers:
+      host: gb-42123.shenzogmbh.com
+    path: /api/v1
+- name: 俄罗斯_29
   network: grpc
   port: 8880
   server: 89.221.224.239
@@ -527,124 +584,116 @@ proxies:
   type: vless
   udp: true
   uuid: df0680ca-e43c-498d-ed86-8e196eedd012
-- name: SG
+- name: 俄罗斯_30
   network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.44
+  port: 8880
+  server: 638970136771547794.athens-blkaft-aaay.info
   skip-cert-verify: true
-  sni: TG.节点狂魔
+  tls: true
+  type: vless
+  udp: true
+  uuid: df0680ca-e43c-498d-ed86-8e196eedd012
+- name: 美国_25
+  network: ws
+  port: 2053
+  server: 104.18.36.24
+  servername: om2.omidsuccess.uk
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17e31214-700b-4f76-8088-df2b0cbe8d39
+  ws-opts:
+    headers:
+      host: om2.omidsuccess.uk
+    path: /containers/de
+- name: 【YouTube-由零开始】_1
+  network: ws
+  port: 2087
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: DfVrMvWc3.SoLeRiOs.nEt
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0423f7a2-87bd-4302-95e2-c3c01881bdc7
+  ws-opts:
+    headers:
+      host: DfVrMvWc3.SoLeRiOs.nEt
+    path: /
+- name: 【YouTube-由零开始】_2
+  network: ws
+  port: 8443
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: DfVrMvWc0.SoLeRiOs.nEt
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0423f7a2-87bd-4302-95e2-c3c01881bdc7
+  ws-opts:
+    headers:
+      host: DfVrMvWc0.SoLeRiOs.nEt
+    path: /
+- name: 【YouTube-由零开始】_3
+  network: ws
+  port: 8443
+  server: ipw.gfdv54cvghhgfhgj-njhgj64.info
+  servername: DfVrMvWc0.SoLeRiOs.nEt
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0423f7a2-87bd-4302-95e2-c3c01881bdc7
+  ws-opts:
+    headers:
+      host: DfVrMvWc0.SoLeRiOs.nEt
+    path: /
+- name: 【YouTube-由零开始】_4
+  network: ws
+  port: 2053
+  server: 104.18.36.24
+  servername: om2.omidsuccess.uk
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17e31214-700b-4f76-8088-df2b0cbe8d39
+  ws-opts:
+    headers:
+      host: om2.omidsuccess.uk
+    path: /containers/de
+- name: 【YouTube-由零开始】_5
+  network: ws
+  port: 2053
+  server: 104.18.36.24
+  servername: om2.omidsuccess.uk
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17e31214-700b-4f76-8088-df2b0cbe8d39
+  ws-opts:
+    headers:
+      host: om2.omidsuccess.uk
+    path: /containers/de
+- name: 香港_1
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.3
+  skip-cert-verify: true
   type: trojan
   udp: true
-- name: 台湾_1
-  network: grpc
-  password: 0a9f1f5a397bd427
+- name: 香港_2
+  network: tcp
+  password: BxceQaOe
   port: 443
-  server: 125.227.86.48
+  server: 58.152.46.98
   skip-cert-verify: true
-  sni: TG.节点狂魔
   type: trojan
   udp: true
-- name: 台湾_2
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 台湾_3
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 台湾_4
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.46
-  skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
-  udp: true
-- name: 台湾_5
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 台湾_6
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
-  udp: true
-- name: 台湾_7
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 台湾_8
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
-  udp: true
-- name: 台湾_9
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.44
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 台湾_10
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.48
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 台湾_11
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.44
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 台湾_12
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.46
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 美国_28
+- name: 美国_26
   network: tcp
   password: BxceQaOe
   port: 443
@@ -653,15 +702,99 @@ proxies:
   sni: 58.152.46.98
   type: trojan
   udp: true
-- name: 台湾_13
-  network: grpc
-  password: 3f5bc61547b1f0d9
+- name: 香港_3
+  network: tcp
+  password: BxceQaOe
   port: 443
-  server: 125.227.86.48
+  server: 58.152.46.98
   skip-cert-verify: true
-  sni: TG.节点狂魔
   type: trojan
   udp: true
+- name: 香港_4
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_5
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_6
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
+- name: 香港_7
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_8
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
+- name: 美国_27
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
+- name: us
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_1
+  network: ws
+  password: T%40_WvT8Ho%40LW%25w_%2C
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: true
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs
+- name: US_2
+  network: ws
+  password: T%40_WvT8Ho%40LW%25w_%2C
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: true
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs
 - name: US_3
   network: ws
   password: T%40_WvT8Ho%40LW%25w_%2C
@@ -688,54 +821,13 @@ proxies:
     headers:
       host: NOp-55q.pAgEs.dEv
     path: /trGPZDfetEwuO25SAs
-- name: US_5
-  network: ws
-  password: T%40_WvT8Ho%40LW%25w_%2C
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: true
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs
-- name: 香港_1
+- name: 美国_28
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.46.98
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US_6
-  network: ws
-  password: T%40_WvT8Ho%40LW%25w_%2C
-  port: 2053
-  server: nop-55q.pages.dev
-  skip-cert-verify: true
-  sni: NOp-55q.pAgEs.dEv
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: NOp-55q.pAgEs.dEv
-    path: /trGPZDfetEwuO25SAs
-- name: us
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 香港_2
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
+  sni: 58.152.46.98
   type: trojan
   udp: true
 - name: 美国_29
@@ -747,31 +839,6 @@ proxies:
   sni: 58.152.46.98
   type: trojan
   udp: true
-- name: 香港_3
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 香港_4
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 台湾_14
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.WangCai2
-  type: trojan
-  udp: true
 - name: 美国_30
   network: tcp
   password: BxceQaOe
@@ -781,31 +848,29 @@ proxies:
   sni: 58.152.46.98
   type: trojan
   udp: true
-- name: 台湾_15
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.44
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 台湾_16
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.46
-  skip-cert-verify: true
-  sni: TG.节点狂魔
-  type: trojan
-  udp: true
-- name: 香港_5
+- name: 香港_9
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.46.98
   skip-cert-verify: true
   sni: 58.152.46.98
+  type: trojan
+  udp: true
+- name: 香港_10
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.3
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_11
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
   type: trojan
   udp: true
 - name: 美国_31
@@ -817,102 +882,254 @@ proxies:
   sni: 58.152.46.98
   type: trojan
   udp: true
+- name: 香港_12
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
+- name: 香港_13
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_14
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
 - name: 美国_32
-  network: tcp
-  password: BxceQaOe
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
   port: 443
-  server: 58.152.46.98
+  server: bestcdn4.868863.xyz
   skip-cert-verify: true
-  sni: 58.152.46.98
+  sni: 17618000461185.92510233.xyz
   type: trojan
   udp: true
-- name: 香港_6
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 香港_7
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  sni: 58.152.46.98
-  type: trojan
-  udp: true
-- name: 新加坡
-  network: tcp
-  password: BxceQaOe
-  port: 2088
-  server: 36.150.215.197
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 香港_8
-  network: tcp
-  password: BxceQaOe
-  port: 194
-  server: 36.156.102.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 香港_9
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.3
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      host: 17618000465190.92510233.xyz
+    path: /agraeabtegrrh
 - name: 美国_33
-  network: tcp
-  password: e7313acb-7af6-4fee-8483-eeaded7cf3a2
-  port: 49148
-  server: f10011.flyflylflyflyssssnode.sbs
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn4.868863.xyz
   skip-cert-verify: true
-  sni: tw02.ckcloud.info
+  sni: 17618000462040.92510233.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      host: 17618000465968.92510233.xyz
+    path: /agrbniuh
 - name: 美国_34
-  network: tcp
-  password: e7313acb-7af6-4fee-8483-eeaded7cf3a2
-  port: 34664
-  server: f10011.flyflylflyflyssssnode.sbs
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn2.868863.xyz
   skip-cert-verify: true
-  sni: jp04.ckcloud.info
+  sni: 17618000466910.92510233.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      host: 17618000468852.92510233.xyz
+    path: /agrbniuh
 - name: 美国_35
-  network: tcp
-  password: e7313acb-7af6-4fee-8483-eeaded7cf3a2
-  port: 39520
-  server: f10011.flyflylflyflyssssnode.sbs
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn2.868863.xyz
   skip-cert-verify: true
-  sni: jp03.ckcloud.info
+  sni: 17618000467284.92510233.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      host: 17618000461715.92510233.xyz
+    path: /agrbniuh
 - name: 美国_36
-  network: tcp
-  password: e7313acb-7af6-4fee-8483-eeaded7cf3a2
-  port: 49148
-  server: f10021.flyflylflyflyssssnode.sbs
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn1.868863.xyz
   skip-cert-verify: true
-  sni: tw02.ckcloud.info
+  sni: 17618000463870.92510233.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      host: 17618000462346.92510233.xyz
+    path: /agraeabtegrrh
 - name: 美国_37
-  network: tcp
-  password: e7313acb-7af6-4fee-8483-eeaded7cf3a2
-  port: 42751
-  server: f10002.flyflylflyflyssssnode.sbs
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn2.868863.xyz
   skip-cert-verify: true
-  sni: sk01.ckcloud.info
+  sni: 17618000468309.92510233.xyz
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      host: 17618000463418.92510233.xyz
+    path: /agrbniuh
 - name: 美国_38
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000466713.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000466028.92510233.xyz
+    path: /agrbniuh
+- name: 美国_39
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000467216.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000464363.92510233.xyz
+    path: /videomuaawe
+- name: 美国_40
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000468705.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000464612.92510233.xyz
+    path: /agraeabtegrrh
+- name: 美国_41
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn1.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000466559.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000469410.92510233.xyz
+    path: /agraeabtegrrh
+- name: 美国_42
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000461370.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000466185.92510233.xyz
+    path: /agrbniuh
+- name: 美国_43
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn2.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000466713.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000466028.92510233.xyz
+    path: /agrbniuh
+- name: 美国_44
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000468043.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000469088.92510233.xyz
+    path: /videomuaawe
+- name: 美国_45
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000463099.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000465729.92510233.xyz
+    path: /videomuaawe
+- name: 美国_46
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000468259.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000469892.92510233.xyz
+    path: /videomuaawe
+- name: 美国_47
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000467216.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000464363.92510233.xyz
+    path: /videomuaawe
+- name: 美国_48
+  network: ws
+  password: 9ea00c64-ac8d-40a2-89be-e10a285ea027
+  port: 443
+  server: bestcdn3.868863.xyz
+  skip-cert-verify: true
+  sni: 17618000462108.92510233.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 17618000466167.92510233.xyz
+    path: /videomuaawe
+- name: 美国_49
   network: tcp
   password: adbac894-90b9-4913-b77e-a715a8d4ebc8
   port: 20021
@@ -926,200 +1143,224 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 意大利_1
-  - 意大利_2
-  - 俄罗斯_1
-  - 意大利_3
-  - US_1
   - 美国_1
-  - US_2
   - 美国_2
   - 美国_3
   - 美国_4
   - 美国_5
-  - 意大利_4
   - 美国_6
   - 美国_7
-  - 希腊_1
-  - 希腊_2
-  - 俄罗斯_2
-  - 希腊_3
-  - 俄罗斯_3
   - 美国_8
+  - 希腊_1
+  - 美国_9
+  - 希腊_2
+  - 希腊_3
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 俄罗斯_4
   - 俄罗斯_5
   - 俄罗斯_6
   - 俄罗斯_7
   - 俄罗斯_8
-  - 美国_9
+  - 美国_10
+  - 美国_11
   - 俄罗斯_9
   - 俄罗斯_10
-  - 美国_10
-  - 俄罗斯_11
-  - 美国_11
   - 美国_12
+  - 俄罗斯_11
+  - 俄罗斯_12
   - 美国_13
+  - 俄罗斯_13
   - 美国_14
   - 美国_15
+  - 俄罗斯_14
   - 美国_16
+  - 俄罗斯_15
+  - 俄罗斯_16
+  - 俄罗斯_17
+  - 俄罗斯_18
+  - 俄罗斯_19
+  - 俄罗斯_20
+  - 俄罗斯_21
+  - 俄罗斯_22
   - 美国_17
+  - 俄罗斯_23
+  - 俄罗斯_24
   - 美国_18
   - 美国_19
-  - 俄罗斯_12
+  - 俄罗斯_25
+  - 俄罗斯_26
+  - 希腊_4
+  - 俄罗斯_27
+  - 俄罗斯_28
   - 美国_20
-  - 俄罗斯_13
-  - 俄罗斯_14
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
+  - 俄罗斯_29
+  - 俄罗斯_30
   - 美国_25
-  - 美国_26
-  - 美国_27
-  - 俄罗斯_15
-  - 俄罗斯_16
-  - SG
-  - 台湾_1
-  - 台湾_2
-  - 台湾_3
-  - 台湾_4
-  - 台湾_5
-  - 台湾_6
-  - 台湾_7
-  - 台湾_8
-  - 台湾_9
-  - 台湾_10
-  - 台湾_11
-  - 台湾_12
-  - 美国_28
-  - 台湾_13
-  - US_3
-  - US_4
-  - US_5
+  - 【YouTube-由零开始】_1
+  - 【YouTube-由零开始】_2
+  - 【YouTube-由零开始】_3
+  - 【YouTube-由零开始】_4
+  - 【YouTube-由零开始】_5
   - 香港_1
-  - US_6
-  - us
   - 香港_2
-  - 美国_29
+  - 美国_26
   - 香港_3
   - 香港_4
-  - 台湾_14
-  - 美国_30
-  - 台湾_15
-  - 台湾_16
   - 香港_5
-  - 美国_31
-  - 美国_32
   - 香港_6
   - 香港_7
-  - 新加坡
   - 香港_8
+  - 美国_27
+  - us
+  - US_1
+  - US_2
+  - US_3
+  - US_4
+  - 美国_28
+  - 美国_29
+  - 美国_30
   - 香港_9
+  - 香港_10
+  - 香港_11
+  - 美国_31
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 美国_32
   - 美国_33
   - 美国_34
   - 美国_35
   - 美国_36
   - 美国_37
   - 美国_38
+  - 美国_39
+  - 美国_40
+  - 美国_41
+  - 美国_42
+  - 美国_43
+  - 美国_44
+  - 美国_45
+  - 美国_46
+  - 美国_47
+  - 美国_48
+  - 美国_49
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 意大利_1
-  - 意大利_2
-  - 俄罗斯_1
-  - 意大利_3
-  - US_1
   - 美国_1
-  - US_2
   - 美国_2
   - 美国_3
   - 美国_4
   - 美国_5
-  - 意大利_4
   - 美国_6
   - 美国_7
-  - 希腊_1
-  - 希腊_2
-  - 俄罗斯_2
-  - 希腊_3
-  - 俄罗斯_3
   - 美国_8
+  - 希腊_1
+  - 美国_9
+  - 希腊_2
+  - 希腊_3
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 俄罗斯_4
   - 俄罗斯_5
   - 俄罗斯_6
   - 俄罗斯_7
   - 俄罗斯_8
-  - 美国_9
+  - 美国_10
+  - 美国_11
   - 俄罗斯_9
   - 俄罗斯_10
-  - 美国_10
-  - 俄罗斯_11
-  - 美国_11
   - 美国_12
+  - 俄罗斯_11
+  - 俄罗斯_12
   - 美国_13
+  - 俄罗斯_13
   - 美国_14
   - 美国_15
+  - 俄罗斯_14
   - 美国_16
+  - 俄罗斯_15
+  - 俄罗斯_16
+  - 俄罗斯_17
+  - 俄罗斯_18
+  - 俄罗斯_19
+  - 俄罗斯_20
+  - 俄罗斯_21
+  - 俄罗斯_22
   - 美国_17
+  - 俄罗斯_23
+  - 俄罗斯_24
   - 美国_18
   - 美国_19
-  - 俄罗斯_12
+  - 俄罗斯_25
+  - 俄罗斯_26
+  - 希腊_4
+  - 俄罗斯_27
+  - 俄罗斯_28
   - 美国_20
-  - 俄罗斯_13
-  - 俄罗斯_14
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
+  - 俄罗斯_29
+  - 俄罗斯_30
   - 美国_25
-  - 美国_26
-  - 美国_27
-  - 俄罗斯_15
-  - 俄罗斯_16
-  - SG
-  - 台湾_1
-  - 台湾_2
-  - 台湾_3
-  - 台湾_4
-  - 台湾_5
-  - 台湾_6
-  - 台湾_7
-  - 台湾_8
-  - 台湾_9
-  - 台湾_10
-  - 台湾_11
-  - 台湾_12
-  - 美国_28
-  - 台湾_13
-  - US_3
-  - US_4
-  - US_5
+  - 【YouTube-由零开始】_1
+  - 【YouTube-由零开始】_2
+  - 【YouTube-由零开始】_3
+  - 【YouTube-由零开始】_4
+  - 【YouTube-由零开始】_5
   - 香港_1
-  - US_6
-  - us
   - 香港_2
-  - 美国_29
+  - 美国_26
   - 香港_3
   - 香港_4
-  - 台湾_14
-  - 美国_30
-  - 台湾_15
-  - 台湾_16
   - 香港_5
-  - 美国_31
-  - 美国_32
   - 香港_6
   - 香港_7
-  - 新加坡
   - 香港_8
+  - 美国_27
+  - us
+  - US_1
+  - US_2
+  - US_3
+  - US_4
+  - 美国_28
+  - 美国_29
+  - 美国_30
   - 香港_9
+  - 香港_10
+  - 香港_11
+  - 美国_31
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 美国_32
   - 美国_33
   - 美国_34
   - 美国_35
   - 美国_36
   - 美国_37
   - 美国_38
+  - 美国_39
+  - 美国_40
+  - 美国_41
+  - 美国_42
+  - 美国_43
+  - 美国_44
+  - 美国_45
+  - 美国_46
+  - 美国_47
+  - 美国_48
+  - 美国_49
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1128,401 +1369,449 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 意大利_1
-  - 意大利_2
-  - 俄罗斯_1
-  - 意大利_3
-  - US_1
   - 美国_1
-  - US_2
   - 美国_2
   - 美国_3
   - 美国_4
   - 美国_5
-  - 意大利_4
   - 美国_6
   - 美国_7
-  - 希腊_1
-  - 希腊_2
-  - 俄罗斯_2
-  - 希腊_3
-  - 俄罗斯_3
   - 美国_8
+  - 希腊_1
+  - 美国_9
+  - 希腊_2
+  - 希腊_3
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 俄罗斯_4
   - 俄罗斯_5
   - 俄罗斯_6
   - 俄罗斯_7
   - 俄罗斯_8
-  - 美国_9
+  - 美国_10
+  - 美国_11
   - 俄罗斯_9
   - 俄罗斯_10
-  - 美国_10
-  - 俄罗斯_11
-  - 美国_11
   - 美国_12
+  - 俄罗斯_11
+  - 俄罗斯_12
   - 美国_13
+  - 俄罗斯_13
   - 美国_14
   - 美国_15
+  - 俄罗斯_14
   - 美国_16
+  - 俄罗斯_15
+  - 俄罗斯_16
+  - 俄罗斯_17
+  - 俄罗斯_18
+  - 俄罗斯_19
+  - 俄罗斯_20
+  - 俄罗斯_21
+  - 俄罗斯_22
   - 美国_17
+  - 俄罗斯_23
+  - 俄罗斯_24
   - 美国_18
   - 美国_19
-  - 俄罗斯_12
+  - 俄罗斯_25
+  - 俄罗斯_26
+  - 希腊_4
+  - 俄罗斯_27
+  - 俄罗斯_28
   - 美国_20
-  - 俄罗斯_13
-  - 俄罗斯_14
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
+  - 俄罗斯_29
+  - 俄罗斯_30
   - 美国_25
-  - 美国_26
-  - 美国_27
-  - 俄罗斯_15
-  - 俄罗斯_16
-  - SG
-  - 台湾_1
-  - 台湾_2
-  - 台湾_3
-  - 台湾_4
-  - 台湾_5
-  - 台湾_6
-  - 台湾_7
-  - 台湾_8
-  - 台湾_9
-  - 台湾_10
-  - 台湾_11
-  - 台湾_12
-  - 美国_28
-  - 台湾_13
-  - US_3
-  - US_4
-  - US_5
+  - 【YouTube-由零开始】_1
+  - 【YouTube-由零开始】_2
+  - 【YouTube-由零开始】_3
+  - 【YouTube-由零开始】_4
+  - 【YouTube-由零开始】_5
   - 香港_1
-  - US_6
-  - us
   - 香港_2
-  - 美国_29
+  - 美国_26
   - 香港_3
   - 香港_4
-  - 台湾_14
-  - 美国_30
-  - 台湾_15
-  - 台湾_16
   - 香港_5
-  - 美国_31
-  - 美国_32
   - 香港_6
   - 香港_7
-  - 新加坡
   - 香港_8
+  - 美国_27
+  - us
+  - US_1
+  - US_2
+  - US_3
+  - US_4
+  - 美国_28
+  - 美国_29
+  - 美国_30
   - 香港_9
+  - 香港_10
+  - 香港_11
+  - 美国_31
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 美国_32
   - 美国_33
   - 美国_34
   - 美国_35
   - 美国_36
   - 美国_37
   - 美国_38
+  - 美国_39
+  - 美国_40
+  - 美国_41
+  - 美国_42
+  - 美国_43
+  - 美国_44
+  - 美国_45
+  - 美国_46
+  - 美国_47
+  - 美国_48
+  - 美国_49
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 意大利_1
-  - 意大利_2
-  - 俄罗斯_1
-  - 意大利_3
-  - US_1
   - 美国_1
-  - US_2
   - 美国_2
   - 美国_3
   - 美国_4
   - 美国_5
-  - 意大利_4
   - 美国_6
   - 美国_7
-  - 希腊_1
-  - 希腊_2
-  - 俄罗斯_2
-  - 希腊_3
-  - 俄罗斯_3
   - 美国_8
+  - 希腊_1
+  - 美国_9
+  - 希腊_2
+  - 希腊_3
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 俄罗斯_4
   - 俄罗斯_5
   - 俄罗斯_6
   - 俄罗斯_7
   - 俄罗斯_8
-  - 美国_9
+  - 美国_10
+  - 美国_11
   - 俄罗斯_9
   - 俄罗斯_10
-  - 美国_10
-  - 俄罗斯_11
-  - 美国_11
   - 美国_12
+  - 俄罗斯_11
+  - 俄罗斯_12
   - 美国_13
+  - 俄罗斯_13
   - 美国_14
   - 美国_15
+  - 俄罗斯_14
   - 美国_16
+  - 俄罗斯_15
+  - 俄罗斯_16
+  - 俄罗斯_17
+  - 俄罗斯_18
+  - 俄罗斯_19
+  - 俄罗斯_20
+  - 俄罗斯_21
+  - 俄罗斯_22
   - 美国_17
+  - 俄罗斯_23
+  - 俄罗斯_24
   - 美国_18
   - 美国_19
-  - 俄罗斯_12
+  - 俄罗斯_25
+  - 俄罗斯_26
+  - 希腊_4
+  - 俄罗斯_27
+  - 俄罗斯_28
   - 美国_20
-  - 俄罗斯_13
-  - 俄罗斯_14
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
+  - 俄罗斯_29
+  - 俄罗斯_30
   - 美国_25
-  - 美国_26
-  - 美国_27
-  - 俄罗斯_15
-  - 俄罗斯_16
-  - SG
-  - 台湾_1
-  - 台湾_2
-  - 台湾_3
-  - 台湾_4
-  - 台湾_5
-  - 台湾_6
-  - 台湾_7
-  - 台湾_8
-  - 台湾_9
-  - 台湾_10
-  - 台湾_11
-  - 台湾_12
-  - 美国_28
-  - 台湾_13
-  - US_3
-  - US_4
-  - US_5
+  - 【YouTube-由零开始】_1
+  - 【YouTube-由零开始】_2
+  - 【YouTube-由零开始】_3
+  - 【YouTube-由零开始】_4
+  - 【YouTube-由零开始】_5
   - 香港_1
-  - US_6
-  - us
   - 香港_2
-  - 美国_29
+  - 美国_26
   - 香港_3
   - 香港_4
-  - 台湾_14
-  - 美国_30
-  - 台湾_15
-  - 台湾_16
   - 香港_5
-  - 美国_31
-  - 美国_32
   - 香港_6
   - 香港_7
-  - 新加坡
   - 香港_8
+  - 美国_27
+  - us
+  - US_1
+  - US_2
+  - US_3
+  - US_4
+  - 美国_28
+  - 美国_29
+  - 美国_30
   - 香港_9
+  - 香港_10
+  - 香港_11
+  - 美国_31
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 美国_32
   - 美国_33
   - 美国_34
   - 美国_35
   - 美国_36
   - 美国_37
   - 美国_38
+  - 美国_39
+  - 美国_40
+  - 美国_41
+  - 美国_42
+  - 美国_43
+  - 美国_44
+  - 美国_45
+  - 美国_46
+  - 美国_47
+  - 美国_48
+  - 美国_49
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 意大利_1
-  - 意大利_2
-  - 俄罗斯_1
-  - 意大利_3
-  - US_1
   - 美国_1
-  - US_2
   - 美国_2
   - 美国_3
   - 美国_4
   - 美国_5
-  - 意大利_4
   - 美国_6
   - 美国_7
-  - 希腊_1
-  - 希腊_2
-  - 俄罗斯_2
-  - 希腊_3
-  - 俄罗斯_3
   - 美国_8
+  - 希腊_1
+  - 美国_9
+  - 希腊_2
+  - 希腊_3
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 俄罗斯_4
   - 俄罗斯_5
   - 俄罗斯_6
   - 俄罗斯_7
   - 俄罗斯_8
-  - 美国_9
+  - 美国_10
+  - 美国_11
   - 俄罗斯_9
   - 俄罗斯_10
-  - 美国_10
-  - 俄罗斯_11
-  - 美国_11
   - 美国_12
+  - 俄罗斯_11
+  - 俄罗斯_12
   - 美国_13
+  - 俄罗斯_13
   - 美国_14
   - 美国_15
+  - 俄罗斯_14
   - 美国_16
+  - 俄罗斯_15
+  - 俄罗斯_16
+  - 俄罗斯_17
+  - 俄罗斯_18
+  - 俄罗斯_19
+  - 俄罗斯_20
+  - 俄罗斯_21
+  - 俄罗斯_22
   - 美国_17
+  - 俄罗斯_23
+  - 俄罗斯_24
   - 美国_18
   - 美国_19
-  - 俄罗斯_12
+  - 俄罗斯_25
+  - 俄罗斯_26
+  - 希腊_4
+  - 俄罗斯_27
+  - 俄罗斯_28
   - 美国_20
-  - 俄罗斯_13
-  - 俄罗斯_14
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
+  - 俄罗斯_29
+  - 俄罗斯_30
   - 美国_25
-  - 美国_26
-  - 美国_27
-  - 俄罗斯_15
-  - 俄罗斯_16
-  - SG
-  - 台湾_1
-  - 台湾_2
-  - 台湾_3
-  - 台湾_4
-  - 台湾_5
-  - 台湾_6
-  - 台湾_7
-  - 台湾_8
-  - 台湾_9
-  - 台湾_10
-  - 台湾_11
-  - 台湾_12
-  - 美国_28
-  - 台湾_13
-  - US_3
-  - US_4
-  - US_5
+  - 【YouTube-由零开始】_1
+  - 【YouTube-由零开始】_2
+  - 【YouTube-由零开始】_3
+  - 【YouTube-由零开始】_4
+  - 【YouTube-由零开始】_5
   - 香港_1
-  - US_6
-  - us
   - 香港_2
-  - 美国_29
+  - 美国_26
   - 香港_3
   - 香港_4
-  - 台湾_14
-  - 美国_30
-  - 台湾_15
-  - 台湾_16
   - 香港_5
-  - 美国_31
-  - 美国_32
   - 香港_6
   - 香港_7
-  - 新加坡
   - 香港_8
+  - 美国_27
+  - us
+  - US_1
+  - US_2
+  - US_3
+  - US_4
+  - 美国_28
+  - 美国_29
+  - 美国_30
   - 香港_9
+  - 香港_10
+  - 香港_11
+  - 美国_31
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 美国_32
   - 美国_33
   - 美国_34
   - 美国_35
   - 美国_36
   - 美国_37
   - 美国_38
+  - 美国_39
+  - 美国_40
+  - 美国_41
+  - 美国_42
+  - 美国_43
+  - 美国_44
+  - 美国_45
+  - 美国_46
+  - 美国_47
+  - 美国_48
+  - 美国_49
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 意大利_1
-  - 意大利_2
-  - 俄罗斯_1
-  - 意大利_3
-  - US_1
   - 美国_1
-  - US_2
   - 美国_2
   - 美国_3
   - 美国_4
   - 美国_5
-  - 意大利_4
   - 美国_6
   - 美国_7
-  - 希腊_1
-  - 希腊_2
-  - 俄罗斯_2
-  - 希腊_3
-  - 俄罗斯_3
   - 美国_8
+  - 希腊_1
+  - 美国_9
+  - 希腊_2
+  - 希腊_3
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 俄罗斯_4
   - 俄罗斯_5
   - 俄罗斯_6
   - 俄罗斯_7
   - 俄罗斯_8
-  - 美国_9
+  - 美国_10
+  - 美国_11
   - 俄罗斯_9
   - 俄罗斯_10
-  - 美国_10
-  - 俄罗斯_11
-  - 美国_11
   - 美国_12
+  - 俄罗斯_11
+  - 俄罗斯_12
   - 美国_13
+  - 俄罗斯_13
   - 美国_14
   - 美国_15
+  - 俄罗斯_14
   - 美国_16
+  - 俄罗斯_15
+  - 俄罗斯_16
+  - 俄罗斯_17
+  - 俄罗斯_18
+  - 俄罗斯_19
+  - 俄罗斯_20
+  - 俄罗斯_21
+  - 俄罗斯_22
   - 美国_17
+  - 俄罗斯_23
+  - 俄罗斯_24
   - 美国_18
   - 美国_19
-  - 俄罗斯_12
+  - 俄罗斯_25
+  - 俄罗斯_26
+  - 希腊_4
+  - 俄罗斯_27
+  - 俄罗斯_28
   - 美国_20
-  - 俄罗斯_13
-  - 俄罗斯_14
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
+  - 俄罗斯_29
+  - 俄罗斯_30
   - 美国_25
-  - 美国_26
-  - 美国_27
-  - 俄罗斯_15
-  - 俄罗斯_16
-  - SG
-  - 台湾_1
-  - 台湾_2
-  - 台湾_3
-  - 台湾_4
-  - 台湾_5
-  - 台湾_6
-  - 台湾_7
-  - 台湾_8
-  - 台湾_9
-  - 台湾_10
-  - 台湾_11
-  - 台湾_12
-  - 美国_28
-  - 台湾_13
-  - US_3
-  - US_4
-  - US_5
+  - 【YouTube-由零开始】_1
+  - 【YouTube-由零开始】_2
+  - 【YouTube-由零开始】_3
+  - 【YouTube-由零开始】_4
+  - 【YouTube-由零开始】_5
   - 香港_1
-  - US_6
-  - us
   - 香港_2
-  - 美国_29
+  - 美国_26
   - 香港_3
   - 香港_4
-  - 台湾_14
-  - 美国_30
-  - 台湾_15
-  - 台湾_16
   - 香港_5
-  - 美国_31
-  - 美国_32
   - 香港_6
   - 香港_7
-  - 新加坡
   - 香港_8
+  - 美国_27
+  - us
+  - US_1
+  - US_2
+  - US_3
+  - US_4
+  - 美国_28
+  - 美国_29
+  - 美国_30
   - 香港_9
+  - 香港_10
+  - 香港_11
+  - 美国_31
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 美国_32
   - 美国_33
   - 美国_34
   - 美国_35
   - 美国_36
   - 美国_37
   - 美国_38
+  - 美国_39
+  - 美国_40
+  - 美国_41
+  - 美国_42
+  - 美国_43
+  - 美国_44
+  - 美国_45
+  - 美国_46
+  - 美国_47
+  - 美国_48
+  - 美国_49
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1545,101 +1834,113 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 意大利_1
-  - 意大利_2
-  - 俄罗斯_1
-  - 意大利_3
-  - US_1
   - 美国_1
-  - US_2
   - 美国_2
   - 美国_3
   - 美国_4
   - 美国_5
-  - 意大利_4
   - 美国_6
   - 美国_7
-  - 希腊_1
-  - 希腊_2
-  - 俄罗斯_2
-  - 希腊_3
-  - 俄罗斯_3
   - 美国_8
+  - 希腊_1
+  - 美国_9
+  - 希腊_2
+  - 希腊_3
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 俄罗斯_4
   - 俄罗斯_5
   - 俄罗斯_6
   - 俄罗斯_7
   - 俄罗斯_8
-  - 美国_9
+  - 美国_10
+  - 美国_11
   - 俄罗斯_9
   - 俄罗斯_10
-  - 美国_10
-  - 俄罗斯_11
-  - 美国_11
   - 美国_12
+  - 俄罗斯_11
+  - 俄罗斯_12
   - 美国_13
+  - 俄罗斯_13
   - 美国_14
   - 美国_15
+  - 俄罗斯_14
   - 美国_16
+  - 俄罗斯_15
+  - 俄罗斯_16
+  - 俄罗斯_17
+  - 俄罗斯_18
+  - 俄罗斯_19
+  - 俄罗斯_20
+  - 俄罗斯_21
+  - 俄罗斯_22
   - 美国_17
+  - 俄罗斯_23
+  - 俄罗斯_24
   - 美国_18
   - 美国_19
-  - 俄罗斯_12
+  - 俄罗斯_25
+  - 俄罗斯_26
+  - 希腊_4
+  - 俄罗斯_27
+  - 俄罗斯_28
   - 美国_20
-  - 俄罗斯_13
-  - 俄罗斯_14
   - 美国_21
   - 美国_22
   - 美国_23
   - 美国_24
+  - 俄罗斯_29
+  - 俄罗斯_30
   - 美国_25
-  - 美国_26
-  - 美国_27
-  - 俄罗斯_15
-  - 俄罗斯_16
-  - SG
-  - 台湾_1
-  - 台湾_2
-  - 台湾_3
-  - 台湾_4
-  - 台湾_5
-  - 台湾_6
-  - 台湾_7
-  - 台湾_8
-  - 台湾_9
-  - 台湾_10
-  - 台湾_11
-  - 台湾_12
-  - 美国_28
-  - 台湾_13
-  - US_3
-  - US_4
-  - US_5
+  - 【YouTube-由零开始】_1
+  - 【YouTube-由零开始】_2
+  - 【YouTube-由零开始】_3
+  - 【YouTube-由零开始】_4
+  - 【YouTube-由零开始】_5
   - 香港_1
-  - US_6
-  - us
   - 香港_2
-  - 美国_29
+  - 美国_26
   - 香港_3
   - 香港_4
-  - 台湾_14
-  - 美国_30
-  - 台湾_15
-  - 台湾_16
   - 香港_5
-  - 美国_31
-  - 美国_32
   - 香港_6
   - 香港_7
-  - 新加坡
   - 香港_8
+  - 美国_27
+  - us
+  - US_1
+  - US_2
+  - US_3
+  - US_4
+  - 美国_28
+  - 美国_29
+  - 美国_30
   - 香港_9
+  - 香港_10
+  - 香港_11
+  - 美国_31
+  - 香港_12
+  - 香港_13
+  - 香港_14
+  - 美国_32
   - 美国_33
   - 美国_34
   - 美国_35
   - 美国_36
   - 美国_37
   - 美国_38
+  - 美国_39
+  - 美国_40
+  - 美国_41
+  - 美国_42
+  - 美国_43
+  - 美国_44
+  - 美国_45
+  - 美国_46
+  - 美国_47
+  - 美国_48
+  - 美国_49
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
