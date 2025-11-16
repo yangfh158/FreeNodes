@@ -10,10 +10,10 @@
   },
   "blues": {
     "start_url": "https://blues2022.blogspot.com",
-    "up_date": "2025-11-15",
+    "up_date": "2025-11-16",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://ylks.tt2000.sbs/[^<>\\r\\n]+",
-    "password": "5588",
+    "password": "0011",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
