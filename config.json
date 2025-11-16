@@ -52,7 +52,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2025-11-15",
+    "up_date": "2025-11-16",
     "selector": "a[class='text-reset']",
     "pattern": "https?://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
