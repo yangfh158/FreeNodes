@@ -10,10 +10,10 @@
   },
   "blues": {
     "start_url": "https://blues2022.blogspot.com",
-    "up_date": "2025-11-23",
+    "up_date": "2025-11-24",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://ylks.tt2000.sbs/[^<>\\r\\n]+",
-    "password": "0000",
+    "password": "1155",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -64,7 +64,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode/",
-    "up_date": "2025-11-24",
+    "up_date": "2025-11-25",
     "selector": "a[class='post_def_left']",
     "pattern": "https?://oneclash.githubrowcontent.com/[^<>\\r\\n]+"
   }
