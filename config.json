@@ -40,7 +40,7 @@
   },
   "ndnode": {
     "start_url": "https://www.naidounode.com/freenode/",
-    "up_date": "2025-11-27",
+    "up_date": "2025-11-28",
     "selector": "a[class='text-reset']",
     "pattern": "https?://naidounode.cczzuu.top/node/[^<>\\r\\n]+"
   },
