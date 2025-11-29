@@ -4,850 +4,8 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇨🇳_CN_中国
-  network: tcp
-  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
-  port: 5223
-  server: hk3.t.sgateway.link
-  skip-cert-verify: true
-  sni: pod-hk-z1.psusercontent.com
-  type: trojan
-  udp: true
-- name: 香港_1
-  network: tcp
-  password: 92690597d6298061459918a371e8d77d
-  port: 443
-  server: 47.242.225.242
-  skip-cert-verify: true
-  sni: hezijiasuqi.com
-  type: trojan
-  udp: true
-- name: 香港_2
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  sni: 112.120.31.179
-  type: trojan
-  udp: true
-- name: 香港_3
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: 58.152.53.8
-  type: trojan
-  udp: true
-- name: 香港_4
-  network: tcp
-  password: fg20mtCFHy
-  port: 5903
-  server: hkucy.zippydeal.xyz
-  skip-cert-verify: true
-  sni: hkucy.zippydeal.xyz
-  type: trojan
-  udp: true
-- name: 香港_5
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 香港_6
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.179
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 香港_7
-  network: tcp
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 443
-  server: 58.152.110.120
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
-- name: 香港_8
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: 香港_9
-  network: tcp
-  password: fg20mtCFHy
-  port: 5903
-  server: hkucy.zippydeal.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 香港_10
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.53.8
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 西班牙
-  network: ws
-  password: fa115af5-0647-4549-acd9-5166695ea2de
-  port: 2053
-  server: 185.114.72.31
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/185.114.72.31=2053
-- name: 土耳其_1
-  network: ws
-  password: f311aff6-6cd2-4d62-8765-25d879b2516a
-  port: 24443
-  server: 83.217.9.110
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/83.217.9.110=24443
-- name: 瑞典_1
-  network: ws
-  password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
-  port: 2053
-  server: 95.182.120.208
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
-- name: 瑞典_2
-  network: ws
-  password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
-  port: 2053
-  server: 95.182.120.208
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
-- name: 美国_1
-  network: ws
-  password: bb824a22-b7ce-427b-9ed6-1adf0751da02
-  port: 443
-  server: 107.174.82.102.sslip.io
-  skip-cert-verify: true
-  sni: 107.174.82.102.sslip.io
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 107.174.82.102.sslip.io
-    path: /gXKGj8a1tp1nNbZEcRugowKV
-- name: 美国_2
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461828427.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461822437.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_3
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17642202688998.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642202685806.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_4
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461823728.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461824212.206355.xyz
-    path: /videomuaawe
-- name: 美国_5
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17642202684963.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642202683798.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_6
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461827377.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461826370.206355.xyz
-    path: /videomuaawe
-- name: 美国_7
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461824798.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461824883.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_8
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461822530.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461821961.206355.xyz
-    path: /videomuaawe
-- name: 美国_9
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17642202681410.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642202689185.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_10
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642202685713.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642202685910.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_11
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2053
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642202687785.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642202687806.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_12
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461821965.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461825657.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_13
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461821986.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461828488.206355.xyz
-    path: /videomuaawe
-- name: 美国_14
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461823271.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461821128.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_15
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461826563.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461828912.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_16
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461828265.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461825011.206355.xyz
-    path: /videomuaawe
-- name: 美国_17
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2053
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461821895.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461827530.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_18
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17642202687941.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642202684234.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_19
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642202687386.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642202682006.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_20
-  network: ws
-  password: 0e08c130-7574-493c-a935-07a53fe58f9f
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17641461825177.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17641461826653.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_21
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248834136.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248831292.796813.xyz
-    path: /agrbniuh
-- name: 美国_22
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248839362.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248836052.796813.xyz
-    path: /agrbniuh
-- name: 美国_23
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248839247.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248837784.796813.xyz
-    path: /agrbniuh
-- name: 美国_24
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2087
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248839754.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248832945.796813.xyz
-    path: /agrbniuh
-- name: 美国_25
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248838279.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248834542.796813.xyz
-    path: /agrbniuh
-- name: 美国_26
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248839786.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248831762.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_27
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248834728.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248831888.796813.xyz
-    path: /agrbniuh
-- name: 美国_28
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2053
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248832420.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248837965.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_29
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2053
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248831496.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248839294.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_30
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2096
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248832011.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248831385.796813.xyz
-    path: /agrbniuh
-- name: 美国_31
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2087
-  server: bestcdn1.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248838532.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248836006.206355.xyz
-    path: /videomuaawe
-- name: 美国_32
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2083
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248838279.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248832072.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_33
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2087
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248832844.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248832676.796813.xyz
-    path: /agrbniuh
-- name: 美国_34
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2096
-  server: bestcdn2.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248837494.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248836897.206355.xyz
-    path: /videomuaawe
-- name: 美国_35
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2087
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248835602.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248836348.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_36
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2083
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248832588.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248833350.796813.xyz
-    path: /agrbniuh
-- name: 美国_37
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2053
-  server: bestcdn3.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248833842.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248838768.206355.xyz
-    path: /videomuaawe
-- name: 美国_38
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2096
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248833097.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248835439.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_39
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 8443
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248839907.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248839176.796813.xyz
-    path: /agrbniuh
-- name: 美国_40
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2083
-  server: bestcdn4.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248834335.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248835909.206355.xyz
-    path: /videomuaawe
-- name: 美国_41
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248834476.796812.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248839359.796812.xyz
-    path: /agraeabtegrrh
-- name: 美国_42
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 2053
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248832331.796813.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248832321.796813.xyz
-    path: /agrbniuh
-- name: 美国_43
-  network: ws
-  password: b8fc461c-4a96-422c-a2ed-dba1c0b50b14
-  port: 8443
-  server: bestcdn5.868863.xyz
-  skip-cert-verify: true
-  sni: 17642248833040.206355.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: 17642248836915.206355.xyz
-    path: /videomuaawe
-- name: 加拿大_1
-  network: tcp
-  password: fg20mtCFHy
-  port: 5706
-  server: cauyt.zippydeal.xyz
-  skip-cert-verify: true
-  sni: cauyt.zippydeal.xyz
-  type: trojan
-  udp: true
-- name: 加拿大_2
-  network: tcp
-  password: fg20mtCFHy
-  port: 5706
-  server: cauyt.zippydeal.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 荷兰_1
-  network: ws
-  password: ff022848-4fb7-465a-9e6f-756d3dfc2c6a
-  port: 443
-  server: 45.83.20.29
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/45.83.20.29=443
-- name: 荷兰_2
-  network: ws
-  password: ff022848-4fb7-465a-9e6f-756d3dfc2c6a
-  port: 443
-  server: 45.83.20.29
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /Free-VPN-CF-Geo-Project/45.83.20.29=443
-- name: 法国
-  network: ws
-  password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
-  port: 2053
-  server: 141.94.222.214
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
-- name: 俄罗斯_1
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: 37.18.14.33
-  type: trojan
-  udp: true
-- name: 俄罗斯_2
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 俄罗斯_3
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: sun9-101.userapi.com
-  type: trojan
-  udp: true
-- name: 俄罗斯_4
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: sun6-22.userapi.com
-  type: trojan
-  udp: true
-- name: 俄罗斯_5
-  network: tcp
-  password: Qzy7tgpRhu
-  port: 443
-  server: 37.18.14.33
-  skip-cert-verify: true
-  sni: m.vk.com
-  type: trojan
-  udp: true
-- name: 德国_1
-  network: ws
-  password: a25e963f-8f68-4b28-8c11-5d721f616434
-  port: 443
-  server: 62.60.246.168
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/62.60.246.168=443
-- name: 丹麦
-  network: ws
-  password: de3bc763-2fc6-46aa-aec7-a52a0d1c0550
-  port: 8443
-  server: 38.180.72.65
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/38.180.72.65=8443
-- name: 波兰
-  network: ws
-  password: 823f57d2-d271-48a6-859e-d041179e1c6b
-  port: 8443
-  server: 145.239.88.255
-  skip-cert-verify: true
-  sni: joss.gpj.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: joss.gpj.web.id
-    path: /Free-VPN-CF-Geo-Project/145.239.88.255=8443
 - flow: xtls-rprx-vision
-  name: 美国_44
+  name: 美国_1
   network: tcp
   port: 443
   server: latin.valorweb.tech
@@ -884,7 +42,7 @@ proxies:
   type: vless
   udp: true
   uuid: d7fbe279896e40118c23d15fe537dddd
-- name: 香港_11
+- name: 香港_1
   network: ws
   port: 443
   server: n1761184282.74qxv.top
@@ -904,7 +62,7 @@ proxies:
   skip-cert-verify: true
   type: vless
   uuid: 75b55ef6-7a78-4020-8540-df4e1a533895
-- name: 土耳其_2
+- name: 土耳其_1
   network: tcp
   port: 40721
   server: 188.253.21.154
@@ -914,7 +72,7 @@ proxies:
   type: vless
   udp: true
   uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
-- name: 日本
+- name: 日本_1
   network: tcp
   port: 443
   server: 47.245.38.111
@@ -924,92 +82,14 @@ proxies:
   type: vless
   udp: true
   uuid: 86b414b6-966e-4f6d-ab16-32049ef732d3
-- flow: xtls-rprx-vision
-  name: 摩尔多瓦
-  network: tcp
-  port: 443
-  server: 178.17.51.244
-  servername: firebase.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
-- name: 美国_45
-  network: ws
-  port: 2083
-  server: www.speedtest.net
-  servername: golestan.hajalwi.ir.
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fcf07a3-a8ed-446b-acf5-2bb9ade31318
-  ws-opts:
-    headers:
-      host: golestan.hajalwi.ir.
-    path: /---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN---Golestanv_VPN?ed=8080
-- name: 美国_46
-  network: ws
-  port: 443
-  server: brenna.ns.cloudflare.com
-  servername: 638996620466180706.passat-amsih.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65a9530f-4a4e-4db1-9689-9213385e9dfb
-  ws-opts:
-    headers:
-      host: 638996620466180706.passat-amsih.info
-    path: /dweubbws
-- name: 美国_47
-  network: ws
-  port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: 638996735062000656.highlander-amsih.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2000ec36-ee09-40a3-8d37-ca5de1040b5d
-  ws-opts:
-    headers:
-      host: 638996735062000656.highlander-amsih.info
-    path: /brxigzws
-- name: 美国_48
-  network: ws
-  port: 443
-  server: brenna.ns.cloudflare.com
-  servername: 638996620466180706.passat-amsih.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65a9530f-4a4e-4db1-9689-9213385e9dfb
-  ws-opts:
-    headers:
-      host: 638996620466180706.passat-amsih.info
-    path: /dweubbws
-- flow: xtls-rprx-vision
-  name: 美国_49
-  network: tcp
-  port: 443
-  server: 144.31.18.7
-  servername: www.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: b127d2d2-277a-491e-bf80-2e8688fa85e2
-- name: 美国_50
+- name: 美国_2
   port: 33887
   server: 212.129.2.4
   skip-cert-verify: true
   type: vless
   uuid: 33610372-fefc-456f-a3f2-5d65a48805ab
 - flow: xtls-rprx-vision
-  name: 荷兰_3
+  name: 荷兰_1
   network: tcp
   port: 10001
   server: 85.208.104.42
@@ -1073,47 +153,8 @@ proxies:
   type: vless
   udp: true
   uuid: 3b4d1c7f-4fd7-45bb-9251-79cd53a3e006
-- name: 俄罗斯_6
-  network: ws
-  port: 9443
-  server: ru.ufavpn.ru
-  servername: ger.ufavpn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953bcea6-dd81-4c9a-a20a-053805f48195
-  ws-opts:
-    headers:
-      host: ger.ufavpn.ru
-    path: /update
-- name: 俄罗斯_7
-  network: ws
-  port: 9443
-  server: ru.ufavpn.ru
-  servername: ger.ufavpn.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 953bcea6-dd81-4c9a-a20a-053805f48195
-  ws-opts:
-    headers:
-      host: ger.ufavpn.ru
-    path: /update
 - flow: xtls-rprx-vision
-  name: 俄罗斯_8
-  network: tcp
-  port: 8080
-  server: 46.3.46.40
-  servername: swdist.apple.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 1e503e46-5ab8-4f79-8cd1-73bac4bcd102
-- flow: xtls-rprx-vision
-  name: 俄罗斯_9
+  name: 俄罗斯_1
   network: tcp
   port: 443
   server: 77.110.119.225
@@ -1124,7 +165,7 @@ proxies:
   udp: true
   uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
 - flow: xtls-rprx-vision
-  name: 俄罗斯_10
+  name: 俄罗斯_2
   network: tcp
   port: 443
   server: 77.110.119.225
@@ -1134,7 +175,7 @@ proxies:
   type: vless
   udp: true
   uuid: 4819860c-0e62-4804-9c59-967e5c2bed7a
-- name: 俄罗斯_11
+- name: 俄罗斯_3
   network: tcp
   port: 34045
   server: 195.211.124.230
@@ -2646,7 +1687,7 @@ proxies:
   uuid: 9d847ad3-1896-48f9-b89c-13fe345e2bff
 - grpc-opts:
     grpc-service-name: xyz
-  name: 德国_2
+  name: 德国_1
   network: grpc
   port: 443
   server: 217.13.111.94
@@ -2658,7 +1699,7 @@ proxies:
   uuid: 4a6de183-2ad3-456c-b420-feeac81f6257
 - grpc-opts:
     grpc-service-name: 78e691d782c9b9b2cd3c5621
-  name: 德国_3
+  name: 德国_2
   network: grpc
   port: 443
   server: 194.61.31.126
@@ -2679,109 +1720,716 @@ proxies:
   type: vless
   udp: true
   uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇩🇰DK_1|⬇️5.0MB/s
+  network: grpc
+  port: 56089
+  server: 141.227.172.96
+  servername: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d535288-d08e-4de4-b674-fd8cb3c6e4d3
+- flow: xtls-rprx-vision
+  name: 🇷🇺RU_4|⬇️7.1MB/s
+  network: tcp
+  port: 443
+  server: s6.psnreality.ru
+  servername: sun6-21.userapi.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: a899129b-57f8-4141-92c9-a8b62ef71e45
+- flow: xtls-rprx-vision
+  name: 🇫🇷FR_1|⬇️3.5MB/s
+  network: tcp
+  port: 443
+  server: fr.monkeyisland.xyz
+  servername: fr.monkeyisland.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e
+- flow: xtls-rprx-vision
+  name: 🇷🇺RU_2|⬇️4.8MB/s
+  network: tcp
+  port: 443
+  server: russia.whitenet.online
+  servername: vk.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: russia
+- name: 🇺🇸US_43|⬇️3.5MB/s
+  network: tcp
+  port: 29699
+  server: 23.231.65.62
+  servername: images-na.ssl-images-amazon.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 1c9a779a-4ef9-47cf-bc9e-2dd39ba390ad
+- flow: xtls-rprx-vision
+  name: 🇩🇪DE_2|⬇️1.7MB/s
+  network: tcp
+  port: 443
+  server: at.monkeyisland.xyz
+  servername: at.monkeyisland.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6184fcfb-52e0-40bb-a271-bbd097b70a8e
+- flow: xtls-rprx-vision
+  name: 🇸🇪SE_1|⬇️2.5MB/s
+  network: tcp
+  port: 443
+  server: 45.82.13.70
+  servername: alb-2.capybara.press
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3018fe04-9cd6-4b71-910d-211b62ce6b1c
+- flow: xtls-rprx-vision
+  name: 🇷🇺RU_1|⬇️3.2MB/s
+  network: tcp
+  port: 443
+  server: ru01-blh02.tcp-reset-club.net
+  servername: www.kinopoisk.ru
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3b4d1c7f-4fd7-45bb-9251-79cd53a3e006
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 🇧🇬BG_1|⬇️4.5MB/s
+  network: grpc
+  port: 34717
+  server: 141.227.178.176
+  servername: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19650ff0-e51f-49e1-88b4-d902865c6a99
+- name: 🇺🇸US_26|⬇️7.1MB/s
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a92687c6-b991-418a-8e2e-3b455bfc1959
+  ws-opts:
+    headers:
+      host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+- name: 🇺🇸US_25|⬇️6.1MB/s
+  network: ws
+  port: 80
+  server: 172.66.156.81
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: a92687c6-b991-418a-8e2e-3b455bfc1959
+  ws-opts:
+    headers:
+      host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+- flow: xtls-rprx-vision
+  name: 🇱🇻LV_1|⬇️1.8MB/s
+  network: tcp
+  port: 443
+  server: 188.253.21.154
+  servername: mirror.veesp.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 3f162dc9-28f6-44be-96ba-291105acc861
+- name: 日本_2
+  network: ws
+  port: 443
+  server: 45.83.22.118
+  servername: zula.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6a6f5102-de1b-4513-bde9-07d22d4889d5
+  ws-opts:
+    headers:
+      host: zula.ir
+    path: /ws
+- name: 🇫🇮FI_2|⬇️2.7MB/s
+  network: ws
+  port: 443
+  server: axe.soyet2j.ir
+  servername: menu.gejeh683bm.ir
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: fccd4911-639e-4e7c-87cc-0e1de71b20a6
+  ws-opts:
+    headers:
+      host: menu.gejeh683bm.ir
+    path: /77d76f3d-5da8-4198-b5d2-9634d3059ad0
+- name: 🇸🇬SG_2|⬇️3.0MB/s
+  network: ws
+  port: 80
+  server: free.tharuwa.store
+  servername: zoom.us
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1bcfabf7-c143-4dab-989b-2b663e7e69c8
+  ws-opts:
+    headers:
+      host: zoom.us
+    path: /FREE By Tharuwa (0767597317)
+- flow: xtls-rprx-vision
+  name: 🇮🇱IL_1|⬇️3.2MB/s
+  network: tcp
+  port: 443
+  server: ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz
+  servername: i2pd.website
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 0e8a6896-ad90-4a3b-89a3-77d64aa409e2
+- name: 加拿大_1
+  port: 443
+  server: 151.101.195.6
+  skip-cert-verify: true
+  type: vless
+  uuid: 97b2cd5b-b98d-494f-8f97-3a06e8c1bbd2
+- flow: xtls-rprx-vision
+  name: 🇹🇷TR_1|⬇️4.3MB/s
+  network: tcp
+  port: 31374
+  server: napanel.mreza1088.com
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  udp: true
+  uuid: 94bbcfcc-fd3c-4bf7-a23c-95713854707d
+- name: 🇨🇳_CN_中国
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: hk3.t.sgateway.link
+  skip-cert-verify: true
+  sni: pod-hk-z1.psusercontent.com
+  type: trojan
+  udp: true
+- name: 香港_2
+  network: tcp
+  password: 92690597d6298061459918a371e8d77d
+  port: 443
+  server: 47.242.225.242
+  skip-cert-verify: true
+  sni: hezijiasuqi.com
+  type: trojan
+  udp: true
+- name: 香港_3
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: 112.120.31.179
+  type: trojan
+  udp: true
+- name: 香港_4
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: 58.152.53.8
+  type: trojan
+  udp: true
+- name: 香港_5
+  network: tcp
+  password: fg20mtCFHy
+  port: 5903
+  server: hkucy.zippydeal.xyz
+  skip-cert-verify: true
+  sni: hkucy.zippydeal.xyz
+  type: trojan
+  udp: true
+- name: 香港_6
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 香港_7
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_8
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 香港_9
+  network: tcp
+  password: fg20mtCFHy
+  port: 5903
+  server: hkucy.zippydeal.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 香港_10
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 西班牙
+  network: ws
+  password: fa115af5-0647-4549-acd9-5166695ea2de
+  port: 2053
+  server: 185.114.72.31
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/185.114.72.31=2053
+- name: 土耳其_2
+  network: ws
+  password: f311aff6-6cd2-4d62-8765-25d879b2516a
+  port: 24443
+  server: 83.217.9.110
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/83.217.9.110=24443
+- name: 瑞典_1
+  network: ws
+  password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
+  port: 2053
+  server: 95.182.120.208
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
+- name: 瑞典_2
+  network: ws
+  password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
+  port: 2053
+  server: 95.182.120.208
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
+- name: 美国_3
+  network: ws
+  password: bb824a22-b7ce-427b-9ed6-1adf0751da02
+  port: 443
+  server: 107.174.82.102.sslip.io
+  skip-cert-verify: true
+  sni: 107.174.82.102.sslip.io
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 107.174.82.102.sslip.io
+    path: /gXKGj8a1tp1nNbZEcRugowKV
+- name: 加拿大_2
+  network: tcp
+  password: fg20mtCFHy
+  port: 5706
+  server: cauyt.zippydeal.xyz
+  skip-cert-verify: true
+  sni: cauyt.zippydeal.xyz
+  type: trojan
+  udp: true
+- name: 加拿大_3
+  network: tcp
+  password: fg20mtCFHy
+  port: 5706
+  server: cauyt.zippydeal.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 荷兰_2
+  network: ws
+  password: ff022848-4fb7-465a-9e6f-756d3dfc2c6a
+  port: 443
+  server: 45.83.20.29
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/45.83.20.29=443
+- name: 荷兰_3
+  network: ws
+  password: ff022848-4fb7-465a-9e6f-756d3dfc2c6a
+  port: 443
+  server: 45.83.20.29
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /Free-VPN-CF-Geo-Project/45.83.20.29=443
+- name: 法国
+  network: ws
+  password: 17178783-0dd7-4544-bf6b-e0694a1e3da7
+  port: 2053
+  server: 141.94.222.214
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/141.94.222.214=2053
+- name: 德国_3
+  network: ws
+  password: a25e963f-8f68-4b28-8c11-5d721f616434
+  port: 443
+  server: 62.60.246.168
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/62.60.246.168=443
+- name: 丹麦
+  network: ws
+  password: de3bc763-2fc6-46aa-aec7-a52a0d1c0550
+  port: 8443
+  server: 38.180.72.65
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/38.180.72.65=8443
+- name: 波兰
+  network: ws
+  password: 823f57d2-d271-48a6-859e-d041179e1c6b
+  port: 8443
+  server: 145.239.88.255
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/145.239.88.255=8443
+- name: RU
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- name: 🇷🇺RU_1|⬇️2.1MB/s
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- name: 🇷🇺RU_2|⬇️4.9MB/s
+  network: ws
+  password: 3b38715b-f08a-46dd-9904-7531ca4bb6e8
+  port: 2053
+  server: 95.182.120.208
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/95.182.120.208=2053
+- name: 未知_1
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.95
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: ❓Other_2|⬇️7.3MB/s
+  network: ws
+  password: ff022848-4fb7-465a-9e6f-756d3dfc2c6a
+  port: 443
+  server: 45.83.20.29
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/45.83.20.29=443
+- name: 未知_2
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇷🇺RU_1|⬇️7.0MB/s
+  network: tcp
+  password: Qzy7tgpRhu
+  port: 443
+  server: 37.18.14.33
+  skip-cert-verify: true
+  sni: m.vk.com
+  type: trojan
+  udp: true
+- name: HK_1
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 未知_3
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK_2
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: ❓Other_4|⬇️5.7MB/s
+  network: ws
+  password: f311aff6-6cd2-4d62-8765-25d879b2516a
+  port: 24443
+  server: 83.217.9.110
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/83.217.9.110=24443
+- name: ❓Other_5|⬇️2.8MB/s
+  network: ws
+  password: f8eb228a-58a8-430f-ae39-f2a0ebbf8460
+  port: 8443
+  server: 94.142.138.97
+  skip-cert-verify: true
+  sni: joss.gpj.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: joss.gpj.web.id
+    path: /Free-VPN-CF-Geo-Project/94.142.138.97=8443
+- name: 未知_4
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 美国_4
+  network: ws
+  password: bb824a22-b7ce-427b-9ed6-1adf0751da02
+  port: 443
+  server: 107.174.82.102.sslip.io
+  skip-cert-verify: true
+  sni: 107.174.82.102.sslip.io
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 107.174.82.102.sslip.io
+    path: /gXKGj8a1tp1nNbZEcRugowKV
+- name: 🇭🇰HK_2|⬇️4.0MB/s
+  network: ws
+  password: a544940a-2c1c-4723-96cc-d03053a95530
+  port: 443
+  server: 23.227.38.178
+  skip-cert-verify: true
+  sni: q6clkp794liy3y90.hktimecsgo.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: q6clkp794liy3y90.hktimecsgo.xyz
+    path: /images
+- name: 未知_5
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 未知_6
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: hk3.t.sgateway.link
+  skip-cert-verify: true
+  sni: pod-hk-z1.psusercontent.com
+  type: trojan
+  udp: true
+- name: 🇭🇰HK_1|⬇️1.7MB/s
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 112.120.31.179
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 🇺🇸US_10|⬇️3.6MB/s
+  network: ws
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  port: 443
+  server: 172.67.157.220
+  skip-cert-verify: true
+  sni: 6666YHjU.777159.xYz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: 6666YHjU.777159.xYz
+    path: /dilyfCPEmLvYr5hYXD
+- name: 未知_7
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: hk3.t.sgateway.link
+  skip-cert-verify: true
+  sni: pod-hk-z1.psusercontent.com
+  type: trojan
+  udp: true
+- name: 未知_8
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: 未知_9
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: psg2-ag.t.sgateway.link
+  skip-cert-verify: true
+  sni: pod-kr-g1.psusercontent.com
+  type: trojan
+  udp: true
+- name: 未知_10
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: psg2-ag.t.sgateway.link
+  skip-cert-verify: true
+  sni: pod-kr-g1.psusercontent.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇨🇳_CN_中国
-  - 香港_1
-  - 香港_2
-  - 香港_3
-  - 香港_4
-  - 香港_5
-  - 香港_6
-  - 香港_7
-  - 香港_8
-  - 香港_9
-  - 香港_10
-  - 西班牙
-  - 土耳其_1
-  - 瑞典_1
-  - 瑞典_2
   - 美国_1
-  - 美国_2
-  - 美国_3
-  - 美国_4
-  - 美国_5
-  - 美国_6
-  - 美国_7
-  - 美国_8
-  - 美国_9
-  - 美国_10
-  - 美国_11
-  - 美国_12
-  - 美国_13
-  - 美国_14
-  - 美国_15
-  - 美国_16
-  - 美国_17
-  - 美国_18
-  - 美国_19
-  - 美国_20
-  - 美国_21
-  - 美国_22
-  - 美国_23
-  - 美国_24
-  - 美国_25
-  - 美国_26
-  - 美国_27
-  - 美国_28
-  - 美国_29
-  - 美国_30
-  - 美国_31
-  - 美国_32
-  - 美国_33
-  - 美国_34
-  - 美国_35
-  - 美国_36
-  - 美国_37
-  - 美国_38
-  - 美国_39
-  - 美国_40
-  - 美国_41
-  - 美国_42
-  - 美国_43
-  - 加拿大_1
-  - 加拿大_2
-  - 荷兰_1
-  - 荷兰_2
-  - 法国
-  - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 德国_1
-  - 丹麦
-  - 波兰
-  - 美国_44
   - 俄羅斯_1
   - 德國_1
   - 伊朗
-  - 香港_11
+  - 香港_1
   - 烏克蘭
-  - 土耳其_2
-  - 日本
-  - 摩尔多瓦
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
-  - 荷兰_3
+  - 土耳其_1
+  - 日本_1
+  - 美国_2
+  - 荷兰_1
   - 哈萨克斯坦
   - 法國_1
   - 法國_2
   - 俄羅斯_2
   - 俄羅斯_3
-  - 俄罗斯_6
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 俄罗斯_9
-  - 俄罗斯_10
-  - 俄罗斯_11
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 德國_2
   - 德國_3
   - 德國_4
@@ -3030,111 +2678,95 @@ proxy-groups:
   - 德國_247
   - 德國_248
   - 德國_249
+  - 德国_1
   - 德国_2
-  - 德国_3
   - 奥地利
+  - 🇩🇰DK_1|⬇️5.0MB/s
+  - 🇷🇺RU_4|⬇️7.1MB/s
+  - 🇫🇷FR_1|⬇️3.5MB/s
+  - 🇷🇺RU_2|⬇️4.8MB/s
+  - 🇺🇸US_43|⬇️3.5MB/s
+  - 🇩🇪DE_2|⬇️1.7MB/s
+  - 🇸🇪SE_1|⬇️2.5MB/s
+  - 🇷🇺RU_1|⬇️3.2MB/s
+  - 🇧🇬BG_1|⬇️4.5MB/s
+  - 🇺🇸US_26|⬇️7.1MB/s
+  - 🇺🇸US_25|⬇️6.1MB/s
+  - 🇱🇻LV_1|⬇️1.8MB/s
+  - 日本_2
+  - 🇫🇮FI_2|⬇️2.7MB/s
+  - 🇸🇬SG_2|⬇️3.0MB/s
+  - 🇮🇱IL_1|⬇️3.2MB/s
+  - 加拿大_1
+  - 🇹🇷TR_1|⬇️4.3MB/s
+  - 🇨🇳_CN_中国
+  - 香港_2
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 西班牙
+  - 土耳其_2
+  - 瑞典_1
+  - 瑞典_2
+  - 美国_3
+  - 加拿大_2
+  - 加拿大_3
+  - 荷兰_2
+  - 荷兰_3
+  - 法国
+  - 德国_3
+  - 丹麦
+  - 波兰
+  - RU
+  - 🇷🇺RU_1|⬇️2.1MB/s
+  - 🇷🇺RU_2|⬇️4.9MB/s
+  - 未知_1
+  - ❓Other_2|⬇️7.3MB/s
+  - 未知_2
+  - 🇷🇺RU_1|⬇️7.0MB/s
+  - HK_1
+  - 未知_3
+  - HK_2
+  - ❓Other_4|⬇️5.7MB/s
+  - ❓Other_5|⬇️2.8MB/s
+  - 未知_4
+  - 美国_4
+  - 🇭🇰HK_2|⬇️4.0MB/s
+  - 未知_5
+  - 未知_6
+  - 🇭🇰HK_1|⬇️1.7MB/s
+  - 🇺🇸US_10|⬇️3.6MB/s
+  - 未知_7
+  - 未知_8
+  - 未知_9
+  - 未知_10
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇨🇳_CN_中国
-  - 香港_1
-  - 香港_2
-  - 香港_3
-  - 香港_4
-  - 香港_5
-  - 香港_6
-  - 香港_7
-  - 香港_8
-  - 香港_9
-  - 香港_10
-  - 西班牙
-  - 土耳其_1
-  - 瑞典_1
-  - 瑞典_2
   - 美国_1
-  - 美国_2
-  - 美国_3
-  - 美国_4
-  - 美国_5
-  - 美国_6
-  - 美国_7
-  - 美国_8
-  - 美国_9
-  - 美国_10
-  - 美国_11
-  - 美国_12
-  - 美国_13
-  - 美国_14
-  - 美国_15
-  - 美国_16
-  - 美国_17
-  - 美国_18
-  - 美国_19
-  - 美国_20
-  - 美国_21
-  - 美国_22
-  - 美国_23
-  - 美国_24
-  - 美国_25
-  - 美国_26
-  - 美国_27
-  - 美国_28
-  - 美国_29
-  - 美国_30
-  - 美国_31
-  - 美国_32
-  - 美国_33
-  - 美国_34
-  - 美国_35
-  - 美国_36
-  - 美国_37
-  - 美国_38
-  - 美国_39
-  - 美国_40
-  - 美国_41
-  - 美国_42
-  - 美国_43
-  - 加拿大_1
-  - 加拿大_2
-  - 荷兰_1
-  - 荷兰_2
-  - 法国
-  - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 德国_1
-  - 丹麦
-  - 波兰
-  - 美国_44
   - 俄羅斯_1
   - 德國_1
   - 伊朗
-  - 香港_11
+  - 香港_1
   - 烏克蘭
-  - 土耳其_2
-  - 日本
-  - 摩尔多瓦
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
-  - 荷兰_3
+  - 土耳其_1
+  - 日本_1
+  - 美国_2
+  - 荷兰_1
   - 哈萨克斯坦
   - 法國_1
   - 法國_2
   - 俄羅斯_2
   - 俄羅斯_3
-  - 俄罗斯_6
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 俄罗斯_9
-  - 俄罗斯_10
-  - 俄罗斯_11
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 德國_2
   - 德國_3
   - 德國_4
@@ -3383,9 +3015,73 @@ proxy-groups:
   - 德國_247
   - 德國_248
   - 德國_249
+  - 德国_1
   - 德国_2
-  - 德国_3
   - 奥地利
+  - 🇩🇰DK_1|⬇️5.0MB/s
+  - 🇷🇺RU_4|⬇️7.1MB/s
+  - 🇫🇷FR_1|⬇️3.5MB/s
+  - 🇷🇺RU_2|⬇️4.8MB/s
+  - 🇺🇸US_43|⬇️3.5MB/s
+  - 🇩🇪DE_2|⬇️1.7MB/s
+  - 🇸🇪SE_1|⬇️2.5MB/s
+  - 🇷🇺RU_1|⬇️3.2MB/s
+  - 🇧🇬BG_1|⬇️4.5MB/s
+  - 🇺🇸US_26|⬇️7.1MB/s
+  - 🇺🇸US_25|⬇️6.1MB/s
+  - 🇱🇻LV_1|⬇️1.8MB/s
+  - 日本_2
+  - 🇫🇮FI_2|⬇️2.7MB/s
+  - 🇸🇬SG_2|⬇️3.0MB/s
+  - 🇮🇱IL_1|⬇️3.2MB/s
+  - 加拿大_1
+  - 🇹🇷TR_1|⬇️4.3MB/s
+  - 🇨🇳_CN_中国
+  - 香港_2
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 西班牙
+  - 土耳其_2
+  - 瑞典_1
+  - 瑞典_2
+  - 美国_3
+  - 加拿大_2
+  - 加拿大_3
+  - 荷兰_2
+  - 荷兰_3
+  - 法国
+  - 德国_3
+  - 丹麦
+  - 波兰
+  - RU
+  - 🇷🇺RU_1|⬇️2.1MB/s
+  - 🇷🇺RU_2|⬇️4.9MB/s
+  - 未知_1
+  - ❓Other_2|⬇️7.3MB/s
+  - 未知_2
+  - 🇷🇺RU_1|⬇️7.0MB/s
+  - HK_1
+  - 未知_3
+  - HK_2
+  - ❓Other_4|⬇️5.7MB/s
+  - ❓Other_5|⬇️2.8MB/s
+  - 未知_4
+  - 美国_4
+  - 🇭🇰HK_2|⬇️4.0MB/s
+  - 未知_5
+  - 未知_6
+  - 🇭🇰HK_1|⬇️1.7MB/s
+  - 🇺🇸US_10|⬇️3.6MB/s
+  - 未知_7
+  - 未知_8
+  - 未知_9
+  - 未知_10
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3394,104 +3090,24 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国
-  - 香港_1
-  - 香港_2
-  - 香港_3
-  - 香港_4
-  - 香港_5
-  - 香港_6
-  - 香港_7
-  - 香港_8
-  - 香港_9
-  - 香港_10
-  - 西班牙
-  - 土耳其_1
-  - 瑞典_1
-  - 瑞典_2
   - 美国_1
-  - 美国_2
-  - 美国_3
-  - 美国_4
-  - 美国_5
-  - 美国_6
-  - 美国_7
-  - 美国_8
-  - 美国_9
-  - 美国_10
-  - 美国_11
-  - 美国_12
-  - 美国_13
-  - 美国_14
-  - 美国_15
-  - 美国_16
-  - 美国_17
-  - 美国_18
-  - 美国_19
-  - 美国_20
-  - 美国_21
-  - 美国_22
-  - 美国_23
-  - 美国_24
-  - 美国_25
-  - 美国_26
-  - 美国_27
-  - 美国_28
-  - 美国_29
-  - 美国_30
-  - 美国_31
-  - 美国_32
-  - 美国_33
-  - 美国_34
-  - 美国_35
-  - 美国_36
-  - 美国_37
-  - 美国_38
-  - 美国_39
-  - 美国_40
-  - 美国_41
-  - 美国_42
-  - 美国_43
-  - 加拿大_1
-  - 加拿大_2
-  - 荷兰_1
-  - 荷兰_2
-  - 法国
-  - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 德国_1
-  - 丹麦
-  - 波兰
-  - 美国_44
   - 俄羅斯_1
   - 德國_1
   - 伊朗
-  - 香港_11
+  - 香港_1
   - 烏克蘭
-  - 土耳其_2
-  - 日本
-  - 摩尔多瓦
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
-  - 荷兰_3
+  - 土耳其_1
+  - 日本_1
+  - 美国_2
+  - 荷兰_1
   - 哈萨克斯坦
   - 法國_1
   - 法國_2
   - 俄羅斯_2
   - 俄羅斯_3
-  - 俄罗斯_6
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 俄罗斯_9
-  - 俄罗斯_10
-  - 俄罗斯_11
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 德國_2
   - 德國_3
   - 德國_4
@@ -3740,112 +3356,96 @@ proxy-groups:
   - 德國_247
   - 德國_248
   - 德國_249
+  - 德国_1
   - 德国_2
-  - 德国_3
   - 奥地利
+  - 🇩🇰DK_1|⬇️5.0MB/s
+  - 🇷🇺RU_4|⬇️7.1MB/s
+  - 🇫🇷FR_1|⬇️3.5MB/s
+  - 🇷🇺RU_2|⬇️4.8MB/s
+  - 🇺🇸US_43|⬇️3.5MB/s
+  - 🇩🇪DE_2|⬇️1.7MB/s
+  - 🇸🇪SE_1|⬇️2.5MB/s
+  - 🇷🇺RU_1|⬇️3.2MB/s
+  - 🇧🇬BG_1|⬇️4.5MB/s
+  - 🇺🇸US_26|⬇️7.1MB/s
+  - 🇺🇸US_25|⬇️6.1MB/s
+  - 🇱🇻LV_1|⬇️1.8MB/s
+  - 日本_2
+  - 🇫🇮FI_2|⬇️2.7MB/s
+  - 🇸🇬SG_2|⬇️3.0MB/s
+  - 🇮🇱IL_1|⬇️3.2MB/s
+  - 加拿大_1
+  - 🇹🇷TR_1|⬇️4.3MB/s
+  - 🇨🇳_CN_中国
+  - 香港_2
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 西班牙
+  - 土耳其_2
+  - 瑞典_1
+  - 瑞典_2
+  - 美国_3
+  - 加拿大_2
+  - 加拿大_3
+  - 荷兰_2
+  - 荷兰_3
+  - 法国
+  - 德国_3
+  - 丹麦
+  - 波兰
+  - RU
+  - 🇷🇺RU_1|⬇️2.1MB/s
+  - 🇷🇺RU_2|⬇️4.9MB/s
+  - 未知_1
+  - ❓Other_2|⬇️7.3MB/s
+  - 未知_2
+  - 🇷🇺RU_1|⬇️7.0MB/s
+  - HK_1
+  - 未知_3
+  - HK_2
+  - ❓Other_4|⬇️5.7MB/s
+  - ❓Other_5|⬇️2.8MB/s
+  - 未知_4
+  - 美国_4
+  - 🇭🇰HK_2|⬇️4.0MB/s
+  - 未知_5
+  - 未知_6
+  - 🇭🇰HK_1|⬇️1.7MB/s
+  - 🇺🇸US_10|⬇️3.6MB/s
+  - 未知_7
+  - 未知_8
+  - 未知_9
+  - 未知_10
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国
-  - 香港_1
-  - 香港_2
-  - 香港_3
-  - 香港_4
-  - 香港_5
-  - 香港_6
-  - 香港_7
-  - 香港_8
-  - 香港_9
-  - 香港_10
-  - 西班牙
-  - 土耳其_1
-  - 瑞典_1
-  - 瑞典_2
   - 美国_1
-  - 美国_2
-  - 美国_3
-  - 美国_4
-  - 美国_5
-  - 美国_6
-  - 美国_7
-  - 美国_8
-  - 美国_9
-  - 美国_10
-  - 美国_11
-  - 美国_12
-  - 美国_13
-  - 美国_14
-  - 美国_15
-  - 美国_16
-  - 美国_17
-  - 美国_18
-  - 美国_19
-  - 美国_20
-  - 美国_21
-  - 美国_22
-  - 美国_23
-  - 美国_24
-  - 美国_25
-  - 美国_26
-  - 美国_27
-  - 美国_28
-  - 美国_29
-  - 美国_30
-  - 美国_31
-  - 美国_32
-  - 美国_33
-  - 美国_34
-  - 美国_35
-  - 美国_36
-  - 美国_37
-  - 美国_38
-  - 美国_39
-  - 美国_40
-  - 美国_41
-  - 美国_42
-  - 美国_43
-  - 加拿大_1
-  - 加拿大_2
-  - 荷兰_1
-  - 荷兰_2
-  - 法国
-  - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 德国_1
-  - 丹麦
-  - 波兰
-  - 美国_44
   - 俄羅斯_1
   - 德國_1
   - 伊朗
-  - 香港_11
+  - 香港_1
   - 烏克蘭
-  - 土耳其_2
-  - 日本
-  - 摩尔多瓦
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
-  - 荷兰_3
+  - 土耳其_1
+  - 日本_1
+  - 美国_2
+  - 荷兰_1
   - 哈萨克斯坦
   - 法國_1
   - 法國_2
   - 俄羅斯_2
   - 俄羅斯_3
-  - 俄罗斯_6
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 俄罗斯_9
-  - 俄罗斯_10
-  - 俄罗斯_11
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 德國_2
   - 德國_3
   - 德國_4
@@ -4094,112 +3694,96 @@ proxy-groups:
   - 德國_247
   - 德國_248
   - 德國_249
+  - 德国_1
   - 德国_2
-  - 德国_3
   - 奥地利
+  - 🇩🇰DK_1|⬇️5.0MB/s
+  - 🇷🇺RU_4|⬇️7.1MB/s
+  - 🇫🇷FR_1|⬇️3.5MB/s
+  - 🇷🇺RU_2|⬇️4.8MB/s
+  - 🇺🇸US_43|⬇️3.5MB/s
+  - 🇩🇪DE_2|⬇️1.7MB/s
+  - 🇸🇪SE_1|⬇️2.5MB/s
+  - 🇷🇺RU_1|⬇️3.2MB/s
+  - 🇧🇬BG_1|⬇️4.5MB/s
+  - 🇺🇸US_26|⬇️7.1MB/s
+  - 🇺🇸US_25|⬇️6.1MB/s
+  - 🇱🇻LV_1|⬇️1.8MB/s
+  - 日本_2
+  - 🇫🇮FI_2|⬇️2.7MB/s
+  - 🇸🇬SG_2|⬇️3.0MB/s
+  - 🇮🇱IL_1|⬇️3.2MB/s
+  - 加拿大_1
+  - 🇹🇷TR_1|⬇️4.3MB/s
+  - 🇨🇳_CN_中国
+  - 香港_2
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 西班牙
+  - 土耳其_2
+  - 瑞典_1
+  - 瑞典_2
+  - 美国_3
+  - 加拿大_2
+  - 加拿大_3
+  - 荷兰_2
+  - 荷兰_3
+  - 法国
+  - 德国_3
+  - 丹麦
+  - 波兰
+  - RU
+  - 🇷🇺RU_1|⬇️2.1MB/s
+  - 🇷🇺RU_2|⬇️4.9MB/s
+  - 未知_1
+  - ❓Other_2|⬇️7.3MB/s
+  - 未知_2
+  - 🇷🇺RU_1|⬇️7.0MB/s
+  - HK_1
+  - 未知_3
+  - HK_2
+  - ❓Other_4|⬇️5.7MB/s
+  - ❓Other_5|⬇️2.8MB/s
+  - 未知_4
+  - 美国_4
+  - 🇭🇰HK_2|⬇️4.0MB/s
+  - 未知_5
+  - 未知_6
+  - 🇭🇰HK_1|⬇️1.7MB/s
+  - 🇺🇸US_10|⬇️3.6MB/s
+  - 未知_7
+  - 未知_8
+  - 未知_9
+  - 未知_10
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇨🇳_CN_中国
-  - 香港_1
-  - 香港_2
-  - 香港_3
-  - 香港_4
-  - 香港_5
-  - 香港_6
-  - 香港_7
-  - 香港_8
-  - 香港_9
-  - 香港_10
-  - 西班牙
-  - 土耳其_1
-  - 瑞典_1
-  - 瑞典_2
   - 美国_1
-  - 美国_2
-  - 美国_3
-  - 美国_4
-  - 美国_5
-  - 美国_6
-  - 美国_7
-  - 美国_8
-  - 美国_9
-  - 美国_10
-  - 美国_11
-  - 美国_12
-  - 美国_13
-  - 美国_14
-  - 美国_15
-  - 美国_16
-  - 美国_17
-  - 美国_18
-  - 美国_19
-  - 美国_20
-  - 美国_21
-  - 美国_22
-  - 美国_23
-  - 美国_24
-  - 美国_25
-  - 美国_26
-  - 美国_27
-  - 美国_28
-  - 美国_29
-  - 美国_30
-  - 美国_31
-  - 美国_32
-  - 美国_33
-  - 美国_34
-  - 美国_35
-  - 美国_36
-  - 美国_37
-  - 美国_38
-  - 美国_39
-  - 美国_40
-  - 美国_41
-  - 美国_42
-  - 美国_43
-  - 加拿大_1
-  - 加拿大_2
-  - 荷兰_1
-  - 荷兰_2
-  - 法国
-  - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 德国_1
-  - 丹麦
-  - 波兰
-  - 美国_44
   - 俄羅斯_1
   - 德國_1
   - 伊朗
-  - 香港_11
+  - 香港_1
   - 烏克蘭
-  - 土耳其_2
-  - 日本
-  - 摩尔多瓦
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
-  - 荷兰_3
+  - 土耳其_1
+  - 日本_1
+  - 美国_2
+  - 荷兰_1
   - 哈萨克斯坦
   - 法國_1
   - 法國_2
   - 俄羅斯_2
   - 俄羅斯_3
-  - 俄罗斯_6
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 俄罗斯_9
-  - 俄罗斯_10
-  - 俄罗斯_11
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 德國_2
   - 德國_3
   - 德國_4
@@ -4448,112 +4032,96 @@ proxy-groups:
   - 德國_247
   - 德國_248
   - 德國_249
+  - 德国_1
   - 德国_2
-  - 德国_3
   - 奥地利
+  - 🇩🇰DK_1|⬇️5.0MB/s
+  - 🇷🇺RU_4|⬇️7.1MB/s
+  - 🇫🇷FR_1|⬇️3.5MB/s
+  - 🇷🇺RU_2|⬇️4.8MB/s
+  - 🇺🇸US_43|⬇️3.5MB/s
+  - 🇩🇪DE_2|⬇️1.7MB/s
+  - 🇸🇪SE_1|⬇️2.5MB/s
+  - 🇷🇺RU_1|⬇️3.2MB/s
+  - 🇧🇬BG_1|⬇️4.5MB/s
+  - 🇺🇸US_26|⬇️7.1MB/s
+  - 🇺🇸US_25|⬇️6.1MB/s
+  - 🇱🇻LV_1|⬇️1.8MB/s
+  - 日本_2
+  - 🇫🇮FI_2|⬇️2.7MB/s
+  - 🇸🇬SG_2|⬇️3.0MB/s
+  - 🇮🇱IL_1|⬇️3.2MB/s
+  - 加拿大_1
+  - 🇹🇷TR_1|⬇️4.3MB/s
+  - 🇨🇳_CN_中国
+  - 香港_2
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 西班牙
+  - 土耳其_2
+  - 瑞典_1
+  - 瑞典_2
+  - 美国_3
+  - 加拿大_2
+  - 加拿大_3
+  - 荷兰_2
+  - 荷兰_3
+  - 法国
+  - 德国_3
+  - 丹麦
+  - 波兰
+  - RU
+  - 🇷🇺RU_1|⬇️2.1MB/s
+  - 🇷🇺RU_2|⬇️4.9MB/s
+  - 未知_1
+  - ❓Other_2|⬇️7.3MB/s
+  - 未知_2
+  - 🇷🇺RU_1|⬇️7.0MB/s
+  - HK_1
+  - 未知_3
+  - HK_2
+  - ❓Other_4|⬇️5.7MB/s
+  - ❓Other_5|⬇️2.8MB/s
+  - 未知_4
+  - 美国_4
+  - 🇭🇰HK_2|⬇️4.0MB/s
+  - 未知_5
+  - 未知_6
+  - 🇭🇰HK_1|⬇️1.7MB/s
+  - 🇺🇸US_10|⬇️3.6MB/s
+  - 未知_7
+  - 未知_8
+  - 未知_9
+  - 未知_10
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇨🇳_CN_中国
-  - 香港_1
-  - 香港_2
-  - 香港_3
-  - 香港_4
-  - 香港_5
-  - 香港_6
-  - 香港_7
-  - 香港_8
-  - 香港_9
-  - 香港_10
-  - 西班牙
-  - 土耳其_1
-  - 瑞典_1
-  - 瑞典_2
   - 美国_1
-  - 美国_2
-  - 美国_3
-  - 美国_4
-  - 美国_5
-  - 美国_6
-  - 美国_7
-  - 美国_8
-  - 美国_9
-  - 美国_10
-  - 美国_11
-  - 美国_12
-  - 美国_13
-  - 美国_14
-  - 美国_15
-  - 美国_16
-  - 美国_17
-  - 美国_18
-  - 美国_19
-  - 美国_20
-  - 美国_21
-  - 美国_22
-  - 美国_23
-  - 美国_24
-  - 美国_25
-  - 美国_26
-  - 美国_27
-  - 美国_28
-  - 美国_29
-  - 美国_30
-  - 美国_31
-  - 美国_32
-  - 美国_33
-  - 美国_34
-  - 美国_35
-  - 美国_36
-  - 美国_37
-  - 美国_38
-  - 美国_39
-  - 美国_40
-  - 美国_41
-  - 美国_42
-  - 美国_43
-  - 加拿大_1
-  - 加拿大_2
-  - 荷兰_1
-  - 荷兰_2
-  - 法国
-  - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 德国_1
-  - 丹麦
-  - 波兰
-  - 美国_44
   - 俄羅斯_1
   - 德國_1
   - 伊朗
-  - 香港_11
+  - 香港_1
   - 烏克蘭
-  - 土耳其_2
-  - 日本
-  - 摩尔多瓦
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
-  - 荷兰_3
+  - 土耳其_1
+  - 日本_1
+  - 美国_2
+  - 荷兰_1
   - 哈萨克斯坦
   - 法國_1
   - 法國_2
   - 俄羅斯_2
   - 俄羅斯_3
-  - 俄罗斯_6
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 俄罗斯_9
-  - 俄罗斯_10
-  - 俄罗斯_11
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 德國_2
   - 德國_3
   - 德國_4
@@ -4802,9 +4370,73 @@ proxy-groups:
   - 德國_247
   - 德國_248
   - 德國_249
+  - 德国_1
   - 德国_2
-  - 德国_3
   - 奥地利
+  - 🇩🇰DK_1|⬇️5.0MB/s
+  - 🇷🇺RU_4|⬇️7.1MB/s
+  - 🇫🇷FR_1|⬇️3.5MB/s
+  - 🇷🇺RU_2|⬇️4.8MB/s
+  - 🇺🇸US_43|⬇️3.5MB/s
+  - 🇩🇪DE_2|⬇️1.7MB/s
+  - 🇸🇪SE_1|⬇️2.5MB/s
+  - 🇷🇺RU_1|⬇️3.2MB/s
+  - 🇧🇬BG_1|⬇️4.5MB/s
+  - 🇺🇸US_26|⬇️7.1MB/s
+  - 🇺🇸US_25|⬇️6.1MB/s
+  - 🇱🇻LV_1|⬇️1.8MB/s
+  - 日本_2
+  - 🇫🇮FI_2|⬇️2.7MB/s
+  - 🇸🇬SG_2|⬇️3.0MB/s
+  - 🇮🇱IL_1|⬇️3.2MB/s
+  - 加拿大_1
+  - 🇹🇷TR_1|⬇️4.3MB/s
+  - 🇨🇳_CN_中国
+  - 香港_2
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 西班牙
+  - 土耳其_2
+  - 瑞典_1
+  - 瑞典_2
+  - 美国_3
+  - 加拿大_2
+  - 加拿大_3
+  - 荷兰_2
+  - 荷兰_3
+  - 法国
+  - 德国_3
+  - 丹麦
+  - 波兰
+  - RU
+  - 🇷🇺RU_1|⬇️2.1MB/s
+  - 🇷🇺RU_2|⬇️4.9MB/s
+  - 未知_1
+  - ❓Other_2|⬇️7.3MB/s
+  - 未知_2
+  - 🇷🇺RU_1|⬇️7.0MB/s
+  - HK_1
+  - 未知_3
+  - HK_2
+  - ❓Other_4|⬇️5.7MB/s
+  - ❓Other_5|⬇️2.8MB/s
+  - 未知_4
+  - 美国_4
+  - 🇭🇰HK_2|⬇️4.0MB/s
+  - 未知_5
+  - 未知_6
+  - 🇭🇰HK_1|⬇️1.7MB/s
+  - 🇺🇸US_10|⬇️3.6MB/s
+  - 未知_7
+  - 未知_8
+  - 未知_9
+  - 未知_10
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4827,104 +4459,24 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇨🇳_CN_中国
-  - 香港_1
-  - 香港_2
-  - 香港_3
-  - 香港_4
-  - 香港_5
-  - 香港_6
-  - 香港_7
-  - 香港_8
-  - 香港_9
-  - 香港_10
-  - 西班牙
-  - 土耳其_1
-  - 瑞典_1
-  - 瑞典_2
   - 美国_1
-  - 美国_2
-  - 美国_3
-  - 美国_4
-  - 美国_5
-  - 美国_6
-  - 美国_7
-  - 美国_8
-  - 美国_9
-  - 美国_10
-  - 美国_11
-  - 美国_12
-  - 美国_13
-  - 美国_14
-  - 美国_15
-  - 美国_16
-  - 美国_17
-  - 美国_18
-  - 美国_19
-  - 美国_20
-  - 美国_21
-  - 美国_22
-  - 美国_23
-  - 美国_24
-  - 美国_25
-  - 美国_26
-  - 美国_27
-  - 美国_28
-  - 美国_29
-  - 美国_30
-  - 美国_31
-  - 美国_32
-  - 美国_33
-  - 美国_34
-  - 美国_35
-  - 美国_36
-  - 美国_37
-  - 美国_38
-  - 美国_39
-  - 美国_40
-  - 美国_41
-  - 美国_42
-  - 美国_43
-  - 加拿大_1
-  - 加拿大_2
-  - 荷兰_1
-  - 荷兰_2
-  - 法国
-  - 俄罗斯_1
-  - 俄罗斯_2
-  - 俄罗斯_3
-  - 俄罗斯_4
-  - 俄罗斯_5
-  - 德国_1
-  - 丹麦
-  - 波兰
-  - 美国_44
   - 俄羅斯_1
   - 德國_1
   - 伊朗
-  - 香港_11
+  - 香港_1
   - 烏克蘭
-  - 土耳其_2
-  - 日本
-  - 摩尔多瓦
-  - 美国_45
-  - 美国_46
-  - 美国_47
-  - 美国_48
-  - 美国_49
-  - 美国_50
-  - 荷兰_3
+  - 土耳其_1
+  - 日本_1
+  - 美国_2
+  - 荷兰_1
   - 哈萨克斯坦
   - 法國_1
   - 法國_2
   - 俄羅斯_2
   - 俄羅斯_3
-  - 俄罗斯_6
-  - 俄罗斯_7
-  - 俄罗斯_8
-  - 俄罗斯_9
-  - 俄罗斯_10
-  - 俄罗斯_11
+  - 俄罗斯_1
+  - 俄罗斯_2
+  - 俄罗斯_3
   - 德國_2
   - 德國_3
   - 德國_4
@@ -5173,9 +4725,73 @@ proxy-groups:
   - 德國_247
   - 德國_248
   - 德國_249
+  - 德国_1
   - 德国_2
-  - 德国_3
   - 奥地利
+  - 🇩🇰DK_1|⬇️5.0MB/s
+  - 🇷🇺RU_4|⬇️7.1MB/s
+  - 🇫🇷FR_1|⬇️3.5MB/s
+  - 🇷🇺RU_2|⬇️4.8MB/s
+  - 🇺🇸US_43|⬇️3.5MB/s
+  - 🇩🇪DE_2|⬇️1.7MB/s
+  - 🇸🇪SE_1|⬇️2.5MB/s
+  - 🇷🇺RU_1|⬇️3.2MB/s
+  - 🇧🇬BG_1|⬇️4.5MB/s
+  - 🇺🇸US_26|⬇️7.1MB/s
+  - 🇺🇸US_25|⬇️6.1MB/s
+  - 🇱🇻LV_1|⬇️1.8MB/s
+  - 日本_2
+  - 🇫🇮FI_2|⬇️2.7MB/s
+  - 🇸🇬SG_2|⬇️3.0MB/s
+  - 🇮🇱IL_1|⬇️3.2MB/s
+  - 加拿大_1
+  - 🇹🇷TR_1|⬇️4.3MB/s
+  - 🇨🇳_CN_中国
+  - 香港_2
+  - 香港_3
+  - 香港_4
+  - 香港_5
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 香港_9
+  - 香港_10
+  - 西班牙
+  - 土耳其_2
+  - 瑞典_1
+  - 瑞典_2
+  - 美国_3
+  - 加拿大_2
+  - 加拿大_3
+  - 荷兰_2
+  - 荷兰_3
+  - 法国
+  - 德国_3
+  - 丹麦
+  - 波兰
+  - RU
+  - 🇷🇺RU_1|⬇️2.1MB/s
+  - 🇷🇺RU_2|⬇️4.9MB/s
+  - 未知_1
+  - ❓Other_2|⬇️7.3MB/s
+  - 未知_2
+  - 🇷🇺RU_1|⬇️7.0MB/s
+  - HK_1
+  - 未知_3
+  - HK_2
+  - ❓Other_4|⬇️5.7MB/s
+  - ❓Other_5|⬇️2.8MB/s
+  - 未知_4
+  - 美国_4
+  - 🇭🇰HK_2|⬇️4.0MB/s
+  - 未知_5
+  - 未知_6
+  - 🇭🇰HK_1|⬇️1.7MB/s
+  - 🇺🇸US_10|⬇️3.6MB/s
+  - 未知_7
+  - 未知_8
+  - 未知_9
+  - 未知_10
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
