@@ -13,7 +13,7 @@
     "up_date": "2025-12-05",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://ylks.tt2000.sbs/[^<>\\r\\n]+",
-    "password": "0033",
+    "password": "0011",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -46,13 +46,13 @@
   },
   "nodev2ray": {
     "start_url": "https://nodev2ray.com/free-node/",
-    "up_date": "2025-04-23",
+    "up_date": "2026-01-03",
     "selector": "a[class='list-image-box']",
     "pattern": "https?://node.nodev2ray.com/uploads/[^<>\\r\\n]+"
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2026-01-04",
+    "up_date": "2026-01-05",
     "selector": "a[class='text-reset']",
     "pattern": "https?://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
