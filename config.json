@@ -13,7 +13,7 @@
     "up_date": "2025-12-05",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://ylks.tt2000.sbs/[^<>\\r\\n]+",
-    "password": "2266",
+    "password": "2299",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -58,7 +58,7 @@
   },
   "v2rayshare": {
     "start_url": "https://v2rayshare.net/",
-    "up_date": "2026-01-05",
+    "up_date": "2026-01-06",
     "selector": "a[class='text-reset']",
     "pattern": "https?://v2rayshare.githubrowcontent.com/[^<>\\r\\n]+"
   },
