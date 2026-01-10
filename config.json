@@ -13,7 +13,7 @@
     "up_date": "2025-12-05",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://ylks.tt2000.sbs/[^<>\\r\\n]+",
-    "password": "1133",
+    "password": "0077",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -52,7 +52,7 @@
   },
   "nodefree": {
     "start_url": "https://nodefree.org",
-    "up_date": "2026-01-09",
+    "up_date": "2026-01-10",
     "selector": "a[class='text-reset']",
     "pattern": "https?://nodefree.githubrowcontent.com/[^<>\\r\\n]+"
   },
