@@ -13,7 +13,7 @@
     "up_date": "2025-12-05",
     "selector": "a[rel='bookmark']",
     "pattern": "https?://ylks.tt2000.sbs/[^<>\\r\\n]+",
-    "password": "1188",
+    "password": "5566",
     "yt_idx": 0,
     "script": "multiDecrypt(arguments[0]);"
   },
@@ -64,7 +64,7 @@
   },
   "wenode": {
     "start_url": "https://wenode.cc/freenode/",
-    "up_date": "2026-01-17",
+    "up_date": "2026-01-18",
     "selector": "a[class='post_def_left']",
     "pattern": "https?://oneclash.githubrowcontent.com/[^<>\\r\\n]+"
   }
